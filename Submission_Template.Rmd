@@ -53,7 +53,7 @@ my <- make_my_dataset(params$studentID,
 library(tidyverse)
 library(ggplot2)
 library(usethis)
-# library(lubridate)
+library(lubridate)
 
 ```
 
@@ -79,7 +79,10 @@ organised. Half a page is plenty.*
 ### 1.1 Import the four CSV files
 
 ```{r t1q1}
-
+emmissions <- read_csv("data/Emissions.csv")
+renewables <- read_csv("data/Renewables.csv")
+consumption <- read_csv("data/Consumption.csv")
+countries <- read_csv("data/Countries.csv")
 ```
 
 ### 1.2 Reshape `Renewables.csv` to one row per country per year
