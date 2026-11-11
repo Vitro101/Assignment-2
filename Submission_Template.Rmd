@@ -12,7 +12,7 @@ output:
     toc_float: true
     theme: readable
 params:
-  studentID: "uXXXXXXX"
+  studentID: "u3318186"
 ---
 
 <!--
@@ -50,7 +50,9 @@ my <- make_my_dataset(params$studentID,
 
 ```{r libraries}
 # Load the packages you need here.
-# library(tidyverse)
+library(tidyverse)
+library(ggplot2)
+library(usethis)
 # library(lubridate)
 
 ```
