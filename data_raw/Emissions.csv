@@ -1,0 +1,4633 @@
+iso_code,location,region,year,annual_co2_mt,annual_oil_co2_mt
+ABW,Aruba,North America,2000,2.378,2.378
+ABW,Aruba,North America,2001,2.407,2.407
+ABW,Aruba,North America,2002,2.437,2.437
+ABW,Aruba,North America,2003,2.561,2.561
+ABW,Aruba,North America,2004,2.616,2.616
+ABW,Aruba,North America,2005,2.715,2.715
+ABW,Aruba,North America,2006,2.711,2.711
+ABW,Aruba,North America,2007,2.821,2.821
+ABW,Aruba,North America,2008,2.656,2.656
+ABW,Aruba,North America,2009,2.627,2.627
+ABW,Aruba,North America,2010,2.506,2.506
+ABW,Aruba,North America,2011,2.495,2.495
+ABW,Aruba,North America,2012,1.345,1.345
+ABW,Aruba,North America,2013,0.861,0.861
+ABW,Aruba,North America,2014,0.872,0.872
+ABW,Aruba,North America,2015,0.898,0.898
+ABW,Aruba,North America,2016,0.883,0.883
+ABW,Aruba,North America,2017,0.89,0.89
+ABW,Aruba,North America,2018,0.868,0.868
+ABW,Aruba,North America,2019,0.832,0.832
+ABW,Aruba,North America,2020,0.821,0.821
+ABW,Aruba,North America,2021,0.861,0.861
+ABW,Aruba,North America,2022,0.888,0.888
+ABW,Aruba,North America,2023,0.887,0.887
+AFG,Afghanistan,Asia,2000,1.047,0.788
+AFG,Afghanistan,Asia,2001,1.069,0.762
+AFG,Afghanistan,Asia,2002,1.341,0.729
+AFG,Afghanistan,Asia,2003,1.56,0.993
+AFG,Afghanistan,Asia,2004,1.237,0.909
+AFG,Afghanistan,Asia,2005,1.89,1.447
+AFG,Afghanistan,Asia,2006,2.159,1.657
+AFG,Afghanistan,Asia,2007,2.8,1.733
+AFG,Afghanistan,Asia,2008,4.254,2.865
+AFG,Afghanistan,Asia,2009,6.388,4.591
+AFG,Afghanistan,Asia,2010,8.365,5.833
+AFG,Afghanistan,Asia,2011,11.41,7.338
+AFG,Afghanistan,Asia,2012,9.731,6.573
+AFG,Afghanistan,Asia,2013,8.891,5.589
+AFG,Afghanistan,Asia,2014,8.698,5.159
+AFG,Afghanistan,Asia,2015,9.384,6.622
+AFG,Afghanistan,Asia,2016,8.606,5.79
+AFG,Afghanistan,Asia,2017,9.311,6.073
+AFG,Afghanistan,Asia,2018,10.192,6.621
+AFG,Afghanistan,Asia,2019,10.4,6.843
+AFG,Afghanistan,Asia,2020,11.119,7.269
+AFG,Afghanistan,Asia,2021,9.869,6.701
+AFG,Afghanistan,Asia,2022,10.17,6.528
+AFG,Afghanistan,Asia,2023,10.516,6.498
+AGO,Angola,Africa,2000,15.995,3.668
+AGO,Angola,Africa,2001,15.908,4.302
+AGO,Angola,Africa,2002,16.08,5.02
+AGO,Angola,Africa,2003,17.484,6.837
+AGO,Angola,Africa,2004,17.016,6.108
+AGO,Angola,Africa,2005,15.387,4.734
+AGO,Angola,Africa,2006,17.145,7.757
+AGO,Angola,Africa,2007,17.588,8.801
+AGO,Angola,Africa,2008,18.75,10.219
+AGO,Angola,Africa,2009,20.668,12.296
+AGO,Angola,Africa,2010,22.983,13.37
+AGO,Angola,Africa,2011,23.397,14.345
+AGO,Angola,Africa,2012,25.941,17.268
+AGO,Angola,Africa,2013,25.71,17.441
+AGO,Angola,Africa,2014,26.092,16.977
+AGO,Angola,Africa,2015,27.505,16.167
+AGO,Angola,Africa,2016,25.466,14.172
+AGO,Angola,Africa,2017,23.601,13.888
+AGO,Angola,Africa,2018,23.278,15.411
+AGO,Angola,Africa,2019,22.21,14.286
+AGO,Angola,Africa,2020,16.549,9.468
+AGO,Angola,Africa,2021,19.219,12.282
+AGO,Angola,Africa,2022,21.089,14.887
+AGO,Angola,Africa,2023,21.675,15.356
+AIA,Anguilla,North America,2000,0.081,0.081
+AIA,Anguilla,North America,2001,0.084,0.084
+AIA,Anguilla,North America,2002,0.084,0.084
+AIA,Anguilla,North America,2003,0.088,0.088
+AIA,Anguilla,North America,2004,0.099,0.099
+AIA,Anguilla,North America,2005,0.11,0.11
+AIA,Anguilla,North America,2006,0.121,0.121
+AIA,Anguilla,North America,2007,0.125,0.125
+AIA,Anguilla,North America,2008,0.125,0.125
+AIA,Anguilla,North America,2009,0.125,0.125
+AIA,Anguilla,North America,2010,0.128,0.128
+AIA,Anguilla,North America,2011,0.125,0.125
+AIA,Anguilla,North America,2012,0.121,0.121
+AIA,Anguilla,North America,2013,0.114,0.114
+AIA,Anguilla,North America,2014,0.121,0.121
+AIA,Anguilla,North America,2015,0.136,0.136
+AIA,Anguilla,North America,2016,0.139,0.139
+AIA,Anguilla,North America,2017,0.128,0.128
+AIA,Anguilla,North America,2018,0.132,0.132
+AIA,Anguilla,North America,2019,0.143,0.143
+AIA,Anguilla,North America,2020,0.136,0.136
+AIA,Anguilla,North America,2021,0.139,0.139
+AIA,Anguilla,North America,2022,0.143,0.143
+AIA,Anguilla,North America,2023,0.143,0.143
+ALB,Albania,Europe,2000,3.025,2.84
+ALB,Albania,Europe,2001,3.221,3.125
+ALB,Albania,Europe,2002,3.748,3.638
+ALB,Albania,Europe,2003,4.303,3.891
+ALB,Albania,Europe,2004,4.177,3.759
+ALB,Albania,Europe,2005,4.261,3.91
+ALB,Albania,Europe,2006,3.911,3.54
+ALB,Albania,Europe,2007,4.004,3.43
+ALB,Albania,Europe,2008,4.448,3.847
+ALB,Albania,Europe,2009,4.37,3.36
+ALB,Albania,Europe,2010,4.817,3.506
+ALB,Albania,Europe,2011,5.175,3.583
+ALB,Albania,Europe,2012,4.93,3.175
+ALB,Albania,Europe,2013,5.346,3.338
+ALB,Albania,Europe,2014,6.072,3.862
+ALB,Albania,Europe,2015,4.712,3.338
+ALB,Albania,Europe,2016,4.555,3.364
+ALB,Albania,Europe,2017,5.344,3.778
+ALB,Albania,Europe,2018,5.195,3.333
+ALB,Albania,Europe,2019,4.941,3.426
+ALB,Albania,Europe,2020,4.865,2.876
+ALB,Albania,Europe,2021,5.137,2.862
+ALB,Albania,Europe,2022,4.498,2.946
+ALB,Albania,Europe,2023,4.417,2.908
+AND,Andorra,Europe,2000,0.524,0.524
+AND,Andorra,Europe,2001,0.524,0.524
+AND,Andorra,Europe,2002,0.531,0.531
+AND,Andorra,Europe,2003,0.535,0.535
+AND,Andorra,Europe,2004,0.564,0.564
+AND,Andorra,Europe,2005,0.579,0.579
+AND,Andorra,Europe,2006,0.546,0.546
+AND,Andorra,Europe,2007,0.539,0.539
+AND,Andorra,Europe,2008,0.539,0.539
+AND,Andorra,Europe,2009,0.517,0.517
+AND,Andorra,Europe,2010,0.517,0.517
+AND,Andorra,Europe,2011,0.491,0.491
+AND,Andorra,Europe,2012,0.487,0.487
+AND,Andorra,Europe,2013,0.476,0.476
+AND,Andorra,Europe,2014,0.462,0.462
+AND,Andorra,Europe,2015,0.465,0.465
+AND,Andorra,Europe,2016,0.473,0.473
+AND,Andorra,Europe,2017,0.473,0.469
+AND,Andorra,Europe,2018,0.498,0.495
+AND,Andorra,Europe,2019,0.491,0.487
+AND,Andorra,Europe,2020,0.377,0.374
+AND,Andorra,Europe,2021,0.414,0.407
+AND,Andorra,Europe,2022,0.423,0.416
+AND,Andorra,Europe,2023,0.418,0.411
+ARE,United Arab Emirates,Asia,2000,112.277,46.617
+ARE,United Arab Emirates,Asia,2001,101.896,34.955
+ARE,United Arab Emirates,Asia,2002,85.213,10.31
+ARE,United Arab Emirates,Asia,2003,107.106,28.904
+ARE,United Arab Emirates,Asia,2004,112.469,29.278
+ARE,United Arab Emirates,Asia,2005,115.273,30.43
+ARE,United Arab Emirates,Asia,2006,122.723,31.694
+ARE,United Arab Emirates,Asia,2007,134.103,33.797
+ARE,United Arab Emirates,Asia,2008,155.03,35.07
+ARE,United Arab Emirates,Asia,2009,169.088,45.082
+ARE,United Arab Emirates,Asia,2010,185.848,57.387
+ARE,United Arab Emirates,Asia,2011,198.518,58.348
+ARE,United Arab Emirates,Asia,2012,208.324,62.535
+ARE,United Arab Emirates,Asia,2013,214.188,62.408
+ARE,United Arab Emirates,Asia,2014,214.53,60.256
+ARE,United Arab Emirates,Asia,2015,225.045,74.301
+ARE,United Arab Emirates,Asia,2016,227.898,77.715
+ARE,United Arab Emirates,Asia,2017,196.493,59.602
+ARE,United Arab Emirates,Asia,2018,204.105,70.029
+ARE,United Arab Emirates,Asia,2019,204.058,58.165
+ARE,United Arab Emirates,Asia,2020,215.266,67.015
+ARE,United Arab Emirates,Asia,2021,212.173,69.805
+ARE,United Arab Emirates,Asia,2022,207.103,60.793
+ARE,United Arab Emirates,Asia,2023,210.425,62.891
+ARG,Argentina,South America,2000,143.355,67.434
+ARG,Argentina,South America,2001,135.004,64.334
+ARG,Argentina,South America,2002,124.93,57.495
+ARG,Argentina,South America,2003,134.421,59.355
+ARG,Argentina,South America,2004,157.235,67.813
+ARG,Argentina,South America,2005,161.728,71.8
+ARG,Argentina,South America,2006,174.342,81.911
+ARG,Argentina,South America,2007,173.764,77.952
+ARG,Argentina,South America,2008,187.596,88.658
+ARG,Argentina,South America,2009,178.378,82.38
+ARG,Argentina,South America,2010,186.121,90.145
+ARG,Argentina,South America,2011,189.884,86.906
+ARG,Argentina,South America,2012,191.715,85.589
+ARG,Argentina,South America,2013,189.525,87.487
+ARG,Argentina,South America,2014,188.539,84.292
+ARG,Argentina,South America,2015,191.809,86.954
+ARG,Argentina,South America,2016,190.02,84.554
+ARG,Argentina,South America,2017,187.068,80.857
+ARG,Argentina,South America,2018,182.483,76.109
+ARG,Argentina,South America,2019,180.428,76.609
+ARG,Argentina,South America,2020,164.613,66.675
+ARG,Argentina,South America,2021,190.197,85.441
+ARG,Argentina,South America,2022,183.768,81.967
+ARG,Argentina,South America,2023,178.407,79.241
+ARM,Armenia,Europe,2000,3.491,0.788
+ARM,Armenia,Europe,2001,3.533,0.777
+ARM,Armenia,Europe,2002,3.077,0.816
+ARM,Armenia,Europe,2003,3.456,0.934
+ARM,Armenia,Europe,2004,3.691,0.92
+ARM,Armenia,Europe,2005,4.376,0.982
+ARM,Armenia,Europe,2006,4.402,0.92
+ARM,Armenia,Europe,2007,5.1,0.924
+ARM,Armenia,Europe,2008,5.575,1.033
+ARM,Armenia,Europe,2009,4.364,0.952
+ARM,Armenia,Europe,2010,4.256,1.008
+ARM,Armenia,Europe,2011,4.969,0.942
+ARM,Armenia,Europe,2012,5.748,0.898
+ARM,Armenia,Europe,2013,5.535,0.857
+ARM,Armenia,Europe,2014,5.604,0.864
+ARM,Armenia,Europe,2015,5.469,0.795
+ARM,Armenia,Europe,2016,5.207,0.81
+ARM,Armenia,Europe,2017,5.537,0.868
+ARM,Armenia,Europe,2018,5.822,0.824
+ARM,Armenia,Europe,2019,6.284,1.044
+ARM,Armenia,Europe,2020,6.795,1.452
+ARM,Armenia,Europe,2021,7.351,1.524
+ARM,Armenia,Europe,2022,7.699,1.521
+ARM,Armenia,Europe,2023,7.43,1.562
+ATG,Antigua and Barbuda,North America,2000,0.355,0.355
+ATG,Antigua and Barbuda,North America,2001,0.374,0.374
+ATG,Antigua and Barbuda,North America,2002,0.403,0.403
+ATG,Antigua and Barbuda,North America,2003,0.432,0.432
+ATG,Antigua and Barbuda,North America,2004,0.451,0.451
+ATG,Antigua and Barbuda,North America,2005,0.48,0.48
+ATG,Antigua and Barbuda,North America,2006,0.517,0.517
+ATG,Antigua and Barbuda,North America,2007,0.535,0.535
+ATG,Antigua and Barbuda,North America,2008,0.539,0.539
+ATG,Antigua and Barbuda,North America,2009,0.557,0.557
+ATG,Antigua and Barbuda,North America,2010,0.55,0.55
+ATG,Antigua and Barbuda,North America,2011,0.546,0.546
+ATG,Antigua and Barbuda,North America,2012,0.557,0.557
+ATG,Antigua and Barbuda,North America,2013,0.557,0.557
+ATG,Antigua and Barbuda,North America,2014,0.568,0.568
+ATG,Antigua and Barbuda,North America,2015,0.579,0.579
+ATG,Antigua and Barbuda,North America,2016,0.594,0.594
+ATG,Antigua and Barbuda,North America,2017,0.601,0.601
+ATG,Antigua and Barbuda,North America,2018,0.616,0.616
+ATG,Antigua and Barbuda,North America,2019,0.638,0.638
+ATG,Antigua and Barbuda,North America,2020,0.616,0.616
+ATG,Antigua and Barbuda,North America,2021,0.634,0.634
+ATG,Antigua and Barbuda,North America,2022,0.642,0.642
+ATG,Antigua and Barbuda,North America,2023,0.641,0.641
+AUS,Australia,Oceania,2000,349.898,102.678
+AUS,Australia,Oceania,2001,357.668,103.202
+AUS,Australia,Oceania,2002,362.425,105.481
+AUS,Australia,Oceania,2003,370.784,110.951
+AUS,Australia,Oceania,2004,382.005,114.086
+AUS,Australia,Oceania,2005,385.082,116.654
+AUS,Australia,Oceania,2006,391.373,117.407
+AUS,Australia,Oceania,2007,398.896,118.853
+AUS,Australia,Oceania,2008,404.279,122.482
+AUS,Australia,Oceania,2009,406.977,122.362
+AUS,Australia,Oceania,2010,405.026,124.506
+AUS,Australia,Oceania,2011,403.874,129.836
+AUS,Australia,Oceania,2012,405.005,132.478
+AUS,Australia,Oceania,2013,397.85,135.764
+AUS,Australia,Oceania,2014,392.61,137.132
+AUS,Australia,Oceania,2015,400.589,136.869
+AUS,Australia,Oceania,2016,409.666,136.761
+AUS,Australia,Oceania,2017,413.408,139.221
+AUS,Australia,Oceania,2018,414.781,143.397
+AUS,Australia,Oceania,2019,414.925,142.693
+AUS,Australia,Oceania,2020,398.547,134.777
+AUS,Australia,Oceania,2021,388.472,134.179
+AUS,Australia,Oceania,2022,384.078,133.833
+AUS,Australia,Oceania,2023,384.316,141.61
+AUT,Austria,Europe,2000,66.204,32.179
+AUT,Austria,Europe,2001,70.191,34.424
+AUT,Austria,Europe,2002,71.988,36.067
+AUT,Austria,Europe,2003,77.412,39.089
+AUT,Austria,Europe,2004,77.716,39.122
+AUT,Austria,Europe,2005,79.095,39.395
+AUT,Austria,Europe,2006,76.796,38.117
+AUT,Austria,Europe,2007,74.092,36.602
+AUT,Austria,Europe,2008,73.466,35.457
+AUT,Austria,Europe,2009,67.302,34.408
+AUT,Austria,Europe,2010,72.0,34.785
+AUT,Austria,Europe,2011,69.892,33.269
+AUT,Austria,Europe,2012,67.26,32.627
+AUT,Austria,Europe,2013,67.759,33.45
+AUT,Austria,Europe,2014,64.159,32.413
+AUT,Austria,Europe,2015,66.358,32.995
+AUT,Austria,Europe,2016,67.219,34.108
+AUT,Austria,Europe,2017,69.601,34.546
+AUT,Austria,Europe,2018,66.567,34.087
+AUT,Austria,Europe,2019,67.951,34.088
+AUT,Austria,Europe,2020,62.18,30.779
+AUT,Austria,Europe,2021,65.751,32.17
+AUT,Austria,Europe,2022,61.454,30.702
+AUT,Austria,Europe,2023,56.909,29.376
+AZE,Azerbaijan,Europe,2000,29.765,17.965
+AZE,Azerbaijan,Europe,2001,28.415,11.278
+AZE,Azerbaijan,Europe,2002,28.57,11.287
+AZE,Azerbaijan,Europe,2003,30.488,12.697
+AZE,Azerbaijan,Europe,2004,32.253,12.731
+AZE,Azerbaijan,Europe,2005,34.194,14.638
+AZE,Azerbaijan,Europe,2006,34.522,12.977
+AZE,Azerbaijan,Europe,2007,30.037,11.456
+AZE,Azerbaijan,Europe,2008,33.037,10.607
+AZE,Azerbaijan,Europe,2009,29.103,9.241
+AZE,Azerbaijan,Europe,2010,27.549,8.695
+AZE,Azerbaijan,Europe,2011,30.21,10.267
+AZE,Azerbaijan,Europe,2012,32.77,11.639
+AZE,Azerbaijan,Europe,2013,33.559,12.069
+AZE,Azerbaijan,Europe,2014,34.345,11.63
+AZE,Azerbaijan,Europe,2015,34.683,11.534
+AZE,Azerbaijan,Europe,2016,34.727,12.136
+AZE,Azerbaijan,Europe,2017,34.698,12.587
+AZE,Azerbaijan,Europe,2018,34.576,11.837
+AZE,Azerbaijan,Europe,2019,37.753,12.112
+AZE,Azerbaijan,Europe,2020,36.237,10.629
+AZE,Azerbaijan,Europe,2021,38.3,11.744
+AZE,Azerbaijan,Europe,2022,41.175,12.847
+AZE,Azerbaijan,Europe,2023,42.748,13.374
+BDI,Burundi,Africa,2000,0.271,0.264
+BDI,Burundi,Africa,2001,0.205,0.194
+BDI,Burundi,Africa,2002,0.213,0.202
+BDI,Burundi,Africa,2003,0.169,0.161
+BDI,Burundi,Africa,2004,0.198,0.191
+BDI,Burundi,Africa,2005,0.158,0.15
+BDI,Burundi,Africa,2006,0.187,0.172
+BDI,Burundi,Africa,2007,0.187,0.176
+BDI,Burundi,Africa,2008,0.202,0.187
+BDI,Burundi,Africa,2009,0.216,0.201
+BDI,Burundi,Africa,2010,0.333,0.315
+BDI,Burundi,Africa,2011,0.414,0.403
+BDI,Burundi,Africa,2012,0.392,0.366
+BDI,Burundi,Africa,2013,0.436,0.414
+BDI,Burundi,Africa,2014,0.355,0.34
+BDI,Burundi,Africa,2015,0.355,0.352
+BDI,Burundi,Africa,2016,0.429,0.392
+BDI,Burundi,Africa,2017,0.516,0.494
+BDI,Burundi,Africa,2018,0.645,0.627
+BDI,Burundi,Africa,2019,0.685,0.641
+BDI,Burundi,Africa,2020,0.739,0.711
+BDI,Burundi,Africa,2021,0.772,0.725
+BDI,Burundi,Africa,2022,0.878,0.831
+BDI,Burundi,Africa,2023,0.901,0.848
+BEL,Belgium,Europe,2000,126.776,55.595
+BEL,Belgium,Europe,2001,126.085,58.888
+BEL,Belgium,Europe,2002,126.883,58.705
+BEL,Belgium,Europe,2003,128.292,59.396
+BEL,Belgium,Europe,2004,128.812,59.311
+BEL,Belgium,Europe,2005,125.658,57.578
+BEL,Belgium,Europe,2006,123.9,56.542
+BEL,Belgium,Europe,2007,120.493,55.086
+BEL,Belgium,Europe,2008,120.204,54.708
+BEL,Belgium,Europe,2009,107.807,50.706
+BEL,Belgium,Europe,2010,114.563,51.153
+BEL,Belgium,Europe,2011,105.159,48.22
+BEL,Belgium,Europe,2012,102.486,47.133
+BEL,Belgium,Europe,2013,102.816,47.229
+BEL,Belgium,Europe,2014,97.081,46.313
+BEL,Belgium,Europe,2015,101.327,48.237
+BEL,Belgium,Europe,2016,99.816,47.124
+BEL,Belgium,Europe,2017,99.282,46.258
+BEL,Belgium,Europe,2018,100.256,45.875
+BEL,Belgium,Europe,2019,99.799,45.341
+BEL,Belgium,Europe,2020,91.255,40.098
+BEL,Belgium,Europe,2021,94.928,42.152
+BEL,Belgium,Europe,2022,88.915,41.466
+BEL,Belgium,Europe,2023,84.703,41.188
+BEN,Benin,Africa,2000,1.473,1.473
+BEN,Benin,Africa,2001,1.689,1.689
+BEN,Benin,Africa,2002,2.11,1.953
+BEN,Benin,Africa,2003,2.394,2.228
+BEN,Benin,Africa,2004,2.594,2.382
+BEN,Benin,Africa,2005,2.49,2.268
+BEN,Benin,Africa,2006,3.351,3.125
+BEN,Benin,Africa,2007,3.931,3.719
+BEN,Benin,Africa,2008,3.919,3.737
+BEN,Benin,Africa,2009,4.225,4.001
+BEN,Benin,Africa,2010,4.679,4.437
+BEN,Benin,Africa,2011,4.48,4.247
+BEN,Benin,Africa,2012,4.403,4.166
+BEN,Benin,Africa,2013,4.566,4.331
+BEN,Benin,Africa,2014,4.774,4.338
+BEN,Benin,Africa,2015,5.318,4.943
+BEN,Benin,Africa,2016,5.311,4.91
+BEN,Benin,Africa,2017,5.555,5.056
+BEN,Benin,Africa,2018,5.668,5.24
+BEN,Benin,Africa,2019,5.273,4.525
+BEN,Benin,Africa,2020,5.541,4.547
+BEN,Benin,Africa,2021,5.806,4.711
+BEN,Benin,Africa,2022,6.092,4.974
+BEN,Benin,Africa,2023,5.928,4.756
+BES,Bonaire Sint Eustatius and Saba,North America,2000,0.093,0.093
+BES,Bonaire Sint Eustatius and Saba,North America,2001,0.094,0.094
+BES,Bonaire Sint Eustatius and Saba,North America,2002,0.091,0.091
+BES,Bonaire Sint Eustatius and Saba,North America,2003,0.091,0.091
+BES,Bonaire Sint Eustatius and Saba,North America,2004,0.095,0.095
+BES,Bonaire Sint Eustatius and Saba,North America,2005,0.095,0.095
+BES,Bonaire Sint Eustatius and Saba,North America,2006,0.099,0.099
+BES,Bonaire Sint Eustatius and Saba,North America,2007,0.111,0.111
+BES,Bonaire Sint Eustatius and Saba,North America,2008,0.107,0.107
+BES,Bonaire Sint Eustatius and Saba,North America,2009,0.109,0.109
+BES,Bonaire Sint Eustatius and Saba,North America,2010,0.075,0.075
+BES,Bonaire Sint Eustatius and Saba,North America,2011,0.096,0.096
+BES,Bonaire Sint Eustatius and Saba,North America,2012,0.117,0.117
+BES,Bonaire Sint Eustatius and Saba,North America,2013,0.114,0.114
+BES,Bonaire Sint Eustatius and Saba,North America,2014,0.117,0.117
+BES,Bonaire Sint Eustatius and Saba,North America,2015,0.128,0.128
+BES,Bonaire Sint Eustatius and Saba,North America,2016,0.132,0.132
+BES,Bonaire Sint Eustatius and Saba,North America,2017,0.139,0.139
+BES,Bonaire Sint Eustatius and Saba,North America,2018,0.132,0.132
+BES,Bonaire Sint Eustatius and Saba,North America,2019,0.139,0.139
+BES,Bonaire Sint Eustatius and Saba,North America,2020,0.132,0.132
+BES,Bonaire Sint Eustatius and Saba,North America,2021,0.139,0.139
+BES,Bonaire Sint Eustatius and Saba,North America,2022,0.147,0.147
+BES,Bonaire Sint Eustatius and Saba,North America,2023,0.146,0.146
+BFA,Burkina Faso,Africa,2000,0.931,0.89
+BFA,Burkina Faso,Africa,2001,1.064,1.044
+BFA,Burkina Faso,Africa,2002,1.067,1.055
+BFA,Burkina Faso,Africa,2003,1.184,1.172
+BFA,Burkina Faso,Africa,2004,1.107,1.096
+BFA,Burkina Faso,Africa,2005,1.104,1.092
+BFA,Burkina Faso,Africa,2006,1.217,1.205
+BFA,Burkina Faso,Africa,2007,1.616,1.605
+BFA,Burkina Faso,Africa,2008,1.818,1.638
+BFA,Burkina Faso,Africa,2009,1.836,1.619
+BFA,Burkina Faso,Africa,2010,1.985,1.759
+BFA,Burkina Faso,Africa,2011,2.149,1.924
+BFA,Burkina Faso,Africa,2012,2.612,2.36
+BFA,Burkina Faso,Africa,2013,2.809,2.583
+BFA,Burkina Faso,Africa,2014,2.868,2.711
+BFA,Burkina Faso,Africa,2015,3.744,3.221
+BFA,Burkina Faso,Africa,2016,3.988,3.348
+BFA,Burkina Faso,Africa,2017,4.622,3.924
+BFA,Burkina Faso,Africa,2018,5.226,4.393
+BFA,Burkina Faso,Africa,2019,5.618,4.554
+BFA,Burkina Faso,Africa,2020,5.618,4.533
+BFA,Burkina Faso,Africa,2021,6.329,5.166
+BFA,Burkina Faso,Africa,2022,6.542,5.341
+BFA,Burkina Faso,Africa,2023,6.308,5.107
+BGD,Bangladesh,Asia,2000,26.539,7.702
+BGD,Bangladesh,Asia,2001,31.064,9.896
+BGD,Bangladesh,Asia,2002,32.007,9.906
+BGD,Bangladesh,Asia,2003,33.496,9.9
+BGD,Bangladesh,Asia,2004,35.978,10.651
+BGD,Bangladesh,Asia,2005,37.717,10.637
+BGD,Bangladesh,Asia,2006,41.726,10.959
+BGD,Bangladesh,Asia,2007,42.675,10.204
+BGD,Bangladesh,Asia,2008,45.341,9.951
+BGD,Bangladesh,Asia,2009,49.188,10.032
+BGD,Bangladesh,Asia,2010,54.036,10.885
+BGD,Bangladesh,Asia,2011,55.593,13.865
+BGD,Bangladesh,Asia,2012,59.704,15.576
+BGD,Bangladesh,Asia,2013,64.763,16.312
+BGD,Bangladesh,Asia,2014,67.552,18.287
+BGD,Bangladesh,Asia,2015,76.946,18.727
+BGD,Bangladesh,Asia,2016,81.761,21.644
+BGD,Bangladesh,Asia,2017,86.531,25.478
+BGD,Bangladesh,Asia,2018,86.608,24.359
+BGD,Bangladesh,Asia,2019,94.808,25.187
+BGD,Bangladesh,Asia,2020,95.729,23.636
+BGD,Bangladesh,Asia,2021,98.53,22.596
+BGD,Bangladesh,Asia,2022,102.147,25.759
+BGD,Bangladesh,Asia,2023,104.527,21.608
+BGR,Bulgaria,Europe,2000,45.499,10.515
+BGR,Bulgaria,Europe,2001,49.02,10.825
+BGR,Bulgaria,Europe,2002,46.141,10.815
+BGR,Bulgaria,Europe,2003,50.491,11.535
+BGR,Bulgaria,Europe,2004,49.537,11.565
+BGR,Bulgaria,Europe,2005,50.6,12.14
+BGR,Bulgaria,Europe,2006,51.837,12.58
+BGR,Bulgaria,Europe,2007,55.669,12.404
+BGR,Bulgaria,Europe,2008,54.026,11.78
+BGR,Bulgaria,Europe,2009,45.75,11.297
+BGR,Bulgaria,Europe,2010,47.816,10.912
+BGR,Bulgaria,Europe,2011,53.12,10.107
+BGR,Bulgaria,Europe,2012,48.277,10.627
+BGR,Bulgaria,Europe,2013,42.583,9.557
+BGR,Bulgaria,Europe,2014,45.169,10.562
+BGR,Bulgaria,Europe,2015,48.127,11.488
+BGR,Bulgaria,Europe,2016,45.344,11.886
+BGR,Bulgaria,Europe,2017,47.446,12.162
+BGR,Bulgaria,Europe,2018,43.503,12.372
+BGR,Bulgaria,Europe,2019,42.195,12.901
+BGR,Bulgaria,Europe,2020,36.571,11.944
+BGR,Bulgaria,Europe,2021,42.365,12.742
+BGR,Bulgaria,Europe,2022,46.932,13.385
+BGR,Bulgaria,Europe,2023,34.501,13.17
+BHR,Bahrain,Asia,2000,19.199,3.056
+BHR,Bahrain,Asia,2001,19.679,3.393
+BHR,Bahrain,Asia,2002,20.112,3.261
+BHR,Bahrain,Asia,2003,20.976,3.745
+BHR,Bahrain,Asia,2004,21.204,4.247
+BHR,Bahrain,Asia,2005,24.487,5.371
+BHR,Bahrain,Asia,2006,24.036,3.734
+BHR,Bahrain,Asia,2007,26.626,5.76
+BHR,Bahrain,Asia,2008,29.525,6.555
+BHR,Bahrain,Asia,2009,28.138,3.671
+BHR,Bahrain,Asia,2010,29.143,4.114
+BHR,Bahrain,Asia,2011,28.544,3.723
+BHR,Bahrain,Asia,2012,27.202,2.158
+BHR,Bahrain,Asia,2013,31.228,4.367
+BHR,Bahrain,Asia,2014,30.971,2.012
+BHR,Bahrain,Asia,2015,32.521,3.778
+BHR,Bahrain,Asia,2016,31.635,3.712
+BHR,Bahrain,Asia,2017,32.917,4.078
+BHR,Bahrain,Asia,2018,32.698,3.678
+BHR,Bahrain,Asia,2019,37.616,3.748
+BHR,Bahrain,Asia,2020,37.429,3.609
+BHR,Bahrain,Asia,2021,36.265,3.257
+BHR,Bahrain,Asia,2022,37.827,4.656
+BHR,Bahrain,Asia,2023,38.787,4.709
+BHS,Bahamas,North America,2000,2.026,2.023
+BHS,Bahamas,North America,2001,1.946,1.942
+BHS,Bahamas,North America,2002,2.034,2.03
+BHS,Bahamas,North America,2003,2.07,2.063
+BHS,Bahamas,North America,2004,2.048,2.041
+BHS,Bahamas,North America,2005,1.905,1.898
+BHS,Bahamas,North America,2006,1.854,1.847
+BHS,Bahamas,North America,2007,1.872,1.869
+BHS,Bahamas,North America,2008,1.92,1.916
+BHS,Bahamas,North America,2009,2.154,2.151
+BHS,Bahamas,North America,2010,2.231,2.228
+BHS,Bahamas,North America,2011,2.11,2.107
+BHS,Bahamas,North America,2012,2.048,2.045
+BHS,Bahamas,North America,2013,1.993,1.99
+BHS,Bahamas,North America,2014,2.063,2.059
+BHS,Bahamas,North America,2015,2.231,2.228
+BHS,Bahamas,North America,2016,2.246,2.242
+BHS,Bahamas,North America,2017,2.521,2.517
+BHS,Bahamas,North America,2018,2.455,2.451
+BHS,Bahamas,North America,2019,2.521,2.517
+BHS,Bahamas,North America,2020,2.052,2.048
+BHS,Bahamas,North America,2021,2.726,2.722
+BHS,Bahamas,North America,2022,2.962,2.958
+BHS,Bahamas,North America,2023,2.956,2.952
+BIH,Bosnia and Herzegovina,Europe,2000,13.702,3.301
+BIH,Bosnia and Herzegovina,Europe,2001,13.263,3.246
+BIH,Bosnia and Herzegovina,Europe,2002,14.173,3.1
+BIH,Bosnia and Herzegovina,Europe,2003,14.358,2.851
+BIH,Bosnia and Herzegovina,Europe,2004,15.462,3.404
+BIH,Bosnia and Herzegovina,Europe,2005,16.046,3.136
+BIH,Bosnia and Herzegovina,Europe,2006,17.387,3.315
+BIH,Bosnia and Herzegovina,Europe,2007,17.474,3.543
+BIH,Bosnia and Herzegovina,Europe,2008,19.955,4.099
+BIH,Bosnia and Herzegovina,Europe,2009,20.537,4.397
+BIH,Bosnia and Herzegovina,Europe,2010,21.146,4.458
+BIH,Bosnia and Herzegovina,Europe,2011,23.765,4.419
+BIH,Bosnia and Herzegovina,Europe,2012,22.138,4.107
+BIH,Bosnia and Herzegovina,Europe,2013,21.801,4.004
+BIH,Bosnia and Herzegovina,Europe,2014,19.312,4.093
+BIH,Bosnia and Herzegovina,Europe,2015,18.46,4.254
+BIH,Bosnia and Herzegovina,Europe,2016,21.734,4.836
+BIH,Bosnia and Herzegovina,Europe,2017,22.153,4.891
+BIH,Bosnia and Herzegovina,Europe,2018,22.079,4.639
+BIH,Bosnia and Herzegovina,Europe,2019,20.81,4.683
+BIH,Bosnia and Herzegovina,Europe,2020,20.832,4.287
+BIH,Bosnia and Herzegovina,Europe,2021,21.268,4.812
+BIH,Bosnia and Herzegovina,Europe,2022,20.743,4.708
+BIH,Bosnia and Herzegovina,Europe,2023,19.881,4.647
+BLR,Belarus,Europe,2000,55.014,17.209
+BLR,Belarus,Europe,2001,54.105,16.439
+BLR,Belarus,Europe,2002,53.944,16.129
+BLR,Belarus,Europe,2003,55.236,15.545
+BLR,Belarus,Europe,2004,58.373,15.873
+BLR,Belarus,Europe,2005,59.396,15.957
+BLR,Belarus,Europe,2006,61.809,17.94
+BLR,Belarus,Europe,2007,60.276,16.007
+BLR,Belarus,Europe,2008,62.931,17.911
+BLR,Belarus,Europe,2009,60.628,22.486
+BLR,Belarus,Europe,2010,62.515,16.326
+BLR,Belarus,Europe,2011,61.353,17.418
+BLR,Belarus,Europe,2012,62.592,17.088
+BLR,Belarus,Europe,2013,64.152,18.704
+BLR,Belarus,Europe,2014,63.699,18.383
+BLR,Belarus,Europe,2015,58.828,17.178
+BLR,Belarus,Europe,2016,58.188,17.313
+BLR,Belarus,Europe,2017,59.444,17.345
+BLR,Belarus,Europe,2018,62.171,18.139
+BLR,Belarus,Europe,2019,62.171,17.973
+BLR,Belarus,Europe,2020,59.123,17.906
+BLR,Belarus,Europe,2021,60.861,17.728
+BLR,Belarus,Europe,2022,57.121,16.216
+BLR,Belarus,Europe,2023,55.736,18.351
+BLZ,Belize,North America,2000,0.396,0.396
+BLZ,Belize,North America,2001,0.447,0.447
+BLZ,Belize,North America,2002,0.432,0.432
+BLZ,Belize,North America,2003,0.432,0.432
+BLZ,Belize,North America,2004,0.392,0.392
+BLZ,Belize,North America,2005,0.418,0.418
+BLZ,Belize,North America,2006,0.443,0.443
+BLZ,Belize,North America,2007,0.473,0.473
+BLZ,Belize,North America,2008,0.432,0.432
+BLZ,Belize,North America,2009,0.513,0.513
+BLZ,Belize,North America,2010,0.539,0.528
+BLZ,Belize,North America,2011,0.572,0.561
+BLZ,Belize,North America,2012,0.473,0.465
+BLZ,Belize,North America,2013,0.473,0.469
+BLZ,Belize,North America,2014,0.502,0.498
+BLZ,Belize,North America,2015,0.685,0.682
+BLZ,Belize,North America,2016,0.674,0.671
+BLZ,Belize,North America,2017,0.667,0.663
+BLZ,Belize,North America,2018,0.66,0.656
+BLZ,Belize,North America,2019,0.769,0.769
+BLZ,Belize,North America,2020,0.654,0.652
+BLZ,Belize,North America,2021,0.694,0.689
+BLZ,Belize,North America,2022,0.724,0.718
+BLZ,Belize,North America,2023,0.766,0.761
+BMU,Bermuda,North America,2000,0.517,0.517
+BMU,Bermuda,North America,2001,0.528,0.528
+BMU,Bermuda,North America,2002,0.557,0.557
+BMU,Bermuda,North America,2003,0.561,0.561
+BMU,Bermuda,North America,2004,0.583,0.583
+BMU,Bermuda,North America,2005,0.583,0.583
+BMU,Bermuda,North America,2006,0.656,0.656
+BMU,Bermuda,North America,2007,0.729,0.729
+BMU,Bermuda,North America,2008,0.645,0.645
+BMU,Bermuda,North America,2009,0.473,0.473
+BMU,Bermuda,North America,2010,0.605,0.605
+BMU,Bermuda,North America,2011,0.443,0.443
+BMU,Bermuda,North America,2012,0.366,0.366
+BMU,Bermuda,North America,2013,0.535,0.535
+BMU,Bermuda,North America,2014,0.667,0.667
+BMU,Bermuda,North America,2015,0.542,0.542
+BMU,Bermuda,North America,2016,0.616,0.616
+BMU,Bermuda,North America,2017,0.641,0.641
+BMU,Bermuda,North America,2018,0.696,0.696
+BMU,Bermuda,North America,2019,0.594,0.594
+BMU,Bermuda,North America,2020,0.436,0.436
+BMU,Bermuda,North America,2021,0.517,0.517
+BMU,Bermuda,North America,2022,0.531,0.531
+BMU,Bermuda,North America,2023,0.53,0.53
+BOL,Bolivia,South America,2000,8.442,4.833
+BOL,Bolivia,South America,2001,8.752,5.21
+BOL,Bolivia,South America,2002,10.415,5.067
+BOL,Bolivia,South America,2003,10.983,6.002
+BOL,Bolivia,South America,2004,11.051,6.199
+BOL,Bolivia,South America,2005,12.337,6.984
+BOL,Bolivia,South America,2006,12.369,6.797
+BOL,Bolivia,South America,2007,12.74,7.636
+BOL,Bolivia,South America,2008,13.028,7.548
+BOL,Bolivia,South America,2009,13.633,7.464
+BOL,Bolivia,South America,2010,14.809,7.944
+BOL,Bolivia,South America,2011,16.051,8.398
+BOL,Bolivia,South America,2012,17.575,9.702
+BOL,Bolivia,South America,2013,17.778,9.695
+BOL,Bolivia,South America,2014,19.9,10.869
+BOL,Bolivia,South America,2015,19.9,10.765
+BOL,Bolivia,South America,2016,21.25,11.223
+BOL,Bolivia,South America,2017,22.182,12.044
+BOL,Bolivia,South America,2018,22.509,12.241
+BOL,Bolivia,South America,2019,22.609,12.861
+BOL,Bolivia,South America,2020,18.32,10.336
+BOL,Bolivia,South America,2021,21.767,12.729
+BOL,Bolivia,South America,2022,23.488,13.76
+BOL,Bolivia,South America,2023,24.621,13.975
+BRA,Brazil,South America,2000,340.183,239.491
+BRA,Brazil,South America,2001,346.166,241.792
+BRA,Brazil,South America,2002,347.765,239.219
+BRA,Brazil,South America,2003,344.645,232.434
+BRA,Brazil,South America,2004,361.434,239.768
+BRA,Brazil,South America,2005,364.371,240.218
+BRA,Brazil,South America,2006,368.871,242.251
+BRA,Brazil,South America,2007,390.573,256.003
+BRA,Brazil,South America,2008,412.638,267.239
+BRA,Brazil,South America,2009,389.775,262.705
+BRA,Brazil,South America,2010,440.269,286.08
+BRA,Brazil,South America,2011,461.911,303.885
+BRA,Brazil,South America,2012,497.468,327.734
+BRA,Brazil,South America,2013,531.569,342.338
+BRA,Brazil,South America,2014,556.526,356.751
+BRA,Brazil,South America,2015,528.174,330.356
+BRA,Brazil,South America,2016,491.745,312.942
+BRA,Brazil,South America,2017,497.255,315.045
+BRA,Brazil,South America,2018,476.601,298.889
+BRA,Brazil,South America,2019,476.724,302.98
+BRA,Brazil,South America,2020,447.999,285.284
+BRA,Brazil,South America,2021,496.562,303.465
+BRA,Brazil,South America,2022,480.058,315.339
+BRA,Brazil,South America,2023,483.992,323.29
+BRB,Barbados,North America,2000,1.309,1.136
+BRB,Barbados,North America,2001,1.307,1.15
+BRB,Barbados,North America,2002,1.317,1.136
+BRB,Barbados,North America,2003,1.358,1.172
+BRB,Barbados,North America,2004,1.387,1.202
+BRB,Barbados,North America,2005,1.429,1.242
+BRB,Barbados,North America,2006,1.471,1.279
+BRB,Barbados,North America,2007,1.469,1.282
+BRB,Barbados,North America,2008,1.733,1.554
+BRB,Barbados,North America,2009,1.7,1.55
+BRB,Barbados,North America,2010,1.567,1.433
+BRB,Barbados,North America,2011,1.626,1.491
+BRB,Barbados,North America,2012,1.554,1.436
+BRB,Barbados,North America,2013,1.54,1.422
+BRB,Barbados,North America,2014,1.368,1.253
+BRB,Barbados,North America,2015,1.335,1.224
+BRB,Barbados,North America,2016,1.371,1.261
+BRB,Barbados,North America,2017,1.399,1.253
+BRB,Barbados,North America,2018,1.447,1.29
+BRB,Barbados,North America,2019,1.392,1.238
+BRB,Barbados,North America,2020,1.256,1.143
+BRB,Barbados,North America,2021,1.19,1.059
+BRB,Barbados,North America,2022,1.315,1.18
+BRB,Barbados,North America,2023,1.317,1.177
+BRN,Brunei,Asia,2000,5.886,1.4
+BRN,Brunei,Asia,2001,5.758,1.472
+BRN,Brunei,Asia,2002,5.285,1.334
+BRN,Brunei,Asia,2003,6.14,1.378
+BRN,Brunei,Asia,2004,5.967,1.334
+BRN,Brunei,Asia,2005,5.429,1.059
+BRN,Brunei,Asia,2006,7.144,0.971
+BRN,Brunei,Asia,2007,8.077,1.847
+BRN,Brunei,Asia,2008,9.166,2.056
+BRN,Brunei,Asia,2009,7.745,1.754
+BRN,Brunei,Asia,2010,8.017,1.59
+BRN,Brunei,Asia,2011,9.555,1.957
+BRN,Brunei,Asia,2012,9.5,2.066
+BRN,Brunei,Asia,2013,7.626,1.656
+BRN,Brunei,Asia,2014,8.831,1.689
+BRN,Brunei,Asia,2015,6.933,1.645
+BRN,Brunei,Asia,2016,7.633,1.803
+BRN,Brunei,Asia,2017,9.309,1.927
+BRN,Brunei,Asia,2018,9.341,1.905
+BRN,Brunei,Asia,2019,9.564,2.411
+BRN,Brunei,Asia,2020,11.157,3.41
+BRN,Brunei,Asia,2021,11.709,3.228
+BRN,Brunei,Asia,2022,12.237,3.638
+BRN,Brunei,Asia,2023,12.503,3.621
+BTN,Bhutan,Asia,2000,0.397,0.147
+BTN,Bhutan,Asia,2001,0.464,0.159
+BTN,Bhutan,Asia,2002,0.494,0.167
+BTN,Bhutan,Asia,2003,0.494,0.185
+BTN,Bhutan,Asia,2004,0.436,0.194
+BTN,Bhutan,Asia,2005,0.546,0.209
+BTN,Bhutan,Asia,2006,0.411,0.218
+BTN,Bhutan,Asia,2007,0.397,0.224
+BTN,Bhutan,Asia,2008,0.646,0.22
+BTN,Bhutan,Asia,2009,0.683,0.245
+BTN,Bhutan,Asia,2010,0.905,0.311
+BTN,Bhutan,Asia,2011,1.007,0.366
+BTN,Bhutan,Asia,2012,1.15,0.442
+BTN,Bhutan,Asia,2013,1.269,0.443
+BTN,Bhutan,Asia,2014,1.332,0.432
+BTN,Bhutan,Asia,2015,1.434,0.451
+BTN,Bhutan,Asia,2016,1.56,0.479
+BTN,Bhutan,Asia,2017,1.649,0.517
+BTN,Bhutan,Asia,2018,1.682,0.564
+BTN,Bhutan,Asia,2019,1.565,0.575
+BTN,Bhutan,Asia,2020,1.214,0.405
+BTN,Bhutan,Asia,2021,1.455,0.41
+BTN,Bhutan,Asia,2022,1.55,0.478
+BTN,Bhutan,Asia,2023,1.63,0.475
+BWA,Botswana,Africa,2000,3.778,1.726
+BWA,Botswana,Africa,2001,3.847,1.843
+BWA,Botswana,Africa,2002,3.975,1.887
+BWA,Botswana,Africa,2003,3.825,2.023
+BWA,Botswana,Africa,2004,3.895,1.913
+BWA,Botswana,Africa,2005,4.096,1.955
+BWA,Botswana,Africa,2006,4.133,2.043
+BWA,Botswana,Africa,2007,4.228,2.294
+BWA,Botswana,Africa,2008,4.503,2.55
+BWA,Botswana,Africa,2009,3.855,2.182
+BWA,Botswana,Africa,2010,4.537,2.446
+BWA,Botswana,Africa,2011,4.029,2.593
+BWA,Botswana,Africa,2012,5.077,2.744
+BWA,Botswana,Africa,2013,5.663,2.884
+BWA,Botswana,Africa,2014,6.85,3.001
+BWA,Botswana,Africa,2015,5.418,2.51
+BWA,Botswana,Africa,2016,6.341,2.765
+BWA,Botswana,Africa,2017,7.066,2.809
+BWA,Botswana,Africa,2018,7.643,3.019
+BWA,Botswana,Africa,2019,7.486,3.625
+BWA,Botswana,Africa,2020,6.192,3.263
+BWA,Botswana,Africa,2021,6.683,3.393
+BWA,Botswana,Africa,2022,7.396,3.039
+BWA,Botswana,Africa,2023,7.249,3.07
+CAF,Central African Republic,Africa,2000,0.125,0.125
+CAF,Central African Republic,Africa,2001,0.143,0.143
+CAF,Central African Republic,Africa,2002,0.117,0.117
+CAF,Central African Republic,Africa,2003,0.114,0.114
+CAF,Central African Republic,Africa,2004,0.125,0.125
+CAF,Central African Republic,Africa,2005,0.128,0.128
+CAF,Central African Republic,Africa,2006,0.139,0.139
+CAF,Central African Republic,Africa,2007,0.154,0.154
+CAF,Central African Republic,Africa,2008,0.15,0.15
+CAF,Central African Republic,Africa,2009,0.154,0.154
+CAF,Central African Republic,Africa,2010,0.169,0.169
+CAF,Central African Republic,Africa,2011,0.154,0.154
+CAF,Central African Republic,Africa,2012,0.183,0.183
+CAF,Central African Republic,Africa,2013,0.103,0.103
+CAF,Central African Republic,Africa,2014,0.132,0.132
+CAF,Central African Republic,Africa,2015,0.194,0.194
+CAF,Central African Republic,Africa,2016,0.238,0.238
+CAF,Central African Republic,Africa,2017,0.286,0.286
+CAF,Central African Republic,Africa,2018,0.271,0.271
+CAF,Central African Republic,Africa,2019,0.311,0.311
+CAF,Central African Republic,Africa,2020,0.333,0.333
+CAF,Central African Republic,Africa,2021,0.366,0.366
+CAF,Central African Republic,Africa,2022,0.377,0.377
+CAF,Central African Republic,Africa,2023,0.389,0.389
+CAN,Canada,North America,2000,566.68,237.243
+CAN,Canada,North America,2001,558.981,241.282
+CAN,Canada,North America,2002,564.256,242.197
+CAN,Canada,North America,2003,581.19,257.913
+CAN,Canada,North America,2004,576.286,263.667
+CAN,Canada,North America,2005,570.396,258.105
+CAN,Canada,North America,2006,566.315,256.937
+CAN,Canada,North America,2007,589.956,263.617
+CAN,Canada,North America,2008,574.214,255.22
+CAN,Canada,North America,2009,541.13,251.479
+CAN,Canada,North America,2010,554.307,257.185
+CAN,Canada,North America,2011,562.832,258.636
+CAN,Canada,North America,2012,561.77,258.238
+CAN,Canada,North America,2013,568.59,259.85
+CAN,Canada,North America,2014,564.938,252.104
+CAN,Canada,North America,2015,563.003,251.971
+CAN,Canada,North America,2016,553.707,247.842
+CAN,Canada,North America,2017,566.66,252.357
+CAN,Canada,North America,2018,575.091,258.216
+CAN,Canada,North America,2019,579.007,260.942
+CAN,Canada,North America,2020,524.208,225.773
+CAN,Canada,North America,2021,537.479,233.624
+CAN,Canada,North America,2022,547.658,242.291
+CAN,Canada,North America,2023,545.479,241.526
+CHE,Switzerland,Europe,2000,43.621,35.211
+CHE,Switzerland,Europe,2001,45.085,36.394
+CHE,Switzerland,Europe,2002,43.467,35.018
+CHE,Switzerland,Europe,2003,44.651,35.898
+CHE,Switzerland,Europe,2004,45.231,36.158
+CHE,Switzerland,Europe,2005,45.776,36.37
+CHE,Switzerland,Europe,2006,45.365,36.104
+CHE,Switzerland,Europe,2007,43.359,34.172
+CHE,Switzerland,Europe,2008,44.701,35.209
+CHE,Switzerland,Europe,2009,43.526,34.404
+CHE,Switzerland,Europe,2010,45.034,35.013
+CHE,Switzerland,Europe,2011,40.973,31.814
+CHE,Switzerland,Europe,2012,42.242,32.669
+CHE,Switzerland,Europe,2013,43.183,33.233
+CHE,Switzerland,Europe,2014,39.244,30.183
+CHE,Switzerland,Europe,2015,38.756,29.499
+CHE,Switzerland,Europe,2016,39.225,29.605
+CHE,Switzerland,Europe,2017,38.234,28.684
+CHE,Switzerland,Europe,2018,36.945,27.851
+CHE,Switzerland,Europe,2019,36.822,27.584
+CHE,Switzerland,Europe,2020,34.343,25.416
+CHE,Switzerland,Europe,2021,35.902,26.31
+CHE,Switzerland,Europe,2022,32.951,24.636
+CHE,Switzerland,Europe,2023,31.977,24.382
+CHL,Chile,South America,2000,58.503,30.627
+CHL,Chile,South America,2001,52.918,28.468
+CHL,Chile,South America,2002,54.836,30.323
+CHL,Chile,South America,2003,55.1,29.587
+CHL,Chile,South America,2004,59.221,31.324
+CHL,Chile,South America,2005,61.116,33.826
+CHL,Chile,South America,2006,64.048,35.735
+CHL,Chile,South America,2007,70.469,47.223
+CHL,Chile,South America,2008,70.549,47.549
+CHL,Chile,South America,2009,65.96,44.932
+CHL,Chile,South America,2010,71.347,43.461
+CHL,Chile,South America,2011,78.071,45.628
+CHL,Chile,South America,2012,79.621,45.162
+CHL,Chile,South America,2013,81.733,45.914
+CHL,Chile,South America,2014,77.586,43.82
+CHL,Chile,South America,2015,81.778,44.353
+CHL,Chile,South America,2016,84.25,46.064
+CHL,Chile,South America,2017,84.135,45.465
+CHL,Chile,South America,2018,84.443,46.573
+CHL,Chile,South America,2019,91.977,48.022
+CHL,Chile,South America,2020,80.178,43.035
+CHL,Chile,South America,2021,83.63,46.49
+CHL,Chile,South America,2022,85.744,52.159
+CHL,Chile,South America,2023,77.604,51.571
+CHN,China,Asia,2000,3643.81,648.685
+CHN,China,Asia,2001,3724.114,659.301
+CHN,China,Asia,2002,4098.181,653.087
+CHN,China,Asia,2003,4835.251,727.099
+CHN,China,Asia,2004,5210.961,839.096
+CHN,China,Asia,2005,5881.991,850.176
+CHN,China,Asia,2006,6486.185,898.537
+CHN,China,Asia,2007,6974.663,927.355
+CHN,China,Asia,2008,7492.404,970.121
+CHN,China,Asia,2009,7881.491,982.355
+CHN,China,Asia,2010,8610.048,1092.572
+CHN,China,Asia,2011,9520.153,1123.862
+CHN,China,Asia,2012,9767.311,1176.716
+CHN,China,Asia,2013,9942.371,1234.622
+CHN,China,Asia,2014,9976.027,1255.609
+CHN,China,Asia,2015,9858.04,1328.812
+CHN,China,Asia,2016,9748.175,1357.842
+CHN,China,Asia,2017,10000.014,1430.594
+CHN,China,Asia,2018,10346.79,1500.478
+CHN,China,Asia,2019,10713.515,1559.739
+CHN,China,Asia,2020,10896.521,1523.058
+CHN,China,Asia,2021,11284.401,1521.109
+CHN,China,Asia,2022,11711.808,1559.721
+CHN,China,Asia,2023,12172.009,1729.58
+CIV,Cote d'Ivoire,Africa,2000,6.63,4.043
+CIV,Cote d'Ivoire,Africa,2001,7.653,4.778
+CIV,Cote d'Ivoire,Africa,2002,7.45,4.283
+CIV,Cote d'Ivoire,Africa,2003,5.301,2.783
+CIV,Cote d'Ivoire,Africa,2004,7.386,4.349
+CIV,Cote d'Ivoire,Africa,2005,7.568,4.166
+CIV,Cote d'Ivoire,Africa,2006,6.887,3.679
+CIV,Cote d'Ivoire,Africa,2007,6.653,3.649
+CIV,Cote d'Ivoire,Africa,2008,6.713,3.554
+CIV,Cote d'Ivoire,Africa,2009,5.66,2.73
+CIV,Cote d'Ivoire,Africa,2010,6.225,3.026
+CIV,Cote d'Ivoire,Africa,2011,6.523,3.349
+CIV,Cote d'Ivoire,Africa,2012,8.54,5.075
+CIV,Cote d'Ivoire,Africa,2013,9.68,5.778
+CIV,Cote d'Ivoire,Africa,2014,9.903,5.958
+CIV,Cote d'Ivoire,Africa,2015,9.555,5.547
+CIV,Cote d'Ivoire,Africa,2016,11.979,7.024
+CIV,Cote d'Ivoire,Africa,2017,12.002,7.548
+CIV,Cote d'Ivoire,Africa,2018,10.415,6.324
+CIV,Cote d'Ivoire,Africa,2019,10.539,6.188
+CIV,Cote d'Ivoire,Africa,2020,11.019,6.562
+CIV,Cote d'Ivoire,Africa,2021,13.666,9.083
+CIV,Cote d'Ivoire,Africa,2022,14.504,9.475
+CIV,Cote d'Ivoire,Africa,2023,14.052,9.06
+CMR,Cameroon,Africa,2000,5.589,2.986
+CMR,Cameroon,Africa,2001,5.562,2.931
+CMR,Cameroon,Africa,2002,5.351,2.95
+CMR,Cameroon,Africa,2003,5.705,3.32
+CMR,Cameroon,Africa,2004,5.698,3.44
+CMR,Cameroon,Africa,2005,5.424,3.195
+CMR,Cameroon,Africa,2006,5.486,3.36
+CMR,Cameroon,Africa,2007,7.409,4.573
+CMR,Cameroon,Africa,2008,7.321,4.33
+CMR,Cameroon,Africa,2009,8.555,5.581
+CMR,Cameroon,Africa,2010,8.383,5.683
+CMR,Cameroon,Africa,2011,8.105,5.658
+CMR,Cameroon,Africa,2012,7.607,5.163
+CMR,Cameroon,Africa,2013,7.853,5.159
+CMR,Cameroon,Africa,2014,8.775,5.734
+CMR,Cameroon,Africa,2015,9.85,6.213
+CMR,Cameroon,Africa,2016,9.965,6.035
+CMR,Cameroon,Africa,2017,9.582,5.507
+CMR,Cameroon,Africa,2018,9.844,5.28
+CMR,Cameroon,Africa,2019,9.605,5.238
+CMR,Cameroon,Africa,2020,9.716,4.99
+CMR,Cameroon,Africa,2021,9.734,5.137
+CMR,Cameroon,Africa,2022,9.792,5.354
+CMR,Cameroon,Africa,2023,9.695,5.522
+COD,Democratic Republic of Congo,Africa,2000,1.705,0.824
+COD,Democratic Republic of Congo,Africa,2001,1.647,0.689
+COD,Democratic Republic of Congo,Africa,2002,1.734,0.744
+COD,Democratic Republic of Congo,Africa,2003,2.096,0.905
+COD,Democratic Republic of Congo,Africa,2004,2.028,0.989
+COD,Democratic Republic of Congo,Africa,2005,2.287,1.238
+COD,Democratic Republic of Congo,Africa,2006,2.352,1.326
+COD,Democratic Republic of Congo,Africa,2007,2.623,1.447
+COD,Democratic Republic of Congo,Africa,2008,2.685,1.608
+COD,Democratic Republic of Congo,Africa,2009,2.446,1.473
+COD,Democratic Republic of Congo,Africa,2010,2.735,1.729
+COD,Democratic Republic of Congo,Africa,2011,3.041,2.22
+COD,Democratic Republic of Congo,Africa,2012,2.797,2.198
+COD,Democratic Republic of Congo,Africa,2013,3.921,3.364
+COD,Democratic Republic of Congo,Africa,2014,5.066,4.499
+COD,Democratic Republic of Congo,Africa,2015,3.274,2.686
+COD,Democratic Republic of Congo,Africa,2016,2.659,2.129
+COD,Democratic Republic of Congo,Africa,2017,2.92,2.172
+COD,Democratic Republic of Congo,Africa,2018,3.774,2.943
+COD,Democratic Republic of Congo,Africa,2019,4.118,3.162
+COD,Democratic Republic of Congo,Africa,2020,4.305,3.345
+COD,Democratic Republic of Congo,Africa,2021,4.292,3.203
+COD,Democratic Republic of Congo,Africa,2022,5.892,4.63
+COD,Democratic Republic of Congo,Africa,2023,5.881,4.776
+COG,Congo,Africa,2000,4.284,0.473
+COG,Congo,Africa,2001,4.178,0.605
+COG,Congo,Africa,2002,2.72,0.491
+COG,Congo,Africa,2003,3.258,0.777
+COG,Congo,Africa,2004,3.549,0.821
+COG,Congo,Africa,2005,4.352,0.913
+COG,Congo,Africa,2006,4.786,1.044
+COG,Congo,Africa,2007,4.259,1.132
+COG,Congo,Africa,2008,4.27,1.242
+COG,Congo,Africa,2009,4.944,1.576
+COG,Congo,Africa,2010,5.5,1.737
+COG,Congo,Africa,2011,5.046,1.931
+COG,Congo,Africa,2012,5.018,2.479
+COG,Congo,Africa,2013,5.89,2.53
+COG,Congo,Africa,2014,5.471,2.402
+COG,Congo,Africa,2015,5.637,2.173
+COG,Congo,Africa,2016,5.727,2.127
+COG,Congo,Africa,2017,5.651,1.924
+COG,Congo,Africa,2018,6.545,1.953
+COG,Congo,Africa,2019,7.294,1.975
+COG,Congo,Africa,2020,7.677,2.114
+COG,Congo,Africa,2021,7.393,2.207
+COG,Congo,Africa,2022,8.728,2.379
+COG,Congo,Africa,2023,8.274,2.453
+COL,Colombia,South America,2000,56.213,29.329
+COL,Colombia,South America,2001,56.465,28.543
+COL,Colombia,South America,2002,55.417,28.722
+COL,Colombia,South America,2003,57.033,29.647
+COL,Colombia,South America,2004,54.324,29.525
+COL,Colombia,South America,2005,60.256,30.93
+COL,Colombia,South America,2006,62.466,33.969
+COL,Colombia,South America,2007,60.67,33.02
+COL,Colombia,South America,2008,66.982,33.441
+COL,Colombia,South America,2009,71.771,35.739
+COL,Colombia,South America,2010,75.431,35.697
+COL,Colombia,South America,2011,75.191,35.339
+COL,Colombia,South America,2012,78.675,38.917
+COL,Colombia,South America,2013,86.445,41.509
+COL,Colombia,South America,2014,92.042,45.216
+COL,Colombia,South America,2015,91.027,42.891
+COL,Colombia,South America,2016,91.583,45.459
+COL,Colombia,South America,2017,83.459,42.872
+COL,Colombia,South America,2018,90.811,50.695
+COL,Colombia,South America,2019,98.962,45.58
+COL,Colombia,South America,2020,92.305,43.224
+COL,Colombia,South America,2021,103.734,56.821
+COL,Colombia,South America,2022,89.437,44.467
+COL,Colombia,South America,2023,89.992,42.451
+COM,Comoros,Africa,2000,0.103,0.103
+COM,Comoros,Africa,2001,0.106,0.106
+COM,Comoros,Africa,2002,0.106,0.106
+COM,Comoros,Africa,2003,0.136,0.136
+COM,Comoros,Africa,2004,0.15,0.15
+COM,Comoros,Africa,2005,0.143,0.143
+COM,Comoros,Africa,2006,0.169,0.169
+COM,Comoros,Africa,2007,0.106,0.106
+COM,Comoros,Africa,2008,0.11,0.11
+COM,Comoros,Africa,2009,0.136,0.136
+COM,Comoros,Africa,2010,0.161,0.161
+COM,Comoros,Africa,2011,0.143,0.143
+COM,Comoros,Africa,2012,0.154,0.154
+COM,Comoros,Africa,2013,0.183,0.183
+COM,Comoros,Africa,2014,0.165,0.165
+COM,Comoros,Africa,2015,0.18,0.18
+COM,Comoros,Africa,2016,0.205,0.205
+COM,Comoros,Africa,2017,0.264,0.264
+COM,Comoros,Africa,2018,0.286,0.286
+COM,Comoros,Africa,2019,0.311,0.311
+COM,Comoros,Africa,2020,0.37,0.37
+COM,Comoros,Africa,2021,0.498,0.498
+COM,Comoros,Africa,2022,0.532,0.532
+COM,Comoros,Africa,2023,0.542,0.542
+CPV,Cape Verde,Africa,2000,0.297,0.297
+CPV,Cape Verde,Africa,2001,0.348,0.348
+CPV,Cape Verde,Africa,2002,0.385,0.385
+CPV,Cape Verde,Africa,2003,0.414,0.414
+CPV,Cape Verde,Africa,2004,0.429,0.429
+CPV,Cape Verde,Africa,2005,0.447,0.447
+CPV,Cape Verde,Africa,2006,0.495,0.495
+CPV,Cape Verde,Africa,2007,0.506,0.506
+CPV,Cape Verde,Africa,2008,0.473,0.473
+CPV,Cape Verde,Africa,2009,0.524,0.524
+CPV,Cape Verde,Africa,2010,0.557,0.557
+CPV,Cape Verde,Africa,2011,0.616,0.616
+CPV,Cape Verde,Africa,2012,0.502,0.502
+CPV,Cape Verde,Africa,2013,0.495,0.495
+CPV,Cape Verde,Africa,2014,0.491,0.491
+CPV,Cape Verde,Africa,2015,0.495,0.495
+CPV,Cape Verde,Africa,2016,0.531,0.531
+CPV,Cape Verde,Africa,2017,0.572,0.572
+CPV,Cape Verde,Africa,2018,0.572,0.572
+CPV,Cape Verde,Africa,2019,0.63,0.63
+CPV,Cape Verde,Africa,2020,0.52,0.52
+CPV,Cape Verde,Africa,2021,0.59,0.59
+CPV,Cape Verde,Africa,2022,0.598,0.598
+CPV,Cape Verde,Africa,2023,0.571,0.571
+CRI,Costa Rica,North America,2000,5.367,4.943
+CRI,Costa Rica,North America,2001,5.638,5.042
+CRI,Costa Rica,North America,2002,6.214,5.606
+CRI,Costa Rica,North America,2003,6.551,5.917
+CRI,Costa Rica,North America,2004,6.797,6.064
+CRI,Costa Rica,North America,2005,6.66,5.899
+CRI,Costa Rica,North America,2006,6.976,6.434
+CRI,Costa Rica,North America,2007,7.907,6.973
+CRI,Costa Rica,North America,2008,7.934,7.148
+CRI,Costa Rica,North America,2009,7.693,6.903
+CRI,Costa Rica,North America,2010,7.461,6.987
+CRI,Costa Rica,North America,2011,7.276,6.742
+CRI,Costa Rica,North America,2012,7.217,6.701
+CRI,Costa Rica,North America,2013,7.584,7.042
+CRI,Costa Rica,North America,2014,7.702,7.145
+CRI,Costa Rica,North America,2015,7.353,6.782
+CRI,Costa Rica,North America,2016,7.829,7.394
+CRI,Costa Rica,North America,2017,7.987,7.482
+CRI,Costa Rica,North America,2018,7.967,7.489
+CRI,Costa Rica,North America,2019,7.66,7.225
+CRI,Costa Rica,North America,2020,6.754,6.397
+CRI,Costa Rica,North America,2021,7.665,7.222
+CRI,Costa Rica,North America,2022,8.01,7.523
+CRI,Costa Rica,North America,2023,8.473,7.976
+CUB,Cuba,North America,2000,25.299,23.307
+CUB,Cuba,North America,2001,24.681,22.64
+CUB,Cuba,North America,2002,25.179,22.988
+CUB,Cuba,North America,2003,25.554,23.285
+CUB,Cuba,North America,2004,24.54,22.157
+CUB,Cuba,North America,2005,25.706,23.164
+CUB,Cuba,North America,2006,26.781,23.493
+CUB,Cuba,North America,2007,25.724,22.149
+CUB,Cuba,North America,2008,27.738,24.34
+CUB,Cuba,North America,2009,28.261,24.934
+CUB,Cuba,North America,2010,33.042,29.979
+CUB,Cuba,North America,2011,29.076,26.161
+CUB,Cuba,North America,2012,29.476,26.425
+CUB,Cuba,North America,2013,27.894,24.794
+CUB,Cuba,North America,2014,27.366,24.179
+CUB,Cuba,North America,2015,29.091,25.86
+CUB,Cuba,North America,2016,27.772,24.736
+CUB,Cuba,North America,2017,24.559,21.878
+CUB,Cuba,North America,2018,23.019,20.401
+CUB,Cuba,North America,2019,22.487,19.998
+CUB,Cuba,North America,2020,21.281,19.075
+CUB,Cuba,North America,2021,22.549,20.441
+CUB,Cuba,North America,2022,23.259,21.244
+CUB,Cuba,North America,2023,23.47,21.201
+CUW,Curacao,North America,2000,4.964,4.964
+CUW,Curacao,North America,2001,5.055,5.055
+CUW,Curacao,North America,2002,4.874,4.874
+CUW,Curacao,North America,2003,4.877,4.877
+CUW,Curacao,North America,2004,5.117,5.117
+CUW,Curacao,North America,2005,5.071,5.071
+CUW,Curacao,North America,2006,5.285,5.285
+CUW,Curacao,North America,2007,5.95,5.95
+CUW,Curacao,North America,2008,5.723,5.723
+CUW,Curacao,North America,2009,5.856,5.856
+CUW,Curacao,North America,2010,4.034,4.034
+CUW,Curacao,North America,2011,5.146,5.146
+CUW,Curacao,North America,2012,6.287,6.287
+CUW,Curacao,North America,2013,5.932,5.932
+CUW,Curacao,North America,2014,6.797,6.797
+CUW,Curacao,North America,2015,7.332,7.057
+CUW,Curacao,North America,2016,6.203,5.928
+CUW,Curacao,North America,2017,4.968,4.829
+CUW,Curacao,North America,2018,4.324,4.221
+CUW,Curacao,North America,2019,2.396,2.396
+CUW,Curacao,North America,2020,2.008,2.008
+CUW,Curacao,North America,2021,2.14,2.14
+CUW,Curacao,North America,2022,2.209,2.209
+CUW,Curacao,North America,2023,2.205,2.205
+CYP,Cyprus,Europe,2000,7.107,6.185
+CYP,Cyprus,Europe,2001,6.98,6.066
+CYP,Cyprus,Europe,2002,7.172,6.226
+CYP,Cyprus,Europe,2003,7.561,6.612
+CYP,Cyprus,Europe,2004,7.787,6.764
+CYP,Cyprus,Europe,2005,7.952,6.938
+CYP,Cyprus,Europe,2006,8.183,7.129
+CYP,Cyprus,Europe,2007,8.475,7.457
+CYP,Cyprus,Europe,2008,8.692,7.679
+CYP,Cyprus,Europe,2009,8.438,7.651
+CYP,Cyprus,Europe,2010,8.072,7.41
+CYP,Cyprus,Europe,2011,7.792,7.189
+CYP,Cyprus,Europe,2012,7.262,6.732
+CYP,Cyprus,Europe,2013,6.578,5.811
+CYP,Cyprus,Europe,2014,6.93,5.934
+CYP,Cyprus,Europe,2015,6.952,6.049
+CYP,Cyprus,Europe,2016,7.35,6.451
+CYP,Cyprus,Europe,2017,7.469,6.518
+CYP,Cyprus,Europe,2018,7.324,6.402
+CYP,Cyprus,Europe,2019,7.324,6.442
+CYP,Cyprus,Europe,2020,6.903,5.945
+CYP,Cyprus,Europe,2021,6.951,5.894
+CYP,Cyprus,Europe,2022,7.071,6.047
+CYP,Cyprus,Europe,2023,7.188,6.126
+CZE,Czechia,Europe,2000,127.233,18.139
+CZE,Czechia,Europe,2001,127.165,19.236
+CZE,Czechia,Europe,2002,123.988,19.177
+CZE,Czechia,Europe,2003,127.592,20.924
+CZE,Czechia,Europe,2004,128.314,21.916
+CZE,Czechia,Europe,2005,125.713,22.518
+CZE,Czechia,Europe,2006,126.533,22.236
+CZE,Czechia,Europe,2007,128.364,22.976
+CZE,Czechia,Europe,2008,122.928,22.808
+CZE,Czechia,Europe,2009,114.972,21.89
+CZE,Czechia,Europe,2010,117.464,21.02
+CZE,Czechia,Europe,2011,115.178,20.802
+CZE,Czechia,Europe,2012,111.276,20.305
+CZE,Czechia,Europe,2013,106.71,19.66
+CZE,Czechia,Europe,2014,104.233,20.702
+CZE,Czechia,Europe,2015,104.99,21.211
+CZE,Czechia,Europe,2016,106.636,21.24
+CZE,Czechia,Europe,2017,107.736,22.011
+CZE,Czechia,Europe,2018,106.322,22.221
+CZE,Czechia,Europe,2019,100.997,22.341
+CZE,Czechia,Europe,2020,91.661,20.963
+CZE,Czechia,Europe,2021,96.629,22.437
+CZE,Czechia,Europe,2022,95.04,22.765
+CZE,Czechia,Europe,2023,83.232,23.309
+DEU,Germany,Europe,2000,898.976,330.774
+DEU,Germany,Europe,2001,915.255,338.871
+DEU,Germany,Europe,2002,898.834,324.413
+DEU,Germany,Europe,2003,894.501,313.847
+DEU,Germany,Europe,2004,876.57,301.208
+DEU,Germany,Europe,2005,867.88,305.188
+DEU,Germany,Europe,2006,886.434,313.191
+DEU,Germany,Europe,2007,846.153,268.924
+DEU,Germany,Europe,2008,856.643,296.43
+DEU,Germany,Europe,2009,789.984,282.438
+DEU,Germany,Europe,2010,826.705,277.154
+DEU,Germany,Europe,2011,804.542,270.809
+DEU,Germany,Europe,2012,814.093,271.945
+DEU,Germany,Europe,2013,831.746,280.396
+DEU,Germany,Europe,2014,792.584,271.603
+DEU,Germany,Europe,2015,800.823,278.861
+DEU,Germany,Europe,2016,797.988,275.704
+DEU,Germany,Europe,2017,784.595,275.506
+DEU,Germany,Europe,2018,758.771,268.094
+DEU,Germany,Europe,2019,708.649,271.933
+DEU,Germany,Europe,2020,647.177,254.465
+DEU,Germany,Europe,2021,677.998,240.525
+DEU,Germany,Europe,2022,667.843,247.017
+DEU,Germany,Europe,2023,593.766,237.487
+DJI,Djibouti,Africa,2000,0.366,0.366
+DJI,Djibouti,Africa,2001,0.366,0.366
+DJI,Djibouti,Africa,2002,0.399,0.399
+DJI,Djibouti,Africa,2003,0.421,0.421
+DJI,Djibouti,Africa,2004,0.407,0.407
+DJI,Djibouti,Africa,2005,0.414,0.414
+DJI,Djibouti,Africa,2006,0.414,0.414
+DJI,Djibouti,Africa,2007,0.454,0.454
+DJI,Djibouti,Africa,2008,0.495,0.495
+DJI,Djibouti,Africa,2009,0.443,0.443
+DJI,Djibouti,Africa,2010,0.517,0.517
+DJI,Djibouti,Africa,2011,0.315,0.315
+DJI,Djibouti,Africa,2012,0.293,0.293
+DJI,Djibouti,Africa,2013,0.381,0.322
+DJI,Djibouti,Africa,2014,0.418,0.352
+DJI,Djibouti,Africa,2015,0.505,0.451
+DJI,Djibouti,Africa,2016,0.428,0.377
+DJI,Djibouti,Africa,2017,0.414,0.352
+DJI,Djibouti,Africa,2018,0.472,0.385
+DJI,Djibouti,Africa,2019,0.54,0.443
+DJI,Djibouti,Africa,2020,0.463,0.37
+DJI,Djibouti,Africa,2021,0.558,0.41
+DJI,Djibouti,Africa,2022,0.55,0.364
+DJI,Djibouti,Africa,2023,0.558,0.372
+DMA,Dominica,North America,2000,0.103,0.103
+DMA,Dominica,North America,2001,0.11,0.11
+DMA,Dominica,North America,2002,0.103,0.103
+DMA,Dominica,North America,2003,0.117,0.117
+DMA,Dominica,North America,2004,0.143,0.143
+DMA,Dominica,North America,2005,0.15,0.15
+DMA,Dominica,North America,2006,0.143,0.143
+DMA,Dominica,North America,2007,0.172,0.172
+DMA,Dominica,North America,2008,0.169,0.169
+DMA,Dominica,North America,2009,0.187,0.187
+DMA,Dominica,North America,2010,0.169,0.169
+DMA,Dominica,North America,2011,0.15,0.15
+DMA,Dominica,North America,2012,0.165,0.165
+DMA,Dominica,North America,2013,0.158,0.158
+DMA,Dominica,North America,2014,0.169,0.169
+DMA,Dominica,North America,2015,0.176,0.176
+DMA,Dominica,North America,2016,0.172,0.172
+DMA,Dominica,North America,2017,0.154,0.154
+DMA,Dominica,North America,2018,0.165,0.165
+DMA,Dominica,North America,2019,0.172,0.172
+DMA,Dominica,North America,2020,0.158,0.158
+DMA,Dominica,North America,2021,0.161,0.161
+DMA,Dominica,North America,2022,0.165,0.165
+DMA,Dominica,North America,2023,0.165,0.165
+DNK,Denmark,Europe,2000,54.307,25.366
+DNK,Denmark,Europe,2001,55.897,25.608
+DNK,Denmark,Europe,2002,55.554,25.32
+DNK,Denmark,Europe,2003,60.645,24.394
+DNK,Denmark,Europe,2004,55.1,24.072
+DNK,Denmark,Europe,2005,51.535,23.886
+DNK,Denmark,Europe,2006,59.5,24.231
+DNK,Denmark,Europe,2007,54.709,24.169
+DNK,Denmark,Europe,2008,51.256,23.317
+DNK,Denmark,Europe,2009,48.851,22.296
+DNK,Denmark,Europe,2010,49.19,21.946
+DNK,Denmark,Europe,2011,44.237,20.915
+DNK,Denmark,Europe,2012,39.861,19.952
+DNK,Denmark,Europe,2013,41.763,19.574
+DNK,Denmark,Europe,2014,37.571,19.085
+DNK,Denmark,Europe,2015,35.111,19.471
+DNK,Denmark,Europe,2016,36.917,19.751
+DNK,Denmark,Europe,2017,34.665,19.918
+DNK,Denmark,Europe,2018,34.609,19.968
+DNK,Denmark,Europe,2019,30.95,19.686
+DNK,Denmark,Europe,2020,28.3,18.579
+DNK,Denmark,Europe,2021,29.604,18.827
+DNK,Denmark,Europe,2022,29.094,19.869
+DNK,Denmark,Europe,2023,28.831,21.139
+DOM,Dominican Republic,North America,2000,18.937,17.679
+DOM,Dominican Republic,North America,2001,19.083,17.448
+DOM,Dominican Republic,North America,2002,20.87,19.049
+DOM,Dominican Republic,North America,2003,21.26,16.759
+DOM,Dominican Republic,North America,2004,17.254,13.934
+DOM,Dominican Republic,North America,2005,17.852,15.063
+DOM,Dominican Republic,North America,2006,19.03,15.118
+DOM,Dominican Republic,North America,2007,19.909,15.414
+DOM,Dominican Republic,North America,2008,20.235,15.623
+DOM,Dominican Republic,North America,2009,19.686,15.287
+DOM,Dominican Republic,North America,2010,20.445,15.616
+DOM,Dominican Republic,North America,2011,20.922,15.565
+DOM,Dominican Republic,North America,2012,20.903,15.67
+DOM,Dominican Republic,North America,2013,20.842,15.133
+DOM,Dominican Republic,North America,2014,21.264,14.66
+DOM,Dominican Republic,North America,2015,22.986,16.57
+DOM,Dominican Republic,North America,2016,24.14,17.852
+DOM,Dominican Republic,North America,2017,23.455,16.448
+DOM,Dominican Republic,North America,2018,25.203,18.191
+DOM,Dominican Republic,North America,2019,28.471,19.21
+DOM,Dominican Republic,North America,2020,26.228,14.911
+DOM,Dominican Republic,North America,2021,29.363,17.283
+DOM,Dominican Republic,North America,2022,31.225,18.673
+DOM,Dominican Republic,North America,2023,31.829,18.635
+DZA,Algeria,Africa,2000,84.552,26.828
+DZA,Algeria,Africa,2001,86.019,28.458
+DZA,Algeria,Africa,2002,89.658,29.495
+DZA,Algeria,Africa,2003,94.078,31.943
+DZA,Algeria,Africa,2004,90.853,32.818
+DZA,Algeria,Africa,2005,109.564,31.052
+DZA,Algeria,Africa,2006,103.798,35.233
+DZA,Algeria,Africa,2007,107.549,38.322
+DZA,Algeria,Africa,2008,108.596,37.363
+DZA,Algeria,Africa,2009,116.328,44.891
+DZA,Algeria,Africa,2010,117.847,45.365
+DZA,Algeria,Africa,2011,124.715,46.92
+DZA,Algeria,Africa,2012,135.593,48.541
+DZA,Algeria,Africa,2013,141.534,52.018
+DZA,Algeria,Africa,2014,152.435,53.582
+DZA,Algeria,Africa,2015,160.322,55.59
+DZA,Algeria,Africa,2016,158.308,54.628
+DZA,Algeria,Africa,2017,165.252,55.324
+DZA,Algeria,Africa,2018,174.461,56.231
+DZA,Algeria,Africa,2019,182.425,59.637
+DZA,Algeria,Africa,2020,171.139,54.13
+DZA,Algeria,Africa,2021,182.036,57.343
+DZA,Algeria,Africa,2022,192.779,61.61
+DZA,Algeria,Africa,2023,202.847,64.676
+ECU,Ecuador,South America,2000,20.949,17.324
+ECU,Ecuador,South America,2001,23.436,19.647
+ECU,Ecuador,South America,2002,24.861,21.233
+ECU,Ecuador,South America,2003,27.113,22.871
+ECU,Ecuador,South America,2004,29.31,24.659
+ECU,Ecuador,South America,2005,30.652,26.007
+ECU,Ecuador,South America,2006,29.781,24.918
+ECU,Ecuador,South America,2007,34.393,29.312
+ECU,Ecuador,South America,2008,30.488,24.915
+ECU,Ecuador,South America,2009,33.815,27.971
+ECU,Ecuador,South America,2010,36.469,30.331
+ECU,Ecuador,South America,2011,38.48,32.873
+ECU,Ecuador,South America,2012,37.493,32.148
+ECU,Ecuador,South America,2013,39.685,33.973
+ECU,Ecuador,South America,2014,43.76,37.614
+ECU,Ecuador,South America,2015,41.298,35.442
+ECU,Ecuador,South America,2016,39.375,33.474
+ECU,Ecuador,South America,2017,39.196,33.387
+ECU,Ecuador,South America,2018,38.451,33.155
+ECU,Ecuador,South America,2019,40.083,34.933
+ECU,Ecuador,South America,2020,32.473,27.465
+ECU,Ecuador,South America,2021,38.185,32.668
+ECU,Ecuador,South America,2022,42.066,36.448
+ECU,Ecuador,South America,2023,44.6,38.524
+EGY,Egypt,Africa,2000,142.837,85.32
+EGY,Egypt,Africa,2001,126.372,66.434
+EGY,Egypt,Africa,2002,128.362,57.133
+EGY,Egypt,Africa,2003,149.954,73.293
+EGY,Egypt,Africa,2004,151.917,75.638
+EGY,Egypt,Africa,2005,166.934,79.21
+EGY,Egypt,Africa,2006,178.389,83.689
+EGY,Egypt,Africa,2007,189.201,84.763
+EGY,Egypt,Africa,2008,195.86,92.404
+EGY,Egypt,Africa,2009,205.243,98.338
+EGY,Egypt,Africa,2010,202.704,95.594
+EGY,Egypt,Africa,2011,221.675,106.393
+EGY,Egypt,Africa,2012,212.524,97.477
+EGY,Egypt,Africa,2013,219.087,103.374
+EGY,Egypt,Africa,2014,227.254,118.497
+EGY,Egypt,Africa,2015,226.654,111.266
+EGY,Egypt,Africa,2016,245.164,118.243
+EGY,Egypt,Africa,2017,253.364,108.447
+EGY,Egypt,Africa,2018,241.903,97.802
+EGY,Egypt,Africa,2019,234.06,76.284
+EGY,Egypt,Africa,2020,246.323,98.241
+EGY,Egypt,Africa,2021,266.839,104.622
+EGY,Egypt,Africa,2022,249.899,109.147
+EGY,Egypt,Africa,2023,250.23,106.311
+ERI,Eritrea,Africa,2000,0.604,0.586
+ERI,Eritrea,Africa,2001,0.637,0.619
+ERI,Eritrea,Africa,2002,0.509,0.491
+ERI,Eritrea,Africa,2003,0.78,0.762
+ERI,Eritrea,Africa,2004,0.633,0.616
+ERI,Eritrea,Africa,2005,0.586,0.568
+ERI,Eritrea,Africa,2006,0.454,0.436
+ERI,Eritrea,Africa,2007,0.424,0.407
+ERI,Eritrea,Africa,2008,0.398,0.381
+ERI,Eritrea,Africa,2009,0.446,0.429
+ERI,Eritrea,Africa,2010,0.468,0.451
+ERI,Eritrea,Africa,2011,0.578,0.517
+ERI,Eritrea,Africa,2012,0.608,0.52
+ERI,Eritrea,Africa,2013,0.57,0.48
+ERI,Eritrea,Africa,2014,0.569,0.48
+ERI,Eritrea,Africa,2015,0.557,0.48
+ERI,Eritrea,Africa,2016,0.554,0.477
+ERI,Eritrea,Africa,2017,0.553,0.484
+ERI,Eritrea,Africa,2018,0.616,0.546
+ERI,Eritrea,Africa,2019,0.645,0.575
+ERI,Eritrea,Africa,2020,0.641,0.579
+ERI,Eritrea,Africa,2021,0.682,0.612
+ERI,Eritrea,Africa,2022,0.718,0.649
+ERI,Eritrea,Africa,2023,0.731,0.661
+ESP,Spain,Europe,2000,309.26,163.449
+ESP,Spain,Europe,2001,311.031,169.381
+ESP,Spain,Europe,2002,331.028,173.902
+ESP,Spain,Europe,2003,335.539,178.237
+ESP,Spain,Europe,2004,352.139,183.588
+ESP,Spain,Europe,2005,367.447,187.742
+ESP,Spain,Europe,2006,358.869,183.435
+ESP,Spain,Europe,2007,366.469,182.931
+ESP,Spain,Europe,2008,335.284,173.2
+ESP,Spain,Europe,2009,296.159,161.09
+ESP,Spain,Europe,2010,282.585,156.331
+ESP,Spain,Europe,2011,283.275,146.012
+ESP,Spain,Europe,2012,277.432,134.672
+ESP,Spain,Europe,2013,252.109,129.976
+ESP,Spain,Europe,2014,253.658,129.905
+ESP,Spain,Europe,2015,270.248,136.365
+ESP,Spain,Europe,2016,259.555,140.305
+ESP,Spain,Europe,2017,273.484,141.123
+ESP,Spain,Europe,2018,268.521,142.106
+ESP,Spain,Europe,2019,250.674,140.044
+ESP,Spain,Europe,2020,211.765,118.78
+ESP,Spain,Europe,2021,228.806,129.714
+ESP,Spain,Europe,2022,234.223,135.029
+ESP,Spain,Europe,2023,215.461,131.246
+EST,Estonia,Europe,2000,15.471,2.716
+EST,Estonia,Europe,2001,15.87,3.166
+EST,Estonia,Europe,2002,15.358,3.217
+EST,Estonia,Europe,2003,17.251,3.158
+EST,Estonia,Europe,2004,17.322,3.167
+EST,Estonia,Europe,2005,17.09,3.196
+EST,Estonia,Europe,2006,16.438,3.206
+EST,Estonia,Europe,2007,19.93,3.31
+EST,Estonia,Europe,2008,17.815,3.187
+EST,Estonia,Europe,2009,14.405,2.901
+EST,Estonia,Europe,2010,18.965,3.053
+EST,Estonia,Europe,2011,18.948,3.145
+EST,Estonia,Europe,2012,17.761,3.228
+EST,Estonia,Europe,2013,19.634,3.206
+EST,Estonia,Europe,2014,18.784,3.23
+EST,Estonia,Europe,2015,15.78,3.333
+EST,Estonia,Europe,2016,17.433,3.427
+EST,Estonia,Europe,2017,18.616,3.435
+EST,Estonia,Europe,2018,17.801,3.397
+EST,Estonia,Europe,2019,12.288,3.255
+EST,Estonia,Europe,2020,9.198,3.029
+EST,Estonia,Europe,2021,10.391,2.929
+EST,Estonia,Europe,2022,11.966,3.133
+EST,Estonia,Europe,2023,8.744,3.131
+ETH,Ethiopia,Africa,2000,3.463,3.107
+ETH,Ethiopia,Africa,2001,4.265,3.902
+ETH,Ethiopia,Africa,2002,4.432,4.071
+ETH,Ethiopia,Africa,2003,4.87,4.419
+ETH,Ethiopia,Africa,2004,5.159,4.635
+ETH,Ethiopia,Africa,2005,4.956,4.335
+ETH,Ethiopia,Africa,2006,5.318,4.639
+ETH,Ethiopia,Africa,2007,5.84,5.21
+ETH,Ethiopia,Africa,2008,6.418,5.672
+ETH,Ethiopia,Africa,2009,6.453,5.693
+ETH,Ethiopia,Africa,2010,6.344,5.58
+ETH,Ethiopia,Africa,2011,7.355,6.163
+ETH,Ethiopia,Africa,2012,7.988,6.108
+ETH,Ethiopia,Africa,2013,9.744,7.317
+ETH,Ethiopia,Africa,2014,11.543,8.496
+ETH,Ethiopia,Africa,2015,12.564,8.668
+ETH,Ethiopia,Africa,2016,14.323,9.784
+ETH,Ethiopia,Africa,2017,14.603,9.861
+ETH,Ethiopia,Africa,2018,16.117,11.036
+ETH,Ethiopia,Africa,2019,17.177,12.311
+ETH,Ethiopia,Africa,2020,16.735,11.237
+ETH,Ethiopia,Africa,2021,17.906,11.917
+ETH,Ethiopia,Africa,2022,16.96,11.56
+ETH,Ethiopia,Africa,2023,17.571,11.787
+FIN,Finland,Europe,2000,57.017,25.823
+FIN,Finland,Europe,2001,62.52,26.445
+FIN,Finland,Europe,2002,65.049,26.807
+FIN,Finland,Europe,2003,72.658,26.925
+FIN,Finland,Europe,2004,68.946,26.914
+FIN,Finland,Europe,2005,57.064,26.361
+FIN,Finland,Europe,2006,68.374,26.452
+FIN,Finland,Europe,2007,66.764,26.645
+FIN,Finland,Europe,2008,58.625,24.94
+FIN,Finland,Europe,2009,55.921,24.196
+FIN,Finland,Europe,2010,64.092,25.13
+FIN,Finland,Europe,2011,56.646,23.764
+FIN,Finland,Europe,2012,51.154,23.67
+FIN,Finland,Europe,2013,51.719,22.84
+FIN,Finland,Europe,2014,47.622,21.542
+FIN,Finland,Europe,2015,44.192,21.384
+FIN,Finland,Europe,2016,47.252,22.939
+FIN,Finland,Europe,2017,44.657,22.213
+FIN,Finland,Europe,2018,45.736,22.044
+FIN,Finland,Europe,2019,42.444,21.648
+FIN,Finland,Europe,2020,37.72,20.261
+FIN,Finland,Europe,2021,37.82,19.468
+FIN,Finland,Europe,2022,36.337,20.124
+FIN,Finland,Europe,2023,31.799,18.806
+FJI,Fiji,Oceania,2000,0.815,0.732
+FJI,Fiji,Oceania,2001,1.004,0.964
+FJI,Fiji,Oceania,2002,0.835,0.791
+FJI,Fiji,Oceania,2003,0.993,0.949
+FJI,Fiji,Oceania,2004,1.301,1.301
+FJI,Fiji,Oceania,2005,1.022,1.022
+FJI,Fiji,Oceania,2006,1.15,1.15
+FJI,Fiji,Oceania,2007,1.085,1.085
+FJI,Fiji,Oceania,2008,0.791,0.791
+FJI,Fiji,Oceania,2009,0.703,0.703
+FJI,Fiji,Oceania,2010,1.03,1.026
+FJI,Fiji,Oceania,2011,0.931,0.931
+FJI,Fiji,Oceania,2012,0.909,0.909
+FJI,Fiji,Oceania,2013,1.037,1.037
+FJI,Fiji,Oceania,2014,1.18,1.18
+FJI,Fiji,Oceania,2015,1.462,1.462
+FJI,Fiji,Oceania,2016,1.345,1.345
+FJI,Fiji,Oceania,2017,1.455,1.455
+FJI,Fiji,Oceania,2018,1.48,1.48
+FJI,Fiji,Oceania,2019,1.509,1.509
+FJI,Fiji,Oceania,2020,1.37,1.37
+FJI,Fiji,Oceania,2021,1.088,1.088
+FJI,Fiji,Oceania,2022,1.389,1.389
+FJI,Fiji,Oceania,2023,1.382,1.382
+FRA,France,Europe,2000,407.445,239.763
+FRA,France,Europe,2001,411.592,249.573
+FRA,France,Europe,2002,407.027,243.247
+FRA,France,Europe,2003,412.989,245.064
+FRA,France,Europe,2004,414.073,244.922
+FRA,France,Europe,2005,416.343,241.908
+FRA,France,Europe,2006,406.669,236.777
+FRA,France,Europe,2007,396.461,227.452
+FRA,France,Europe,2008,389.794,223.518
+FRA,France,Europe,2009,371.404,219.508
+FRA,France,Europe,2010,377.079,215.854
+FRA,France,Europe,2011,355.127,208.907
+FRA,France,Europe,2012,358.1,205.354
+FRA,France,Europe,2013,360.013,204.287
+FRA,France,Europe,2014,327.809,197.641
+FRA,France,Europe,2015,332.131,199.231
+FRA,France,Europe,2016,335.496,196.896
+FRA,France,Europe,2017,338.368,195.911
+FRA,France,Europe,2018,323.102,189.446
+FRA,France,Europe,2019,316.321,187.285
+FRA,France,Europe,2020,281.515,165.543
+FRA,France,Europe,2021,307.272,179.122
+FRA,France,Europe,2022,295.304,179.255
+FRA,France,Europe,2023,270.263,172.229
+FRO,Faroe Islands,Europe,2000,0.689,0.689
+FRO,Faroe Islands,Europe,2001,0.762,0.762
+FRO,Faroe Islands,Europe,2002,0.729,0.729
+FRO,Faroe Islands,Europe,2003,0.733,0.733
+FRO,Faroe Islands,Europe,2004,0.747,0.747
+FRO,Faroe Islands,Europe,2005,0.722,0.722
+FRO,Faroe Islands,Europe,2006,0.678,0.678
+FRO,Faroe Islands,Europe,2007,0.692,0.692
+FRO,Faroe Islands,Europe,2008,0.634,0.634
+FRO,Faroe Islands,Europe,2009,0.575,0.575
+FRO,Faroe Islands,Europe,2010,0.627,0.627
+FRO,Faroe Islands,Europe,2011,0.564,0.564
+FRO,Faroe Islands,Europe,2012,0.594,0.594
+FRO,Faroe Islands,Europe,2013,0.649,0.649
+FRO,Faroe Islands,Europe,2014,0.597,0.597
+FRO,Faroe Islands,Europe,2015,0.608,0.608
+FRO,Faroe Islands,Europe,2016,0.627,0.627
+FRO,Faroe Islands,Europe,2017,0.703,0.703
+FRO,Faroe Islands,Europe,2018,0.725,0.725
+FRO,Faroe Islands,Europe,2019,0.74,0.74
+FRO,Faroe Islands,Europe,2020,0.758,0.758
+FRO,Faroe Islands,Europe,2021,0.784,0.784
+FRO,Faroe Islands,Europe,2022,0.723,0.723
+FRO,Faroe Islands,Europe,2023,0.714,0.714
+GAB,Gabon,Africa,2000,6.128,1.041
+GAB,Gabon,Africa,2001,6.48,1.257
+GAB,Gabon,Africa,2002,6.25,1.183
+GAB,Gabon,Africa,2003,6.746,1.159
+GAB,Gabon,Africa,2004,6.386,1.212
+GAB,Gabon,Africa,2005,6.223,1.4
+GAB,Gabon,Africa,2006,5.543,1.444
+GAB,Gabon,Africa,2007,5.038,1.576
+GAB,Gabon,Africa,2008,5.379,1.612
+GAB,Gabon,Africa,2009,5.304,1.559
+GAB,Gabon,Africa,2010,5.528,1.656
+GAB,Gabon,Africa,2011,5.447,1.817
+GAB,Gabon,Africa,2012,5.016,1.699
+GAB,Gabon,Africa,2013,5.19,1.85
+GAB,Gabon,Africa,2014,5.663,1.795
+GAB,Gabon,Africa,2015,5.772,1.744
+GAB,Gabon,Africa,2016,5.613,1.649
+GAB,Gabon,Africa,2017,5.501,1.627
+GAB,Gabon,Africa,2018,5.563,1.85
+GAB,Gabon,Africa,2019,5.607,1.797
+GAB,Gabon,Africa,2020,5.636,1.74
+GAB,Gabon,Africa,2021,5.545,1.974
+GAB,Gabon,Africa,2022,5.783,1.759
+GAB,Gabon,Africa,2023,5.321,1.814
+GBR,United Kingdom,Europe,2000,569.034,198.238
+GBR,United Kingdom,Europe,2001,577.971,198.651
+GBR,United Kingdom,Europe,2002,560.273,196.13
+GBR,United Kingdom,Europe,2003,571.619,194.397
+GBR,United Kingdom,Europe,2004,573.43,197.952
+GBR,United Kingdom,Europe,2005,570.338,200.448
+GBR,United Kingdom,Europe,2006,567.846,197.183
+GBR,United Kingdom,Europe,2007,559.566,196.16
+GBR,United Kingdom,Europe,2008,544.932,188.8
+GBR,United Kingdom,Europe,2009,494.108,180.264
+GBR,United Kingdom,Europe,2010,511.905,179.848
+GBR,United Kingdom,Europe,2011,469.713,172.06
+GBR,United Kingdom,Europe,2012,487.477,170.288
+GBR,United Kingdom,Europe,2013,477.611,165.756
+GBR,United Kingdom,Europe,2014,438.807,166.511
+GBR,United Kingdom,Europe,2015,422.461,170.773
+GBR,United Kingdom,Europe,2016,399.43,173.93
+GBR,United Kingdom,Europe,2017,387.367,174.851
+GBR,United Kingdom,Europe,2018,379.73,173.087
+GBR,United Kingdom,Europe,2019,364.753,168.996
+GBR,United Kingdom,Europe,2020,326.263,143.981
+GBR,United Kingdom,Europe,2021,342.366,149.626
+GBR,United Kingdom,Europe,2022,311.118,146.334
+GBR,United Kingdom,Europe,2023,307.826,154.684
+GEO,Georgia,Europe,2000,4.497,2.121
+GEO,Georgia,Europe,2001,3.723,1.676
+GEO,Georgia,Europe,2002,3.347,1.601
+GEO,Georgia,Europe,2003,3.731,1.715
+GEO,Georgia,Europe,2004,4.278,1.55
+GEO,Georgia,Europe,2005,5.046,1.865
+GEO,Georgia,Europe,2006,6.273,2.096
+GEO,Georgia,Europe,2007,6.609,2.521
+GEO,Georgia,Europe,2008,5.747,2.195
+GEO,Georgia,Europe,2009,6.171,2.86
+GEO,Georgia,Europe,2010,6.29,2.759
+GEO,Georgia,Europe,2011,7.814,2.711
+GEO,Georgia,Europe,2012,8.294,2.727
+GEO,Georgia,Europe,2013,8.028,2.661
+GEO,Georgia,Europe,2014,9.058,2.836
+GEO,Georgia,Europe,2015,9.791,3.217
+GEO,Georgia,Europe,2016,10.043,3.877
+GEO,Georgia,Europe,2017,10.06,3.525
+GEO,Georgia,Europe,2018,9.888,3.422
+GEO,Georgia,Europe,2019,10.517,3.577
+GEO,Georgia,Europe,2020,10.378,3.459
+GEO,Georgia,Europe,2021,10.75,3.686
+GEO,Georgia,Europe,2022,12.0,3.72
+GEO,Georgia,Europe,2023,11.922,3.672
+GHA,Ghana,Africa,2000,5.313,5.313
+GHA,Ghana,Africa,2001,5.969,5.969
+GHA,Ghana,Africa,2002,6.483,6.471
+GHA,Ghana,Africa,2003,6.685,6.679
+GHA,Ghana,Africa,2004,6.451,6.397
+GHA,Ghana,Africa,2005,6.113,6.09
+GHA,Ghana,Africa,2006,8.523,8.453
+GHA,Ghana,Africa,2007,8.982,8.922
+GHA,Ghana,Africa,2008,8.324,8.233
+GHA,Ghana,Africa,2009,6.868,6.793
+GHA,Ghana,Africa,2010,8.943,8.09
+GHA,Ghana,Africa,2011,10.329,8.68
+GHA,Ghana,Africa,2012,12.641,11.75
+GHA,Ghana,Africa,2013,12.61,11.831
+GHA,Ghana,Africa,2014,13.257,11.737
+GHA,Ghana,Africa,2015,14.568,11.857
+GHA,Ghana,Africa,2016,13.914,12.37
+GHA,Ghana,Africa,2017,12.437,9.448
+GHA,Ghana,Africa,2018,15.19,11.438
+GHA,Ghana,Africa,2019,16.415,12.018
+GHA,Ghana,Africa,2020,19.164,12.255
+GHA,Ghana,Africa,2021,20.556,12.822
+GHA,Ghana,Africa,2022,20.745,12.622
+GHA,Ghana,Africa,2023,20.136,12.07
+GIN,Guinea,Africa,2000,1.444,1.444
+GIN,Guinea,Africa,2001,1.517,1.517
+GIN,Guinea,Africa,2002,1.579,1.579
+GIN,Guinea,Africa,2003,1.652,1.652
+GIN,Guinea,Africa,2004,1.722,1.722
+GIN,Guinea,Africa,2005,1.784,1.784
+GIN,Guinea,Africa,2006,1.847,1.847
+GIN,Guinea,Africa,2007,1.927,1.927
+GIN,Guinea,Africa,2008,1.964,1.964
+GIN,Guinea,Africa,2009,2.092,2.092
+GIN,Guinea,Africa,2010,2.459,2.459
+GIN,Guinea,Africa,2011,2.557,2.557
+GIN,Guinea,Africa,2012,2.393,2.393
+GIN,Guinea,Africa,2013,2.077,2.077
+GIN,Guinea,Africa,2014,2.371,2.371
+GIN,Guinea,Africa,2015,2.454,2.454
+GIN,Guinea,Africa,2016,2.7,2.7
+GIN,Guinea,Africa,2017,4.847,4.847
+GIN,Guinea,Africa,2018,3.77,3.77
+GIN,Guinea,Africa,2019,4.104,4.104
+GIN,Guinea,Africa,2020,4.43,4.43
+GIN,Guinea,Africa,2021,4.068,4.068
+GIN,Guinea,Africa,2022,4.052,4.052
+GIN,Guinea,Africa,2023,3.875,3.875
+GMB,Gambia,Africa,2000,0.275,0.275
+GMB,Gambia,Africa,2001,0.3,0.3
+GMB,Gambia,Africa,2002,0.3,0.3
+GMB,Gambia,Africa,2003,0.3,0.3
+GMB,Gambia,Africa,2004,0.319,0.319
+GMB,Gambia,Africa,2005,0.319,0.319
+GMB,Gambia,Africa,2006,0.348,0.348
+GMB,Gambia,Africa,2007,0.348,0.348
+GMB,Gambia,Africa,2008,0.363,0.363
+GMB,Gambia,Africa,2009,0.374,0.374
+GMB,Gambia,Africa,2010,0.432,0.432
+GMB,Gambia,Africa,2011,0.443,0.443
+GMB,Gambia,Africa,2012,0.451,0.451
+GMB,Gambia,Africa,2013,0.429,0.429
+GMB,Gambia,Africa,2014,0.506,0.506
+GMB,Gambia,Africa,2015,0.583,0.583
+GMB,Gambia,Africa,2016,0.59,0.59
+GMB,Gambia,Africa,2017,0.597,0.597
+GMB,Gambia,Africa,2018,0.649,0.649
+GMB,Gambia,Africa,2019,0.711,0.711
+GMB,Gambia,Africa,2020,0.7,0.7
+GMB,Gambia,Africa,2021,0.725,0.725
+GMB,Gambia,Africa,2022,0.808,0.808
+GMB,Gambia,Africa,2023,0.773,0.773
+GNB,Guinea-Bissau,Africa,2000,0.051,0.051
+GNB,Guinea-Bissau,Africa,2001,0.048,0.048
+GNB,Guinea-Bissau,Africa,2002,0.062,0.062
+GNB,Guinea-Bissau,Africa,2003,0.073,0.073
+GNB,Guinea-Bissau,Africa,2004,0.044,0.044
+GNB,Guinea-Bissau,Africa,2005,0.092,0.092
+GNB,Guinea-Bissau,Africa,2006,0.117,0.117
+GNB,Guinea-Bissau,Africa,2007,0.084,0.084
+GNB,Guinea-Bissau,Africa,2008,0.117,0.117
+GNB,Guinea-Bissau,Africa,2009,0.099,0.099
+GNB,Guinea-Bissau,Africa,2010,0.103,0.103
+GNB,Guinea-Bissau,Africa,2011,0.11,0.11
+GNB,Guinea-Bissau,Africa,2012,0.114,0.114
+GNB,Guinea-Bissau,Africa,2013,0.143,0.143
+GNB,Guinea-Bissau,Africa,2014,0.143,0.143
+GNB,Guinea-Bissau,Africa,2015,0.154,0.154
+GNB,Guinea-Bissau,Africa,2016,0.169,0.169
+GNB,Guinea-Bissau,Africa,2017,0.183,0.183
+GNB,Guinea-Bissau,Africa,2018,0.198,0.198
+GNB,Guinea-Bissau,Africa,2019,0.256,0.256
+GNB,Guinea-Bissau,Africa,2020,0.311,0.311
+GNB,Guinea-Bissau,Africa,2021,0.341,0.341
+GNB,Guinea-Bissau,Africa,2022,0.344,0.344
+GNB,Guinea-Bissau,Africa,2023,0.329,0.329
+GNQ,Equatorial Guinea,Africa,2000,2.699,0.374
+GNQ,Equatorial Guinea,Africa,2001,3.091,0.454
+GNQ,Equatorial Guinea,Africa,2002,2.765,0.616
+GNQ,Equatorial Guinea,Africa,2003,3.13,0.799
+GNQ,Equatorial Guinea,Africa,2004,6.137,1.118
+GNQ,Equatorial Guinea,Africa,2005,6.206,1.162
+GNQ,Equatorial Guinea,Africa,2006,6.172,1.209
+GNQ,Equatorial Guinea,Africa,2007,5.711,1.238
+GNQ,Equatorial Guinea,Africa,2008,5.926,1.235
+GNQ,Equatorial Guinea,Africa,2009,4.883,1.197
+GNQ,Equatorial Guinea,Africa,2010,6.377,1.202
+GNQ,Equatorial Guinea,Africa,2011,6.067,1.221
+GNQ,Equatorial Guinea,Africa,2012,6.875,1.26
+GNQ,Equatorial Guinea,Africa,2013,8.168,1.253
+GNQ,Equatorial Guinea,Africa,2014,7.641,1.272
+GNQ,Equatorial Guinea,Africa,2015,7.01,1.276
+GNQ,Equatorial Guinea,Africa,2016,7.538,1.216
+GNQ,Equatorial Guinea,Africa,2017,6.816,1.124
+GNQ,Equatorial Guinea,Africa,2018,7.034,1.066
+GNQ,Equatorial Guinea,Africa,2019,5.514,1.096
+GNQ,Equatorial Guinea,Africa,2020,6.39,0.971
+GNQ,Equatorial Guinea,Africa,2021,7.088,0.975
+GNQ,Equatorial Guinea,Africa,2022,7.497,0.953
+GNQ,Equatorial Guinea,Africa,2023,6.913,0.983
+GRC,Greece,Europe,2000,102.973,45.632
+GRC,Greece,Europe,2001,105.361,46.859
+GRC,Greece,Europe,2002,105.0,47.893
+GRC,Greece,Europe,2003,109.067,51.337
+GRC,Greece,Europe,2004,109.485,49.781
+GRC,Greece,Europe,2005,113.889,53.966
+GRC,Greece,Europe,2006,112.419,55.698
+GRC,Greece,Europe,2007,114.545,54.066
+GRC,Greece,Europe,2008,111.08,52.721
+GRC,Greece,Europe,2009,104.319,50.115
+GRC,Greece,Europe,2010,97.354,43.995
+GRC,Greece,Europe,2011,94.505,40.495
+GRC,Greece,Europe,2012,91.393,36.295
+GRC,Greece,Europe,2013,81.713,32.909
+GRC,Greece,Europe,2014,78.636,33.482
+GRC,Greece,Europe,2015,74.927,34.977
+GRC,Greece,Europe,2016,71.36,35.568
+GRC,Greece,Europe,2017,74.842,35.028
+GRC,Greece,Europe,2018,71.778,33.833
+GRC,Greece,Europe,2019,65.736,33.915
+GRC,Greece,Europe,2020,55.577,31.009
+GRC,Greece,Europe,2021,57.528,32.277
+GRC,Greece,Europe,2022,57.609,35.274
+GRC,Greece,Europe,2023,51.988,32.991
+GRD,Grenada,North America,2000,0.187,0.187
+GRD,Grenada,North America,2001,0.194,0.194
+GRD,Grenada,North America,2002,0.202,0.202
+GRD,Grenada,North America,2003,0.213,0.213
+GRD,Grenada,North America,2004,0.205,0.205
+GRD,Grenada,North America,2005,0.216,0.216
+GRD,Grenada,North America,2006,0.224,0.224
+GRD,Grenada,North America,2007,0.238,0.238
+GRD,Grenada,North America,2008,0.26,0.26
+GRD,Grenada,North America,2009,0.249,0.249
+GRD,Grenada,North America,2010,0.256,0.256
+GRD,Grenada,North America,2011,0.249,0.249
+GRD,Grenada,North America,2012,0.267,0.267
+GRD,Grenada,North America,2013,0.3,0.3
+GRD,Grenada,North America,2014,0.242,0.242
+GRD,Grenada,North America,2015,0.26,0.26
+GRD,Grenada,North America,2016,0.275,0.275
+GRD,Grenada,North America,2017,0.293,0.293
+GRD,Grenada,North America,2018,0.308,0.308
+GRD,Grenada,North America,2019,0.333,0.333
+GRD,Grenada,North America,2020,0.289,0.289
+GRD,Grenada,North America,2021,0.311,0.311
+GRD,Grenada,North America,2022,0.342,0.342
+GRD,Grenada,North America,2023,0.363,0.363
+GRL,Greenland,North America,2000,0.667,0.667
+GRL,Greenland,North America,2001,0.618,0.618
+GRL,Greenland,North America,2002,0.579,0.579
+GRL,Greenland,North America,2003,0.649,0.649
+GRL,Greenland,North America,2004,0.623,0.623
+GRL,Greenland,North America,2005,0.627,0.627
+GRL,Greenland,North America,2006,0.644,0.644
+GRL,Greenland,North America,2007,0.635,0.635
+GRL,Greenland,North America,2008,0.654,0.654
+GRL,Greenland,North America,2009,0.577,0.577
+GRL,Greenland,North America,2010,0.661,0.661
+GRL,Greenland,North America,2011,0.705,0.705
+GRL,Greenland,North America,2012,0.547,0.547
+GRL,Greenland,North America,2013,0.562,0.562
+GRL,Greenland,North America,2014,0.503,0.503
+GRL,Greenland,North America,2015,0.548,0.548
+GRL,Greenland,North America,2016,0.509,0.509
+GRL,Greenland,North America,2017,0.536,0.536
+GRL,Greenland,North America,2018,0.524,0.524
+GRL,Greenland,North America,2019,0.526,0.526
+GRL,Greenland,North America,2020,0.55,0.55
+GRL,Greenland,North America,2021,0.546,0.546
+GRL,Greenland,North America,2022,0.587,0.587
+GRL,Greenland,North America,2023,0.609,0.609
+GTM,Guatemala,North America,2000,9.742,8.358
+GTM,Guatemala,North America,2001,10.147,8.856
+GTM,Guatemala,North America,2002,10.694,8.849
+GTM,Guatemala,North America,2003,10.411,8.636
+GTM,Guatemala,North America,2004,11.056,9.142
+GTM,Guatemala,North America,2005,12.038,9.563
+GTM,Guatemala,North America,2006,12.176,9.513
+GTM,Guatemala,North America,2007,12.117,9.955
+GTM,Guatemala,North America,2008,10.735,8.717
+GTM,Guatemala,North America,2009,11.725,10.076
+GTM,Guatemala,North America,2010,10.817,8.712
+GTM,Guatemala,North America,2011,10.979,8.834
+GTM,Guatemala,North America,2012,11.347,8.922
+GTM,Guatemala,North America,2013,12.493,9.033
+GTM,Guatemala,North America,2014,13.425,9.628
+GTM,Guatemala,North America,2015,15.449,10.446
+GTM,Guatemala,North America,2016,16.524,10.792
+GTM,Guatemala,North America,2017,16.993,11.945
+GTM,Guatemala,North America,2018,18.338,12.616
+GTM,Guatemala,North America,2019,19.259,13.56
+GTM,Guatemala,North America,2020,17.157,12.886
+GTM,Guatemala,North America,2021,19.984,14.671
+GTM,Guatemala,North America,2022,18.913,15.766
+GTM,Guatemala,North America,2023,19.736,16.714
+GUY,Guyana,South America,2000,1.748,1.748
+GUY,Guyana,South America,2001,1.74,1.74
+GUY,Guyana,South America,2002,1.711,1.711
+GUY,Guyana,South America,2003,1.869,1.869
+GUY,Guyana,South America,2004,1.927,1.927
+GUY,Guyana,South America,2005,1.616,1.616
+GUY,Guyana,South America,2006,1.51,1.51
+GUY,Guyana,South America,2007,1.781,1.781
+GUY,Guyana,South America,2008,1.704,1.704
+GUY,Guyana,South America,2009,1.905,1.905
+GUY,Guyana,South America,2010,1.883,1.883
+GUY,Guyana,South America,2011,1.957,1.957
+GUY,Guyana,South America,2012,1.957,1.957
+GUY,Guyana,South America,2013,1.902,1.902
+GUY,Guyana,South America,2014,1.975,1.975
+GUY,Guyana,South America,2015,1.964,1.964
+GUY,Guyana,South America,2016,2.209,2.194
+GUY,Guyana,South America,2017,2.158,2.158
+GUY,Guyana,South America,2018,2.319,2.319
+GUY,Guyana,South America,2019,2.645,2.645
+GUY,Guyana,South America,2020,3.1,2.568
+GUY,Guyana,South America,2021,2.933,2.682
+GUY,Guyana,South America,2022,4.397,4.086
+GUY,Guyana,South America,2023,4.379,4.15
+HKG,Hong Kong,Asia,2000,39.765,20.718
+HKG,Hong Kong,Asia,2001,37.289,17.455
+HKG,Hong Kong,Asia,2002,39.003,14.77
+HKG,Hong Kong,Asia,2003,42.733,14.753
+HKG,Hong Kong,Asia,2004,41.158,13.768
+HKG,Hong Kong,Asia,2005,43.334,13.65
+HKG,Hong Kong,Asia,2006,41.915,11.823
+HKG,Hong Kong,Asia,2007,43.572,11.732
+HKG,Hong Kong,Asia,2008,42.794,11.714
+HKG,Hong Kong,Asia,2009,41.583,8.863
+HKG,Hong Kong,Asia,2010,40.063,9.438
+HKG,Hong Kong,Asia,2011,43.15,9.237
+HKG,Hong Kong,Asia,2012,42.738,9.6
+HKG,Hong Kong,Asia,2013,44.31,9.428
+HKG,Hong Kong,Asia,2014,45.492,9.267
+HKG,Hong Kong,Asia,2015,42.404,10.212
+HKG,Hong Kong,Asia,2016,43.366,11.053
+HKG,Hong Kong,Asia,2017,42.431,11.838
+HKG,Hong Kong,Asia,2018,42.597,11.5
+HKG,Hong Kong,Asia,2019,41.897,11.621
+HKG,Hong Kong,Asia,2020,33.513,11.051
+HKG,Hong Kong,Asia,2021,33.637,9.889
+HKG,Hong Kong,Asia,2022,30.764,7.351
+HKG,Hong Kong,Asia,2023,32.957,9.128
+HND,Honduras,North America,2000,5.032,4.18
+HND,Honduras,North America,2001,5.665,4.833
+HND,Honduras,North America,2002,5.945,5.108
+HND,Honduras,North America,2003,6.687,5.763
+HND,Honduras,North America,2004,7.194,6.21
+HND,Honduras,North America,2005,6.835,6.225
+HND,Honduras,North America,2006,7.698,6.903
+HND,Honduras,North America,2007,8.216,7.386
+HND,Honduras,North America,2008,8.533,7.573
+HND,Honduras,North America,2009,8.03,7.126
+HND,Honduras,North America,2010,8.107,7.222
+HND,Honduras,North America,2011,8.857,7.856
+HND,Honduras,North America,2012,9.108,7.962
+HND,Honduras,North America,2013,9.328,8.266
+HND,Honduras,North America,2014,9.503,8.449
+HND,Honduras,North America,2015,10.898,9.838
+HND,Honduras,North America,2016,9.939,9.006
+HND,Honduras,North America,2017,10.198,9.284
+HND,Honduras,North America,2018,9.876,9.043
+HND,Honduras,North America,2019,10.963,10.197
+HND,Honduras,North America,2020,9.977,9.343
+HND,Honduras,North America,2021,11.06,10.358
+HND,Honduras,North America,2022,11.742,11.019
+HND,Honduras,North America,2023,12.404,11.681
+HRV,Croatia,Europe,2000,19.653,11.151
+HRV,Croatia,Europe,2001,20.776,11.605
+HRV,Croatia,Europe,2002,21.916,12.147
+HRV,Croatia,Europe,2003,23.226,13.34
+HRV,Croatia,Europe,2004,22.853,12.3
+HRV,Croatia,Europe,2005,23.296,12.851
+HRV,Croatia,Europe,2006,23.496,13.159
+HRV,Croatia,Europe,2007,24.802,13.442
+HRV,Croatia,Europe,2008,23.516,12.447
+HRV,Croatia,Europe,2009,21.752,12.426
+HRV,Croatia,Europe,2010,20.978,10.561
+HRV,Croatia,Europe,2011,20.615,10.42
+HRV,Croatia,Europe,2012,19.05,9.71
+HRV,Croatia,Europe,2013,18.401,9.073
+HRV,Croatia,Europe,2014,17.65,8.96
+HRV,Croatia,Europe,2015,17.794,9.389
+HRV,Croatia,Europe,2016,18.079,9.34
+HRV,Croatia,Europe,2017,18.713,9.982
+HRV,Croatia,Europe,2018,17.695,9.556
+HRV,Croatia,Europe,2019,17.82,9.286
+HRV,Croatia,Europe,2020,16.87,8.271
+HRV,Croatia,Europe,2021,17.403,8.725
+HRV,Croatia,Europe,2022,17.585,9.469
+HRV,Croatia,Europe,2023,18.468,10.306
+HTI,Haiti,North America,2000,1.634,1.634
+HTI,Haiti,North America,2001,1.466,1.385
+HTI,Haiti,North America,2002,1.778,1.663
+HTI,Haiti,North America,2003,1.692,1.579
+HTI,Haiti,North America,2004,1.643,1.528
+HTI,Haiti,North America,2005,1.715,1.601
+HTI,Haiti,North America,2006,1.746,1.634
+HTI,Haiti,North America,2007,1.766,1.656
+HTI,Haiti,North America,2008,1.754,1.641
+HTI,Haiti,North America,2009,1.881,1.77
+HTI,Haiti,North America,2010,2.129,2.019
+HTI,Haiti,North America,2011,2.272,2.253
+HTI,Haiti,North America,2012,2.262,2.235
+HTI,Haiti,North America,2013,2.703,2.667
+HTI,Haiti,North America,2014,2.698,2.627
+HTI,Haiti,North America,2015,2.654,2.583
+HTI,Haiti,North America,2016,2.977,2.906
+HTI,Haiti,North America,2017,3.133,3.026
+HTI,Haiti,North America,2018,3.401,3.294
+HTI,Haiti,North America,2019,3.119,3.012
+HTI,Haiti,North America,2020,3.265,3.158
+HTI,Haiti,North America,2021,3.507,3.4
+HTI,Haiti,North America,2022,2.87,2.763
+HTI,Haiti,North America,2023,2.865,2.758
+HUN,Hungary,Europe,2000,58.244,17.502
+HUN,Hungary,Europe,2001,59.828,17.279
+HUN,Hungary,Europe,2002,58.842,16.361
+HUN,Hungary,Europe,2003,61.611,16.133
+HUN,Hungary,Europe,2004,59.985,15.68
+HUN,Hungary,Europe,2005,60.142,16.481
+HUN,Hungary,Europe,2006,59.529,17.222
+HUN,Hungary,Europe,2007,58.449,17.592
+HUN,Hungary,Europe,2008,57.184,17.336
+HUN,Hungary,Europe,2009,51.458,17.26
+HUN,Hungary,Europe,2010,51.993,16.067
+HUN,Hungary,Europe,2011,50.156,15.14
+HUN,Hungary,Europe,2012,46.72,14.471
+HUN,Hungary,Europe,2013,43.487,13.982
+HUN,Hungary,Europe,2014,43.639,15.335
+HUN,Hungary,Europe,2015,46.567,16.673
+HUN,Hungary,Europe,2016,47.039,16.713
+HUN,Hungary,Europe,2017,49.424,17.631
+HUN,Hungary,Europe,2018,49.366,18.712
+HUN,Hungary,Europe,2019,49.159,19.52
+HUN,Hungary,Europe,2020,47.105,17.463
+HUN,Hungary,Europe,2021,48.326,18.887
+HUN,Hungary,Europe,2022,45.267,19.647
+HUN,Hungary,Europe,2023,40.344,18.384
+IDN,Indonesia,Asia,2000,281.054,156.812
+IDN,Indonesia,Asia,2001,316.759,164.07
+IDN,Indonesia,Asia,2002,308.201,156.841
+IDN,Indonesia,Asia,2003,339.024,162.445
+IDN,Indonesia,Asia,2004,342.709,173.895
+IDN,Indonesia,Asia,2005,347.361,174.754
+IDN,Indonesia,Asia,2006,346.366,152.499
+IDN,Indonesia,Asia,2007,387.577,166.225
+IDN,Indonesia,Asia,2008,365.384,158.303
+IDN,Indonesia,Asia,2009,398.624,181.26
+IDN,Indonesia,Asia,2010,445.37,195.671
+IDN,Indonesia,Asia,2011,500.458,211.329
+IDN,Indonesia,Asia,2012,515.77,218.777
+IDN,Indonesia,Asia,2013,493.435,234.082
+IDN,Indonesia,Asia,2014,498.029,230.761
+IDN,Indonesia,Asia,2015,551.16,228.361
+IDN,Indonesia,Asia,2016,547.969,217.024
+IDN,Indonesia,Asia,2017,570.928,231.028
+IDN,Indonesia,Asia,2018,607.378,225.517
+IDN,Indonesia,Asia,2019,665.049,226.218
+IDN,Indonesia,Asia,2020,623.304,208.254
+IDN,Indonesia,Asia,2021,632.946,211.766
+IDN,Indonesia,Asia,2022,758.021,237.398
+IDN,Indonesia,Asia,2023,762.358,237.222
+IND,India,Asia,2000,987.065,313.441
+IND,India,Asia,2001,1001.198,317.363
+IND,India,Asia,2002,1032.75,325.889
+IND,India,Asia,2003,1068.398,331.333
+IND,India,Asia,2004,1134.611,348.992
+IND,India,Asia,2005,1195.393,353.15
+IND,India,Asia,2006,1293.321,370.544
+IND,India,Asia,2007,1393.485,392.818
+IND,India,Asia,2008,1490.366,414.204
+IND,India,Asia,2009,1613.328,433.771
+IND,India,Asia,2010,1678.53,440.692
+IND,India,Asia,2011,1765.695,461.37
+IND,India,Asia,2012,1926.986,491.148
+IND,India,Asia,2013,1995.337,498.314
+IND,India,Asia,2014,2148.052,513.84
+IND,India,Asia,2015,2231.817,557.523
+IND,India,Asia,2016,2352.54,616.112
+IND,India,Asia,2017,2425.722,634.116
+IND,India,Asia,2018,2595.227,658.715
+IND,India,Asia,2019,2611.175,677.884
+IND,India,Asia,2020,2422.732,607.535
+IND,India,Asia,2021,2675.778,623.485
+IND,India,Asia,2022,2831.132,684.014
+IND,India,Asia,2023,3062.756,718.183
+IRL,Ireland,Europe,2000,45.25,23.581
+IRL,Ireland,Europe,2001,47.608,24.759
+IRL,Ireland,Europe,2002,46.081,23.688
+IRL,Ireland,Europe,2003,45.684,23.119
+IRL,Ireland,Europe,2004,46.167,24.312
+IRL,Ireland,Europe,2005,48.153,25.645
+IRL,Ireland,Europe,2006,47.597,25.228
+IRL,Ireland,Europe,2007,47.658,24.739
+IRL,Ireland,Europe,2008,47.361,24.314
+IRL,Ireland,Europe,2009,42.177,21.329
+IRL,Ireland,Europe,2010,41.791,20.211
+IRL,Ireland,Europe,2011,38.054,18.322
+IRL,Ireland,Europe,2012,38.224,17.41
+IRL,Ireland,Europe,2013,37.279,17.611
+IRL,Ireland,Europe,2014,36.85,17.324
+IRL,Ireland,Europe,2015,38.715,18.202
+IRL,Ireland,Europe,2016,40.369,18.822
+IRL,Ireland,Europe,2017,39.04,18.614
+IRL,Ireland,Europe,2018,38.922,19.388
+IRL,Ireland,Europe,2019,37.2,19.382
+IRL,Ireland,Europe,2020,35.053,18.003
+IRL,Ireland,Europe,2021,37.474,19.215
+IRL,Ireland,Europe,2022,36.676,19.15
+IRL,Ireland,Europe,2023,33.568,18.458
+IRN,Iran,Asia,2000,367.213,210.118
+IRN,Iran,Asia,2001,389.912,227.456
+IRN,Iran,Asia,2002,397.031,217.927
+IRN,Iran,Asia,2003,410.967,210.79
+IRN,Iran,Asia,2004,442.119,221.765
+IRN,Iran,Asia,2005,466.795,222.5
+IRN,Iran,Asia,2006,501.015,233.362
+IRN,Iran,Asia,2007,507.771,225.176
+IRN,Iran,Asia,2008,528.528,233.937
+IRN,Iran,Asia,2009,543.406,232.909
+IRN,Iran,Asia,2010,561.496,227.529
+IRN,Iran,Asia,2011,576.366,223.696
+IRN,Iran,Asia,2012,599.278,247.166
+IRN,Iran,Asia,2013,609.997,253.336
+IRN,Iran,Asia,2014,644.228,247.804
+IRN,Iran,Asia,2015,641.959,227.053
+IRN,Iran,Asia,2016,644.68,200.122
+IRN,Iran,Asia,2017,696.407,229.061
+IRN,Iran,Asia,2018,664.523,206.507
+IRN,Iran,Asia,2019,727.269,230.904
+IRN,Iran,Asia,2020,745.596,210.025
+IRN,Iran,Asia,2021,779.525,229.484
+IRN,Iran,Asia,2022,767.178,208.079
+IRN,Iran,Asia,2023,789.676,211.025
+IRQ,Iraq,Asia,2000,83.722,61.68
+IRQ,Iraq,Asia,2001,96.802,75.295
+IRQ,Iraq,Asia,2002,97.09,77.658
+IRQ,Iraq,Asia,2003,101.424,85.254
+IRQ,Iraq,Asia,2004,113.016,95.488
+IRQ,Iraq,Asia,2005,114.282,87.09
+IRQ,Iraq,Asia,2006,98.838,71.602
+IRQ,Iraq,Asia,2007,61.361,34.661
+IRQ,Iraq,Asia,2008,94.335,62.786
+IRQ,Iraq,Asia,2009,105.211,70.199
+IRQ,Iraq,Asia,2010,113.983,78.472
+IRQ,Iraq,Asia,2011,123.526,84.862
+IRQ,Iraq,Asia,2012,134.04,92.913
+IRQ,Iraq,Asia,2013,141.704,98.726
+IRQ,Iraq,Asia,2014,137.513,94.733
+IRQ,Iraq,Asia,2015,142.53,94.841
+IRQ,Iraq,Asia,2016,153.132,97.272
+IRQ,Iraq,Asia,2017,167.472,105.655
+IRQ,Iraq,Asia,2018,186.156,114.291
+IRQ,Iraq,Asia,2019,191.778,114.2
+IRQ,Iraq,Asia,2020,172.098,93.022
+IRQ,Iraq,Asia,2021,193.115,111.631
+IRQ,Iraq,Asia,2022,217.644,134.835
+IRQ,Iraq,Asia,2023,227.91,143.799
+ISL,Iceland,Europe,2000,2.933,2.243
+ISL,Iceland,Europe,2001,2.865,2.155
+ISL,Iceland,Europe,2002,2.992,2.287
+ISL,Iceland,Europe,2003,2.985,2.299
+ISL,Iceland,Europe,2004,3.107,2.398
+ISL,Iceland,Europe,2005,2.976,2.309
+ISL,Iceland,Europe,2006,3.154,2.44
+ISL,Iceland,Europe,2007,3.494,2.674
+ISL,Iceland,Europe,2008,3.811,2.911
+ISL,Iceland,Europe,2009,3.73,2.898
+ISL,Iceland,Europe,2010,3.627,2.79
+ISL,Iceland,Europe,2011,3.503,2.654
+ISL,Iceland,Europe,2012,3.499,2.657
+ISL,Iceland,Europe,2013,3.489,2.644
+ISL,Iceland,Europe,2014,3.445,2.625
+ISL,Iceland,Europe,2015,3.541,2.706
+ISL,Iceland,Europe,2016,3.494,2.673
+ISL,Iceland,Europe,2017,3.611,2.758
+ISL,Iceland,Europe,2018,3.665,2.783
+ISL,Iceland,Europe,2019,3.553,2.691
+ISL,Iceland,Europe,2020,3.339,2.481
+ISL,Iceland,Europe,2021,3.491,2.587
+ISL,Iceland,Europe,2022,3.598,2.641
+ISL,Iceland,Europe,2023,3.508,2.65
+ISR,Israel,Asia,2000,59.519,29.147
+ISR,Israel,Asia,2001,63.024,30.602
+ISR,Israel,Asia,2002,59.305,28.211
+ISR,Israel,Asia,2003,62.415,30.789
+ISR,Israel,Asia,2004,58.679,24.511
+ISR,Israel,Asia,2005,56.528,23.541
+ISR,Israel,Asia,2006,62.149,25.708
+ISR,Israel,Asia,2007,62.8,25.133
+ISR,Israel,Asia,2008,67.98,29.206
+ISR,Israel,Asia,2009,63.861,27.136
+ISR,Israel,Asia,2010,68.287,28.114
+ISR,Israel,Asia,2011,68.595,28.0
+ISR,Israel,Asia,2012,74.781,35.143
+ISR,Israel,Asia,2013,63.095,22.916
+ISR,Israel,Asia,2014,60.279,20.211
+ISR,Israel,Asia,2015,62.936,21.83
+ISR,Israel,Asia,2016,61.164,22.657
+ISR,Israel,Asia,2017,58.849,21.339
+ISR,Israel,Asia,2018,59.986,22.409
+ISR,Israel,Asia,2019,58.95,21.514
+ISR,Israel,Asia,2020,59.285,18.298
+ISR,Israel,Asia,2021,58.95,19.856
+ISR,Israel,Asia,2022,62.267,22.006
+ISR,Israel,Asia,2023,55.382,21.324
+ITA,Italy,Europe,2000,469.598,254.488
+ITA,Italy,Europe,2001,469.679,250.667
+ITA,Italy,Europe,2002,477.136,256.631
+ITA,Italy,Europe,2003,495.094,254.877
+ITA,Italy,Europe,2004,500.687,247.736
+ITA,Italy,Europe,2005,501.365,238.292
+ITA,Italy,Europe,2006,496.075,236.455
+ITA,Italy,Europe,2007,489.794,229.031
+ITA,Italy,Europe,2008,478.132,218.498
+ITA,Italy,Europe,2009,424.032,197.832
+ITA,Italy,Europe,2010,435.672,193.166
+ITA,Italy,Europe,2011,423.897,185.899
+ITA,Italy,Europe,2012,403.444,172.224
+ITA,Italy,Europe,2013,369.461,158.74
+ITA,Italy,Europe,2014,349.389,157.626
+ITA,Italy,Europe,2015,361.244,161.426
+ITA,Italy,Europe,2016,358.133,156.02
+ITA,Italy,Europe,2017,352.666,148.755
+ITA,Italy,Europe,2018,349.048,152.744
+ITA,Italy,Europe,2019,339.638,148.491
+ITA,Italy,Europe,2020,302.6,127.568
+ITA,Italy,Europe,2021,335.93,145.904
+ITA,Italy,Europe,2022,340.115,159.145
+ITA,Italy,Europe,2023,312.291,154.654
+JAM,Jamaica,North America,2000,10.314,9.849
+JAM,Jamaica,North America,2001,10.576,10.171
+JAM,Jamaica,North America,2002,10.203,9.691
+JAM,Jamaica,North America,2003,10.667,10.127
+JAM,Jamaica,North America,2004,10.574,10.083
+JAM,Jamaica,North America,2005,10.413,9.977
+JAM,Jamaica,North America,2006,11.574,11.186
+JAM,Jamaica,North America,2007,10.749,10.384
+JAM,Jamaica,North America,2008,10.776,10.347
+JAM,Jamaica,North America,2009,7.937,7.416
+JAM,Jamaica,North America,2010,7.677,7.236
+JAM,Jamaica,North America,2011,8.226,7.713
+JAM,Jamaica,North America,2012,7.887,7.376
+JAM,Jamaica,North America,2013,8.467,7.896
+JAM,Jamaica,North America,2014,7.675,7.017
+JAM,Jamaica,North America,2015,7.966,7.31
+JAM,Jamaica,North America,2016,8.134,7.493
+JAM,Jamaica,North America,2017,7.768,7.017
+JAM,Jamaica,North America,2018,8.061,7.353
+JAM,Jamaica,North America,2019,9.439,8.266
+JAM,Jamaica,North America,2020,6.866,4.827
+JAM,Jamaica,North America,2021,7.313,5.207
+JAM,Jamaica,North America,2022,7.908,6.128
+JAM,Jamaica,North America,2023,8.069,6.116
+JOR,Jordan,Asia,2000,15.401,13.736
+JOR,Jordan,Asia,2001,15.858,13.935
+JOR,Jordan,Asia,2002,16.707,14.671
+JOR,Jordan,Asia,2003,17.273,15.217
+JOR,Jordan,Asia,2004,19.003,14.542
+JOR,Jordan,Asia,2005,20.79,15.861
+JOR,Jordan,Asia,2006,20.829,14.534
+JOR,Jordan,Asia,2007,21.7,14.392
+JOR,Jordan,Asia,2008,20.987,12.916
+JOR,Jordan,Asia,2009,21.545,12.872
+JOR,Jordan,Asia,2010,20.838,13.973
+JOR,Jordan,Asia,2011,21.409,18.25
+JOR,Jordan,Asia,2012,24.069,20.896
+JOR,Jordan,Asia,2013,24.061,19.661
+JOR,Jordan,Asia,2014,26.165,22.427
+JOR,Jordan,Asia,2015,25.799,19.317
+JOR,Jordan,Asia,2016,24.949,15.235
+JOR,Jordan,Asia,2017,26.08,15.418
+JOR,Jordan,Asia,2018,25.419,14.781
+JOR,Jordan,Asia,2019,24.57,14.517
+JOR,Jordan,Asia,2020,20.622,11.301
+JOR,Jordan,Asia,2021,21.19,11.908
+JOR,Jordan,Asia,2022,22.428,12.378
+JOR,Jordan,Asia,2023,23.119,12.518
+JPN,Japan,Asia,2000,1260.203,672.759
+JPN,Japan,Asia,2001,1245.935,651.363
+JPN,Japan,Asia,2002,1275.42,662.164
+JPN,Japan,Asia,2003,1283.845,652.177
+JPN,Japan,Asia,2004,1279.122,640.898
+JPN,Japan,Asia,2005,1286.412,637.796
+JPN,Japan,Asia,2006,1263.44,601.046
+JPN,Japan,Asia,2007,1298.974,603.408
+JPN,Japan,Asia,2008,1228.687,559.258
+JPN,Japan,Asia,2009,1160.253,512.779
+JPN,Japan,Asia,2010,1211.09,517.853
+JPN,Japan,Asia,2011,1261.181,548.593
+JPN,Japan,Asia,2012,1302.113,560.109
+JPN,Japan,Asia,2013,1311.876,537.861
+JPN,Japan,Asia,2014,1260.272,493.206
+JPN,Japan,Asia,2015,1219.982,472.952
+JPN,Japan,Asia,2016,1199.933,456.462
+JPN,Japan,Asia,2017,1184.392,444.288
+JPN,Japan,Asia,2018,1138.55,427.785
+JPN,Japan,Asia,2019,1102.063,411.853
+JPN,Japan,Asia,2020,1037.285,383.172
+JPN,Japan,Asia,2021,1058.502,387.738
+JPN,Japan,Asia,2022,1029.645,388.925
+JPN,Japan,Asia,2023,986.91,370.823
+KAZ,Kazakhstan,Asia,2000,142.197,24.383
+KAZ,Kazakhstan,Asia,2001,138.036,23.404
+KAZ,Kazakhstan,Asia,2002,156.768,35.413
+KAZ,Kazakhstan,Asia,2003,175.022,39.271
+KAZ,Kazakhstan,Asia,2004,185.476,41.377
+KAZ,Kazakhstan,Asia,2005,198.449,51.563
+KAZ,Kazakhstan,Asia,2006,219.633,55.406
+KAZ,Kazakhstan,Asia,2007,225.712,55.398
+KAZ,Kazakhstan,Asia,2008,226.102,52.597
+KAZ,Kazakhstan,Asia,2009,223.189,39.463
+KAZ,Kazakhstan,Asia,2010,248.093,51.689
+KAZ,Kazakhstan,Asia,2011,238.157,39.43
+KAZ,Kazakhstan,Asia,2012,245.263,39.288
+KAZ,Kazakhstan,Asia,2013,253.533,49.463
+KAZ,Kazakhstan,Asia,2014,299.137,39.732
+KAZ,Kazakhstan,Asia,2015,303.052,40.8
+KAZ,Kazakhstan,Asia,2016,301.739,42.117
+KAZ,Kazakhstan,Asia,2017,317.72,44.115
+KAZ,Kazakhstan,Asia,2018,329.572,47.978
+KAZ,Kazakhstan,Asia,2019,296.04,47.921
+KAZ,Kazakhstan,Asia,2020,281.789,47.217
+KAZ,Kazakhstan,Asia,2021,244.904,62.447
+KAZ,Kazakhstan,Asia,2022,274.346,64.976
+KAZ,Kazakhstan,Asia,2023,286.175,66.979
+KEN,Kenya,Africa,2000,10.385,9.662
+KEN,Kenya,Africa,2001,9.224,8.53
+KEN,Kenya,Africa,2002,7.819,6.969
+KEN,Kenya,Africa,2003,6.716,5.679
+KEN,Kenya,Africa,2004,7.621,6.441
+KEN,Kenya,Africa,2005,8.454,7.164
+KEN,Kenya,Africa,2006,9.567,8.039
+KEN,Kenya,Africa,2007,9.734,8.156
+KEN,Kenya,Africa,2008,10.099,8.413
+KEN,Kenya,Africa,2009,12.185,10.321
+KEN,Kenya,Africa,2010,11.857,9.688
+KEN,Kenya,Africa,2011,12.218,10.201
+KEN,Kenya,Africa,2012,11.246,9.282
+KEN,Kenya,Africa,2013,12.163,9.929
+KEN,Kenya,Africa,2014,13.214,10.363
+KEN,Kenya,Africa,2015,15.212,12.523
+KEN,Kenya,Africa,2016,16.289,13.483
+KEN,Kenya,Africa,2017,16.181,13.374
+KEN,Kenya,Africa,2018,17.003,13.994
+KEN,Kenya,Africa,2019,18.159,15.195
+KEN,Kenya,Africa,2020,19.99,16.106
+KEN,Kenya,Africa,2021,20.59,15.18
+KEN,Kenya,Africa,2022,20.544,14.211
+KEN,Kenya,Africa,2023,21.186,14.49
+KGZ,Kyrgyzstan,Asia,2000,4.575,1.205
+KGZ,Kyrgyzstan,Asia,2001,3.857,1.086
+KGZ,Kyrgyzstan,Asia,2002,4.917,1.004
+KGZ,Kyrgyzstan,Asia,2003,5.376,1.246
+KGZ,Kyrgyzstan,Asia,2004,5.808,1.543
+KGZ,Kyrgyzstan,Asia,2005,5.519,1.37
+KGZ,Kyrgyzstan,Asia,2006,5.457,1.271
+KGZ,Kyrgyzstan,Asia,2007,6.522,2.235
+KGZ,Kyrgyzstan,Asia,2008,7.481,2.423
+KGZ,Kyrgyzstan,Asia,2009,6.709,3.122
+KGZ,Kyrgyzstan,Asia,2010,6.356,2.755
+KGZ,Kyrgyzstan,Asia,2011,7.62,3.638
+KGZ,Kyrgyzstan,Asia,2012,10.087,4.672
+KGZ,Kyrgyzstan,Asia,2013,9.734,4.796
+KGZ,Kyrgyzstan,Asia,2014,10.236,4.4
+KGZ,Kyrgyzstan,Asia,2015,10.265,4.719
+KGZ,Kyrgyzstan,Asia,2016,9.622,4.99
+KGZ,Kyrgyzstan,Asia,2017,9.364,4.71
+KGZ,Kyrgyzstan,Asia,2018,11.175,5.575
+KGZ,Kyrgyzstan,Asia,2019,9.047,4.331
+KGZ,Kyrgyzstan,Asia,2020,8.348,3.636
+KGZ,Kyrgyzstan,Asia,2021,10.338,4.234
+KGZ,Kyrgyzstan,Asia,2022,11.513,3.968
+KGZ,Kyrgyzstan,Asia,2023,11.144,4.077
+KHM,Cambodia,Asia,2000,1.997,1.997
+KHM,Cambodia,Asia,2001,2.235,2.235
+KHM,Cambodia,Asia,2002,2.154,2.154
+KHM,Cambodia,Asia,2003,2.253,2.253
+KHM,Cambodia,Asia,2004,2.239,2.239
+KHM,Cambodia,Asia,2005,2.209,2.209
+KHM,Cambodia,Asia,2006,2.847,2.847
+KHM,Cambodia,Asia,2007,3.489,3.437
+KHM,Cambodia,Asia,2008,3.936,3.517
+KHM,Cambodia,Asia,2009,4.579,4.173
+KHM,Cambodia,Asia,2010,5.067,4.613
+KHM,Cambodia,Asia,2011,5.271,4.741
+KHM,Cambodia,Asia,2012,5.572,4.954
+KHM,Cambodia,Asia,2013,5.626,4.921
+KHM,Cambodia,Asia,2014,6.702,5.099
+KHM,Cambodia,Asia,2015,8.186,5.602
+KHM,Cambodia,Asia,2016,10.644,6.542
+KHM,Cambodia,Asia,2017,12.087,6.621
+KHM,Cambodia,Asia,2018,13.938,7.258
+KHM,Cambodia,Asia,2019,18.626,9.131
+KHM,Cambodia,Asia,2020,20.991,9.204
+KHM,Cambodia,Asia,2021,20.775,9.16
+KHM,Cambodia,Asia,2022,20.865,9.399
+KHM,Cambodia,Asia,2023,21.412,9.355
+KNA,Saint Kitts and Nevis,North America,2000,0.172,0.172
+KNA,Saint Kitts and Nevis,North America,2001,0.176,0.176
+KNA,Saint Kitts and Nevis,North America,2002,0.194,0.194
+KNA,Saint Kitts and Nevis,North America,2003,0.194,0.194
+KNA,Saint Kitts and Nevis,North America,2004,0.209,0.209
+KNA,Saint Kitts and Nevis,North America,2005,0.194,0.194
+KNA,Saint Kitts and Nevis,North America,2006,0.202,0.202
+KNA,Saint Kitts and Nevis,North America,2007,0.216,0.216
+KNA,Saint Kitts and Nevis,North America,2008,0.216,0.216
+KNA,Saint Kitts and Nevis,North America,2009,0.22,0.22
+KNA,Saint Kitts and Nevis,North America,2010,0.22,0.22
+KNA,Saint Kitts and Nevis,North America,2011,0.227,0.227
+KNA,Saint Kitts and Nevis,North America,2012,0.224,0.224
+KNA,Saint Kitts and Nevis,North America,2013,0.224,0.224
+KNA,Saint Kitts and Nevis,North America,2014,0.227,0.227
+KNA,Saint Kitts and Nevis,North America,2015,0.231,0.231
+KNA,Saint Kitts and Nevis,North America,2016,0.238,0.238
+KNA,Saint Kitts and Nevis,North America,2017,0.242,0.242
+KNA,Saint Kitts and Nevis,North America,2018,0.249,0.249
+KNA,Saint Kitts and Nevis,North America,2019,0.26,0.26
+KNA,Saint Kitts and Nevis,North America,2020,0.242,0.242
+KNA,Saint Kitts and Nevis,North America,2021,0.234,0.234
+KNA,Saint Kitts and Nevis,North America,2022,0.251,0.251
+KNA,Saint Kitts and Nevis,North America,2023,0.25,0.25
+KOR,South Korea,Asia,2000,439.981,206.229
+KOR,South Korea,Asia,2001,455.631,206.083
+KOR,South Korea,Asia,2002,476.065,207.116
+KOR,South Korea,Asia,2003,485.213,205.372
+KOR,South Korea,Asia,2004,491.389,196.256
+KOR,South Korea,Asia,2005,498.688,195.069
+KOR,South Korea,Asia,2006,503.478,190.054
+KOR,South Korea,Asia,2007,521.709,187.258
+KOR,South Korea,Asia,2008,532.651,171.088
+KOR,South Korea,Asia,2009,537.82,172.708
+KOR,South Korea,Asia,2010,594.339,176.156
+KOR,South Korea,Asia,2011,623.443,171.469
+KOR,South Korea,Asia,2012,627.943,170.817
+KOR,South Korea,Asia,2013,634.581,168.582
+KOR,South Korea,Asia,2014,629.366,161.534
+KOR,South Korea,Asia,2015,634.177,170.594
+KOR,South Korea,Asia,2016,637.914,184.034
+KOR,South Korea,Asia,2017,654.537,179.413
+KOR,South Korea,Asia,2018,670.169,177.633
+KOR,South Korea,Asia,2019,646.102,175.797
+KOR,South Korea,Asia,2020,597.634,165.068
+KOR,South Korea,Asia,2021,616.075,171.484
+KOR,South Korea,Asia,2022,606.877,173.664
+KOR,South Korea,Asia,2023,589.178,170.359
+KWT,Kuwait,Asia,2000,54.98,31.277
+KWT,Kuwait,Asia,2001,59.119,36.277
+KWT,Kuwait,Asia,2002,60.114,38.798
+KWT,Kuwait,Asia,2003,62.491,37.296
+KWT,Kuwait,Asia,2004,65.855,38.925
+KWT,Kuwait,Asia,2005,74.615,44.889
+KWT,Kuwait,Asia,2006,76.222,45.881
+KWT,Kuwait,Asia,2007,77.295,48.059
+KWT,Kuwait,Asia,2008,84.442,54.363
+KWT,Kuwait,Asia,2009,88.832,61.749
+KWT,Kuwait,Asia,2010,89.721,58.741
+KWT,Kuwait,Asia,2011,87.151,51.241
+KWT,Kuwait,Asia,2012,101.201,62.827
+KWT,Kuwait,Asia,2013,83.047,44.246
+KWT,Kuwait,Asia,2014,74.994,36.125
+KWT,Kuwait,Asia,2015,93.317,50.477
+KWT,Kuwait,Asia,2016,104.019,58.287
+KWT,Kuwait,Asia,2017,100.01,54.687
+KWT,Kuwait,Asia,2018,102.453,55.927
+KWT,Kuwait,Asia,2019,104.654,54.859
+KWT,Kuwait,Asia,2020,90.103,35.49
+KWT,Kuwait,Asia,2021,87.869,30.807
+KWT,Kuwait,Asia,2022,115.849,65.639
+KWT,Kuwait,Asia,2023,123.169,68.085
+LAO,Laos,Asia,2000,0.96,0.883
+LAO,Laos,Asia,2001,1.059,0.971
+LAO,Laos,Asia,2002,1.166,0.986
+LAO,Laos,Asia,2003,1.221,1.019
+LAO,Laos,Asia,2004,1.282,1.059
+LAO,Laos,Asia,2005,1.337,1.103
+LAO,Laos,Asia,2006,1.757,1.414
+LAO,Laos,Asia,2007,1.836,1.469
+LAO,Laos,Asia,2008,2.131,1.682
+LAO,Laos,Asia,2009,2.667,1.934
+LAO,Laos,Asia,2010,3.001,1.905
+LAO,Laos,Asia,2011,3.097,1.927
+LAO,Laos,Asia,2012,3.328,2.048
+LAO,Laos,Asia,2013,4.198,2.303
+LAO,Laos,Asia,2014,4.383,2.418
+LAO,Laos,Asia,2015,9.185,2.895
+LAO,Laos,Asia,2016,16.407,3.141
+LAO,Laos,Asia,2017,19.625,3.206
+LAO,Laos,Asia,2018,20.481,3.312
+LAO,Laos,Asia,2019,18.34,2.689
+LAO,Laos,Asia,2020,18.294,2.649
+LAO,Laos,Asia,2021,21.837,2.668
+LAO,Laos,Asia,2022,22.549,2.726
+LAO,Laos,Asia,2023,24.157,2.713
+LBN,Lebanon,Asia,2000,15.466,13.333
+LBN,Lebanon,Asia,2001,16.407,14.216
+LBN,Lebanon,Asia,2002,16.244,14.066
+LBN,Lebanon,Asia,2003,18.529,15.723
+LBN,Lebanon,Asia,2004,17.208,14.092
+LBN,Lebanon,Asia,2005,16.65,13.399
+LBN,Lebanon,Asia,2006,14.792,12.279
+LBN,Lebanon,Asia,2007,13.746,10.981
+LBN,Lebanon,Asia,2008,17.418,14.594
+LBN,Lebanon,Asia,2009,20.958,17.818
+LBN,Lebanon,Asia,2010,19.997,16.378
+LBN,Lebanon,Asia,2011,20.264,17.06
+LBN,Lebanon,Asia,2012,22.332,19.317
+LBN,Lebanon,Asia,2013,22.164,19.123
+LBN,Lebanon,Asia,2014,23.992,20.753
+LBN,Lebanon,Asia,2015,25.731,22.71
+LBN,Lebanon,Asia,2016,26.438,23.519
+LBN,Lebanon,Asia,2017,27.821,24.952
+LBN,Lebanon,Asia,2018,25.812,23.501
+LBN,Lebanon,Asia,2019,25.141,23.636
+LBN,Lebanon,Asia,2020,23.694,22.797
+LBN,Lebanon,Asia,2021,19.474,18.529
+LBN,Lebanon,Asia,2022,15.361,14.385
+LBN,Lebanon,Asia,2023,15.559,14.548
+LBR,Liberia,Africa,2000,0.402,0.374
+LBR,Liberia,Africa,2001,0.414,0.388
+LBR,Liberia,Africa,2002,0.432,0.41
+LBR,Liberia,Africa,2003,0.461,0.451
+LBR,Liberia,Africa,2004,0.543,0.495
+LBR,Liberia,Africa,2005,0.651,0.594
+LBR,Liberia,Africa,2006,0.669,0.608
+LBR,Liberia,Africa,2007,0.629,0.568
+LBR,Liberia,Africa,2008,0.531,0.495
+LBR,Liberia,Africa,2009,0.522,0.495
+LBR,Liberia,Africa,2010,0.709,0.682
+LBR,Liberia,Africa,2011,0.822,0.791
+LBR,Liberia,Africa,2012,0.915,0.868
+LBR,Liberia,Africa,2013,0.874,0.799
+LBR,Liberia,Africa,2014,0.734,0.619
+LBR,Liberia,Africa,2015,0.699,0.583
+LBR,Liberia,Africa,2016,0.647,0.553
+LBR,Liberia,Africa,2017,0.667,0.557
+LBR,Liberia,Africa,2018,0.609,0.48
+LBR,Liberia,Africa,2019,0.932,0.799
+LBR,Liberia,Africa,2020,0.777,0.616
+LBR,Liberia,Africa,2021,0.783,0.575
+LBR,Liberia,Africa,2022,0.864,0.68
+LBR,Liberia,Africa,2023,0.834,0.65
+LBY,Libya,Africa,2000,53.239,34.152
+LBY,Libya,Africa,2001,53.114,34.563
+LBY,Libya,Africa,2002,52.525,33.833
+LBY,Libya,Africa,2003,55.481,34.939
+LBY,Libya,Africa,2004,56.854,34.605
+LBY,Libya,Africa,2005,55.986,34.984
+LBY,Libya,Africa,2006,51.45,32.192
+LBY,Libya,Africa,2007,44.392,25.219
+LBY,Libya,Africa,2008,49.699,29.81
+LBY,Libya,Africa,2009,51.627,31.34
+LBY,Libya,Africa,2010,59.148,36.117
+LBY,Libya,Africa,2011,53.542,34.563
+LBY,Libya,Africa,2012,61.606,31.719
+LBY,Libya,Africa,2013,51.344,21.669
+LBY,Libya,Africa,2014,68.348,41.339
+LBY,Libya,Africa,2015,60.866,31.992
+LBY,Libya,Africa,2016,57.379,25.514
+LBY,Libya,Africa,2017,67.092,26.173
+LBY,Libya,Africa,2018,62.645,25.912
+LBY,Libya,Africa,2019,73.778,44.266
+LBY,Libya,Africa,2020,36.111,21.958
+LBY,Libya,Africa,2021,56.312,30.624
+LBY,Libya,Africa,2022,58.974,32.555
+LBY,Libya,Africa,2023,64.219,35.114
+LCA,Saint Lucia,North America,2000,0.341,0.341
+LCA,Saint Lucia,North America,2001,0.359,0.359
+LCA,Saint Lucia,North America,2002,0.355,0.355
+LCA,Saint Lucia,North America,2003,0.377,0.377
+LCA,Saint Lucia,North America,2004,0.399,0.399
+LCA,Saint Lucia,North America,2005,0.392,0.392
+LCA,Saint Lucia,North America,2006,0.414,0.414
+LCA,Saint Lucia,North America,2007,0.421,0.421
+LCA,Saint Lucia,North America,2008,0.425,0.425
+LCA,Saint Lucia,North America,2009,0.425,0.425
+LCA,Saint Lucia,North America,2010,0.484,0.484
+LCA,Saint Lucia,North America,2011,0.484,0.484
+LCA,Saint Lucia,North America,2012,0.487,0.487
+LCA,Saint Lucia,North America,2013,0.487,0.487
+LCA,Saint Lucia,North America,2014,0.487,0.487
+LCA,Saint Lucia,North America,2015,0.48,0.48
+LCA,Saint Lucia,North America,2016,0.473,0.473
+LCA,Saint Lucia,North America,2017,0.495,0.495
+LCA,Saint Lucia,North America,2018,0.509,0.509
+LCA,Saint Lucia,North America,2019,0.502,0.502
+LCA,Saint Lucia,North America,2020,0.487,0.487
+LCA,Saint Lucia,North America,2021,0.506,0.506
+LCA,Saint Lucia,North America,2022,0.518,0.518
+LCA,Saint Lucia,North America,2023,0.517,0.517
+LIE,Liechtenstein,Europe,2000,0.217,0.163
+LIE,Liechtenstein,Europe,2001,0.215,0.155
+LIE,Liechtenstein,Europe,2002,0.22,0.159
+LIE,Liechtenstein,Europe,2003,0.229,0.164
+LIE,Liechtenstein,Europe,2004,0.229,0.16
+LIE,Liechtenstein,Europe,2005,0.229,0.157
+LIE,Liechtenstein,Europe,2006,0.231,0.158
+LIE,Liechtenstein,Europe,2007,0.201,0.13
+LIE,Liechtenstein,Europe,2008,0.219,0.147
+LIE,Liechtenstein,Europe,2009,0.205,0.148
+LIE,Liechtenstein,Europe,2010,0.191,0.13
+LIE,Liechtenstein,Europe,2011,0.177,0.123
+LIE,Liechtenstein,Europe,2012,0.185,0.131
+LIE,Liechtenstein,Europe,2013,0.192,0.135
+LIE,Liechtenstein,Europe,2014,0.161,0.113
+LIE,Liechtenstein,Europe,2015,0.16,0.108
+LIE,Liechtenstein,Europe,2016,0.15,0.099
+LIE,Liechtenstein,Europe,2017,0.155,0.102
+LIE,Liechtenstein,Europe,2018,0.143,0.093
+LIE,Liechtenstein,Europe,2019,0.149,0.098
+LIE,Liechtenstein,Europe,2020,0.142,0.093
+LIE,Liechtenstein,Europe,2021,0.146,0.092
+LIE,Liechtenstein,Europe,2022,0.128,0.083
+LIE,Liechtenstein,Europe,2023,0.131,0.089
+LKA,Sri Lanka,Asia,2000,9.99,9.728
+LKA,Sri Lanka,Asia,2001,10.158,9.878
+LKA,Sri Lanka,Asia,2002,10.787,10.538
+LKA,Sri Lanka,Asia,2003,10.761,10.259
+LKA,Sri Lanka,Asia,2004,11.908,11.362
+LKA,Sri Lanka,Asia,2005,11.67,11.113
+LKA,Sri Lanka,Asia,2006,11.503,10.941
+LKA,Sri Lanka,Asia,2007,11.844,11.34
+LKA,Sri Lanka,Asia,2008,11.648,11.08
+LKA,Sri Lanka,Asia,2009,12.572,11.996
+LKA,Sri Lanka,Asia,2010,12.697,12.161
+LKA,Sri Lanka,Asia,2011,14.476,13.007
+LKA,Sri Lanka,Asia,2012,15.389,13.102
+LKA,Sri Lanka,Asia,2013,14.143,11.761
+LKA,Sri Lanka,Asia,2014,17.076,12.827
+LKA,Sri Lanka,Asia,2015,19.179,13.593
+LKA,Sri Lanka,Asia,2016,22.339,16.438
+LKA,Sri Lanka,Asia,2017,22.168,16.079
+LKA,Sri Lanka,Asia,2018,20.137,14.241
+LKA,Sri Lanka,Asia,2019,21.106,14.832
+LKA,Sri Lanka,Asia,2020,20.412,12.956
+LKA,Sri Lanka,Asia,2021,20.823,14.268
+LKA,Sri Lanka,Asia,2022,18.377,11.997
+LKA,Sri Lanka,Asia,2023,19.166,13.386
+LTU,Lithuania,Europe,2000,11.843,6.458
+LTU,Lithuania,Europe,2001,12.594,7.119
+LTU,Lithuania,Europe,2002,12.666,6.9
+LTU,Lithuania,Europe,2003,12.659,6.348
+LTU,Lithuania,Europe,2004,13.254,6.834
+LTU,Lithuania,Europe,2005,13.863,7.197
+LTU,Lithuania,Europe,2006,14.195,7.134
+LTU,Lithuania,Europe,2007,15.474,7.513
+LTU,Lithuania,Europe,2008,14.919,7.789
+LTU,Lithuania,Europe,2009,12.829,6.859
+LTU,Lithuania,Europe,2010,13.802,6.813
+LTU,Lithuania,Europe,2011,13.96,6.488
+LTU,Lithuania,Europe,2012,14.054,6.727
+LTU,Lithuania,Europe,2013,13.148,6.518
+LTU,Lithuania,Europe,2014,12.846,6.767
+LTU,Lithuania,Europe,2015,13.045,7.081
+LTU,Lithuania,Europe,2016,13.102,7.621
+LTU,Lithuania,Europe,2017,13.277,7.718
+LTU,Lithuania,Europe,2018,13.414,8.02
+LTU,Lithuania,Europe,2019,13.647,8.119
+LTU,Lithuania,Europe,2020,13.5,7.942
+LTU,Lithuania,Europe,2021,13.778,8.145
+LTU,Lithuania,Europe,2022,12.895,8.375
+LTU,Lithuania,Europe,2023,12.507,8.54
+LUX,Luxembourg,Europe,2000,8.702,6.063
+LUX,Luxembourg,Europe,2001,9.205,6.458
+LUX,Luxembourg,Europe,2002,9.978,6.556
+LUX,Luxembourg,Europe,2003,10.451,7.073
+LUX,Luxembourg,Europe,2004,11.816,8.074
+LUX,Luxembourg,Europe,2005,12.076,8.381
+LUX,Luxembourg,Europe,2006,11.906,7.995
+LUX,Luxembourg,Europe,2007,11.302,7.684
+LUX,Luxembourg,Europe,2008,11.167,7.766
+LUX,Luxembourg,Europe,2009,10.62,7.197
+LUX,Luxembourg,Europe,2010,11.191,7.582
+LUX,Luxembourg,Europe,2011,11.09,7.852
+LUX,Luxembourg,Europe,2012,10.858,7.624
+LUX,Luxembourg,Europe,2013,10.323,7.507
+LUX,Luxembourg,Europe,2014,9.807,7.091
+LUX,Luxembourg,Europe,2015,9.334,6.812
+LUX,Luxembourg,Europe,2016,9.077,6.675
+LUX,Luxembourg,Europe,2017,9.251,6.866
+LUX,Luxembourg,Europe,2018,9.556,7.236
+LUX,Luxembourg,Europe,2019,9.75,7.397
+LUX,Luxembourg,Europe,2020,8.069,5.902
+LUX,Luxembourg,Europe,2021,8.41,6.186
+LUX,Luxembourg,Europe,2022,7.274,5.406
+LUX,Luxembourg,Europe,2023,6.841,5.244
+LVA,Latvia,Europe,2000,7.082,3.879
+LVA,Latvia,Europe,2001,7.497,3.917
+LVA,Latvia,Europe,2002,7.52,3.935
+LVA,Latvia,Europe,2003,7.726,4.058
+LVA,Latvia,Europe,2004,7.731,4.162
+LVA,Latvia,Europe,2005,7.811,4.13
+LVA,Latvia,Europe,2006,8.31,4.471
+LVA,Latvia,Europe,2007,8.637,4.831
+LVA,Latvia,Europe,2008,8.198,4.471
+LVA,Latvia,Europe,2009,7.456,4.071
+LVA,Latvia,Europe,2010,8.555,4.251
+LVA,Latvia,Europe,2011,7.808,3.813
+LVA,Latvia,Europe,2012,7.52,3.73
+LVA,Latvia,Europe,2013,7.369,3.771
+LVA,Latvia,Europe,2014,7.172,3.89
+LVA,Latvia,Europe,2015,7.262,4.067
+LVA,Latvia,Europe,2016,7.211,4.059
+LVA,Latvia,Europe,2017,7.215,4.277
+LVA,Latvia,Europe,2018,7.843,4.346
+LVA,Latvia,Europe,2019,7.633,4.303
+LVA,Latvia,Europe,2020,6.999,4.174
+LVA,Latvia,Europe,2021,7.218,4.287
+LVA,Latvia,Europe,2022,6.608,4.331
+LVA,Latvia,Europe,2023,6.59,4.386
+MAR,Morocco,Africa,2000,33.199,19.756
+MAR,Morocco,Africa,2001,36.809,19.872
+MAR,Morocco,Africa,2002,37.31,19.987
+MAR,Morocco,Africa,2003,36.57,20.071
+MAR,Morocco,Africa,2004,42.226,24.043
+MAR,Morocco,Africa,2005,44.661,25.344
+MAR,Morocco,Africa,2006,46.249,25.983
+MAR,Morocco,Africa,2007,48.913,27.588
+MAR,Morocco,Africa,2008,51.372,30.681
+MAR,Morocco,Africa,2009,50.86,30.884
+MAR,Morocco,Africa,2010,54.365,34.478
+MAR,Morocco,Africa,2011,54.868,36.574
+MAR,Morocco,Africa,2012,56.954,37.258
+MAR,Morocco,Africa,2013,56.606,36.973
+MAR,Morocco,Africa,2014,57.175,34.458
+MAR,Morocco,Africa,2015,58.499,34.079
+MAR,Morocco,Africa,2016,58.457,34.654
+MAR,Morocco,Africa,2017,61.104,36.828
+MAR,Morocco,Africa,2018,62.315,35.792
+MAR,Morocco,Africa,2019,68.743,36.479
+MAR,Morocco,Africa,2020,64.542,33.152
+MAR,Morocco,Africa,2021,70.275,36.986
+MAR,Morocco,Africa,2022,69.779,37.812
+MAR,Morocco,Africa,2023,68.961,37.534
+MDA,Moldova,Europe,2000,3.573,1.282
+MDA,Moldova,Europe,2001,3.787,1.433
+MDA,Moldova,Europe,2002,4.052,1.63
+MDA,Moldova,Europe,2003,4.404,1.766
+MDA,Moldova,Europe,2004,4.613,1.909
+MDA,Moldova,Europe,2005,4.938,1.921
+MDA,Moldova,Europe,2006,5.03,1.869
+MDA,Moldova,Europe,2007,4.979,1.931
+MDA,Moldova,Europe,2008,5.19,2.034
+MDA,Moldova,Europe,2009,4.54,1.975
+MDA,Moldova,Europe,2010,4.831,2.173
+MDA,Moldova,Europe,2011,4.945,2.268
+MDA,Moldova,Europe,2012,4.766,2.085
+MDA,Moldova,Europe,2013,4.899,2.147
+MDA,Moldova,Europe,2014,4.755,2.176
+MDA,Moldova,Europe,2015,4.785,2.29
+MDA,Moldova,Europe,2016,4.907,2.464
+MDA,Moldova,Europe,2017,5.09,2.554
+MDA,Moldova,Europe,2018,5.351,2.667
+MDA,Moldova,Europe,2019,5.378,2.75
+MDA,Moldova,Europe,2020,5.113,2.59
+MDA,Moldova,Europe,2021,5.76,2.891
+MDA,Moldova,Europe,2022,5.173,3.089
+MDA,Moldova,Europe,2023,5.329,3.174
+MDG,Madagascar,Africa,2000,1.955,1.909
+MDG,Madagascar,Africa,2001,1.747,1.7
+MDG,Madagascar,Africa,2002,1.232,1.194
+MDG,Madagascar,Africa,2003,1.699,1.594
+MDG,Madagascar,Africa,2004,1.804,1.711
+MDG,Madagascar,Africa,2005,1.741,1.638
+MDG,Madagascar,Africa,2006,1.675,1.576
+MDG,Madagascar,Africa,2007,1.728,1.598
+MDG,Madagascar,Africa,2008,1.787,1.689
+MDG,Madagascar,Africa,2009,1.699,1.608
+MDG,Madagascar,Africa,2010,1.872,1.704
+MDG,Madagascar,Africa,2011,2.33,1.898
+MDG,Madagascar,Africa,2012,2.66,1.958
+MDG,Madagascar,Africa,2013,3.061,1.977
+MDG,Madagascar,Africa,2014,2.971,2.015
+MDG,Madagascar,Africa,2015,3.121,2.14
+MDG,Madagascar,Africa,2016,3.257,2.297
+MDG,Madagascar,Africa,2017,3.804,2.444
+MDG,Madagascar,Africa,2018,3.604,2.44
+MDG,Madagascar,Africa,2019,4.147,2.847
+MDG,Madagascar,Africa,2020,3.788,2.499
+MDG,Madagascar,Africa,2021,4.246,2.92
+MDG,Madagascar,Africa,2022,4.21,3.013
+MDG,Madagascar,Africa,2023,4.447,3.072
+MDV,Maldives,Asia,2000,0.451,0.451
+MDV,Maldives,Asia,2001,0.462,0.462
+MDV,Maldives,Asia,2002,0.59,0.59
+MDV,Maldives,Asia,2003,0.509,0.509
+MDV,Maldives,Asia,2004,0.663,0.663
+MDV,Maldives,Asia,2005,0.601,0.601
+MDV,Maldives,Asia,2006,0.744,0.744
+MDV,Maldives,Asia,2007,0.78,0.78
+MDV,Maldives,Asia,2008,0.839,0.839
+MDV,Maldives,Asia,2009,0.883,0.883
+MDV,Maldives,Asia,2010,0.931,0.931
+MDV,Maldives,Asia,2011,0.986,0.986
+MDV,Maldives,Asia,2012,1.11,1.11
+MDV,Maldives,Asia,2013,1.096,1.096
+MDV,Maldives,Asia,2014,1.319,1.319
+MDV,Maldives,Asia,2015,1.282,1.282
+MDV,Maldives,Asia,2016,1.433,1.433
+MDV,Maldives,Asia,2017,1.513,1.513
+MDV,Maldives,Asia,2018,1.737,1.737
+MDV,Maldives,Asia,2019,1.993,1.993
+MDV,Maldives,Asia,2020,1.678,1.678
+MDV,Maldives,Asia,2021,1.997,1.997
+MDV,Maldives,Asia,2022,2.216,2.216
+MDV,Maldives,Asia,2023,2.205,2.205
+MEX,Mexico,North America,2000,391.435,263.874
+MEX,Mexico,North America,2001,407.485,275.577
+MEX,Mexico,North America,2002,410.301,265.359
+MEX,Mexico,North America,2003,435.969,273.195
+MEX,Mexico,North America,2004,438.588,276.736
+MEX,Mexico,North America,2005,463.436,291.123
+MEX,Mexico,North America,2006,474.523,284.691
+MEX,Mexico,North America,2007,473.595,286.649
+MEX,Mexico,North America,2008,472.981,288.397
+MEX,Mexico,North America,2009,460.29,272.739
+MEX,Mexico,North America,2010,456.409,259.679
+MEX,Mexico,North America,2011,483.302,272.512
+MEX,Mexico,North America,2012,501.492,290.158
+MEX,Mexico,North America,2013,495.412,277.692
+MEX,Mexico,North America,2014,484.045,269.275
+MEX,Mexico,North America,2015,479.434,258.874
+MEX,Mexico,North America,2016,478.828,251.592
+MEX,Mexico,North America,2017,464.407,245.838
+MEX,Mexico,North America,2018,468.421,228.846
+MEX,Mexico,North America,2019,468.236,238.024
+MEX,Mexico,North America,2020,428.937,204.103
+MEX,Mexico,North America,2021,446.838,219.979
+MEX,Mexico,North America,2022,453.799,229.839
+MEX,Mexico,North America,2023,458.254,217.452
+MKD,North Macedonia,Europe,2000,8.468,2.816
+MKD,North Macedonia,Europe,2001,8.292,2.298
+MKD,North Macedonia,Europe,2002,7.837,2.561
+MKD,North Macedonia,Europe,2003,8.533,2.529
+MKD,North Macedonia,Europe,2004,8.229,2.598
+MKD,North Macedonia,Europe,2005,8.596,2.682
+MKD,North Macedonia,Europe,2006,8.651,2.865
+MKD,North Macedonia,Europe,2007,9.013,3.097
+MKD,North Macedonia,Europe,2008,8.936,2.777
+MKD,North Macedonia,Europe,2009,8.248,2.822
+MKD,North Macedonia,Europe,2010,8.182,2.739
+MKD,North Macedonia,Europe,2011,8.823,2.752
+MKD,North Macedonia,Europe,2012,8.457,2.675
+MKD,North Macedonia,Europe,2013,7.452,2.599
+MKD,North Macedonia,Europe,2014,7.167,2.594
+MKD,North Macedonia,Europe,2015,6.72,2.737
+MKD,North Macedonia,Europe,2016,6.606,2.81
+MKD,North Macedonia,Europe,2017,7.09,2.813
+MKD,North Macedonia,Europe,2018,6.654,2.77
+MKD,North Macedonia,Europe,2019,7.625,3.017
+MKD,North Macedonia,Europe,2020,6.98,2.88
+MKD,North Macedonia,Europe,2021,6.518,3.155
+MKD,North Macedonia,Europe,2022,7.352,3.479
+MKD,North Macedonia,Europe,2023,7.338,3.46
+MLI,Mali,Africa,2000,1.066,1.066
+MLI,Mali,Africa,2001,1.161,1.161
+MLI,Mali,Africa,2002,1.209,1.209
+MLI,Mali,Africa,2003,1.246,1.246
+MLI,Mali,Africa,2004,1.414,1.414
+MLI,Mali,Africa,2005,1.458,1.458
+MLI,Mali,Africa,2006,1.535,1.535
+MLI,Mali,Africa,2007,1.784,1.784
+MLI,Mali,Africa,2008,1.957,1.957
+MLI,Mali,Africa,2009,1.887,1.887
+MLI,Mali,Africa,2010,2.088,2.088
+MLI,Mali,Africa,2011,2.279,2.279
+MLI,Mali,Africa,2012,2.437,2.437
+MLI,Mali,Africa,2013,2.743,2.572
+MLI,Mali,Africa,2014,3.139,2.884
+MLI,Mali,Africa,2015,3.399,3.155
+MLI,Mali,Africa,2016,4.286,4.034
+MLI,Mali,Africa,2017,4.767,4.507
+MLI,Mali,Africa,2018,5.198,4.811
+MLI,Mali,Africa,2019,5.594,5.207
+MLI,Mali,Africa,2020,6.33,5.749
+MLI,Mali,Africa,2021,7.393,6.734
+MLI,Mali,Africa,2022,7.02,6.322
+MLI,Mali,Africa,2023,6.743,6.046
+MLT,Malta,Europe,2000,2.468,2.468
+MLT,Malta,Europe,2001,2.737,2.736
+MLT,Malta,Europe,2002,2.747,2.747
+MLT,Malta,Europe,2003,2.961,2.96
+MLT,Malta,Europe,2004,2.849,2.849
+MLT,Malta,Europe,2005,2.65,2.649
+MLT,Malta,Europe,2006,2.655,2.655
+MLT,Malta,Europe,2007,2.728,2.727
+MLT,Malta,Europe,2008,2.721,2.721
+MLT,Malta,Europe,2009,2.561,2.56
+MLT,Malta,Europe,2010,2.619,2.618
+MLT,Malta,Europe,2011,2.608,2.607
+MLT,Malta,Europe,2012,2.749,2.748
+MLT,Malta,Europe,2013,2.43,2.427
+MLT,Malta,Europe,2014,2.417,2.414
+MLT,Malta,Europe,2015,1.697,1.695
+MLT,Malta,Europe,2016,1.376,1.374
+MLT,Malta,Europe,2017,1.537,0.984
+MLT,Malta,Europe,2018,1.548,0.866
+MLT,Malta,Europe,2019,1.649,0.94
+MLT,Malta,Europe,2020,1.601,0.864
+MLT,Malta,Europe,2021,1.611,0.872
+MLT,Malta,Europe,2022,1.774,1.026
+MLT,Malta,Europe,2023,1.768,0.985
+MMR,Myanmar,Asia,2000,10.219,5.91
+MMR,Myanmar,Asia,2001,8.856,4.869
+MMR,Myanmar,Asia,2002,9.328,5.544
+MMR,Myanmar,Asia,2003,9.997,6.051
+MMR,Myanmar,Asia,2004,12.565,6.41
+MMR,Myanmar,Asia,2005,11.548,5.247
+MMR,Myanmar,Asia,2006,12.817,5.458
+MMR,Myanmar,Asia,2007,12.845,5.566
+MMR,Myanmar,Asia,2008,9.772,5.163
+MMR,Myanmar,Asia,2009,10.211,3.867
+MMR,Myanmar,Asia,2010,13.125,7.495
+MMR,Myanmar,Asia,2011,15.122,7.667
+MMR,Myanmar,Asia,2012,11.826,6.062
+MMR,Myanmar,Asia,2013,12.715,6.782
+MMR,Myanmar,Asia,2014,15.849,9.226
+MMR,Myanmar,Asia,2015,21.88,9.622
+MMR,Myanmar,Asia,2016,21.144,10.897
+MMR,Myanmar,Asia,2017,23.633,11.459
+MMR,Myanmar,Asia,2018,34.017,20.888
+MMR,Myanmar,Asia,2019,33.617,19.716
+MMR,Myanmar,Asia,2020,34.588,19.225
+MMR,Myanmar,Asia,2021,29.285,14.762
+MMR,Myanmar,Asia,2022,31.639,16.577
+MMR,Myanmar,Asia,2023,31.793,16.498
+MNE,Montenegro,Europe,2000,1.516,0.26
+MNE,Montenegro,Europe,2001,1.627,0.46
+MNE,Montenegro,Europe,2002,1.74,0.528
+MNE,Montenegro,Europe,2003,1.863,0.586
+MNE,Montenegro,Europe,2004,2.034,0.69
+MNE,Montenegro,Europe,2005,1.934,0.801
+MNE,Montenegro,Europe,2006,2.063,0.806
+MNE,Montenegro,Europe,2007,2.056,1.031
+MNE,Montenegro,Europe,2008,2.605,1.093
+MNE,Montenegro,Europe,2009,1.682,0.865
+MNE,Montenegro,Europe,2010,2.422,0.799
+MNE,Montenegro,Europe,2011,2.407,0.73
+MNE,Montenegro,Europe,2012,2.213,0.707
+MNE,Montenegro,Europe,2013,2.151,0.7
+MNE,Montenegro,Europe,2014,2.107,0.689
+MNE,Montenegro,Europe,2015,2.239,0.744
+MNE,Montenegro,Europe,2016,2.015,0.832
+MNE,Montenegro,Europe,2017,2.103,0.901
+MNE,Montenegro,Europe,2018,2.404,0.978
+MNE,Montenegro,Europe,2019,2.477,1.022
+MNE,Montenegro,Europe,2020,2.404,0.89
+MNE,Montenegro,Europe,2021,2.411,1.085
+MNE,Montenegro,Europe,2022,2.495,1.087
+MNE,Montenegro,Europe,2023,2.407,1.073
+MNG,Mongolia,Asia,2000,7.432,1.261
+MNG,Mongolia,Asia,2001,7.804,1.422
+MNG,Mongolia,Asia,2002,8.197,1.367
+MNG,Mongolia,Asia,2003,7.935,1.491
+MNG,Mongolia,Asia,2004,8.501,1.652
+MNG,Mongolia,Asia,2005,8.515,1.63
+MNG,Mongolia,Asia,2006,9.281,1.821
+MNG,Mongolia,Asia,2007,11.958,2.275
+MNG,Mongolia,Asia,2008,11.918,2.458
+MNG,Mongolia,Asia,2009,13.03,2.283
+MNG,Mongolia,Asia,2010,13.772,2.421
+MNG,Mongolia,Asia,2011,21.368,3.005
+MNG,Mongolia,Asia,2012,34.996,3.433
+MNG,Mongolia,Asia,2013,43.478,3.576
+MNG,Mongolia,Asia,2014,29.63,3.408
+MNG,Mongolia,Asia,2015,23.279,3.367
+MNG,Mongolia,Asia,2016,25.629,2.888
+MNG,Mongolia,Asia,2017,34.139,3.759
+MNG,Mongolia,Asia,2018,45.319,3.957
+MNG,Mongolia,Asia,2019,47.119,4.994
+MNG,Mongolia,Asia,2020,42.478,4.961
+MNG,Mongolia,Asia,2021,35.972,4.804
+MNG,Mongolia,Asia,2022,40.443,5.15
+MNG,Mongolia,Asia,2023,44.184,5.125
+MOZ,Mozambique,Africa,2000,1.322,1.213
+MOZ,Mozambique,Africa,2001,1.554,1.444
+MOZ,Mozambique,Africa,2002,1.537,1.337
+MOZ,Mozambique,Africa,2003,1.856,1.612
+MOZ,Mozambique,Africa,2004,1.864,1.638
+MOZ,Mozambique,Africa,2005,1.77,1.436
+MOZ,Mozambique,Africa,2006,1.916,1.517
+MOZ,Mozambique,Africa,2007,2.189,1.836
+MOZ,Mozambique,Africa,2008,2.18,1.751
+MOZ,Mozambique,Africa,2009,2.439,1.964
+MOZ,Mozambique,Africa,2010,2.638,2.117
+MOZ,Mozambique,Africa,2011,3.107,2.426
+MOZ,Mozambique,Africa,2012,3.052,2.313
+MOZ,Mozambique,Africa,2013,3.579,2.675
+MOZ,Mozambique,Africa,2014,8.118,5.364
+MOZ,Mozambique,Africa,2015,6.731,3.934
+MOZ,Mozambique,Africa,2016,8.548,6.009
+MOZ,Mozambique,Africa,2017,6.905,4.335
+MOZ,Mozambique,Africa,2018,7.01,4.388
+MOZ,Mozambique,Africa,2019,7.097,4.276
+MOZ,Mozambique,Africa,2020,6.34,3.556
+MOZ,Mozambique,Africa,2021,7.722,4.847
+MOZ,Mozambique,Africa,2022,9.296,5.206
+MOZ,Mozambique,Africa,2023,9.093,5.308
+MRT,Mauritania,Africa,2000,1.114,1.114
+MRT,Mauritania,Africa,2001,1.172,1.172
+MRT,Mauritania,Africa,2002,1.249,1.249
+MRT,Mauritania,Africa,2003,1.286,1.286
+MRT,Mauritania,Africa,2004,1.385,1.385
+MRT,Mauritania,Africa,2005,1.434,1.433
+MRT,Mauritania,Africa,2006,1.55,1.422
+MRT,Mauritania,Africa,2007,1.758,1.638
+MRT,Mauritania,Africa,2008,1.831,1.77
+MRT,Mauritania,Africa,2009,2.012,1.96
+MRT,Mauritania,Africa,2010,2.094,2.045
+MRT,Mauritania,Africa,2011,2.227,2.151
+MRT,Mauritania,Africa,2012,2.448,2.345
+MRT,Mauritania,Africa,2013,2.169,2.063
+MRT,Mauritania,Africa,2014,2.563,2.495
+MRT,Mauritania,Africa,2015,3.002,2.924
+MRT,Mauritania,Africa,2016,2.624,2.532
+MRT,Mauritania,Africa,2017,3.581,3.506
+MRT,Mauritania,Africa,2018,4.444,4.444
+MRT,Mauritania,Africa,2019,4.613,4.613
+MRT,Mauritania,Africa,2020,4.782,4.782
+MRT,Mauritania,Africa,2021,4.5,4.5
+MRT,Mauritania,Africa,2022,5.267,5.267
+MRT,Mauritania,Africa,2023,5.037,5.037
+MSR,Montserrat,North America,2000,0.026,0.026
+MSR,Montserrat,North America,2001,0.026,0.026
+MSR,Montserrat,North America,2002,0.044,0.044
+MSR,Montserrat,North America,2003,0.037,0.037
+MSR,Montserrat,North America,2004,0.048,0.048
+MSR,Montserrat,North America,2005,0.04,0.04
+MSR,Montserrat,North America,2006,0.04,0.04
+MSR,Montserrat,North America,2007,0.04,0.04
+MSR,Montserrat,North America,2008,0.044,0.044
+MSR,Montserrat,North America,2009,0.044,0.044
+MSR,Montserrat,North America,2010,0.059,0.059
+MSR,Montserrat,North America,2011,0.037,0.037
+MSR,Montserrat,North America,2012,0.04,0.04
+MSR,Montserrat,North America,2013,0.051,0.051
+MSR,Montserrat,North America,2014,0.044,0.044
+MSR,Montserrat,North America,2015,0.051,0.051
+MSR,Montserrat,North America,2016,0.029,0.029
+MSR,Montserrat,North America,2017,0.026,0.026
+MSR,Montserrat,North America,2018,0.029,0.029
+MSR,Montserrat,North America,2019,0.026,0.026
+MSR,Montserrat,North America,2020,0.022,0.022
+MSR,Montserrat,North America,2021,0.022,0.022
+MSR,Montserrat,North America,2022,0.026,0.026
+MSR,Montserrat,North America,2023,0.026,0.026
+MUS,Mauritius,Africa,2000,2.689,2.096
+MUS,Mauritius,Africa,2001,2.862,2.173
+MUS,Mauritius,Africa,2002,2.884,2.147
+MUS,Mauritius,Africa,2003,3.059,2.308
+MUS,Mauritius,Africa,2004,3.089,2.422
+MUS,Mauritius,Africa,2005,3.294,2.443
+MUS,Mauritius,Africa,2006,3.627,2.492
+MUS,Mauritius,Africa,2007,3.686,2.363
+MUS,Mauritius,Africa,2008,3.767,2.224
+MUS,Mauritius,Africa,2009,3.708,2.297
+MUS,Mauritius,Africa,2010,3.913,2.341
+MUS,Mauritius,Africa,2011,3.917,2.411
+MUS,Mauritius,Africa,2012,3.964,2.378
+MUS,Mauritius,Africa,2013,4.067,2.396
+MUS,Mauritius,Africa,2014,4.206,2.471
+MUS,Mauritius,Africa,2015,4.21,2.524
+MUS,Mauritius,Africa,2016,4.342,2.627
+MUS,Mauritius,Africa,2017,4.54,2.752
+MUS,Mauritius,Africa,2018,4.455,2.759
+MUS,Mauritius,Africa,2019,4.525,2.964
+MUS,Mauritius,Africa,2020,3.8,2.248
+MUS,Mauritius,Africa,2021,3.968,2.237
+MUS,Mauritius,Africa,2022,4.317,2.955
+MUS,Mauritius,Africa,2023,4.588,3.013
+MWI,Malawi,Africa,2000,0.854,0.634
+MWI,Malawi,Africa,2001,0.777,0.597
+MWI,Malawi,Africa,2002,0.856,0.623
+MWI,Malawi,Africa,2003,0.915,0.667
+MWI,Malawi,Africa,2004,0.902,0.703
+MWI,Malawi,Africa,2005,0.845,0.678
+MWI,Malawi,Africa,2006,0.851,0.689
+MWI,Malawi,Africa,2007,0.919,0.739
+MWI,Malawi,Africa,2008,0.999,0.846
+MWI,Malawi,Africa,2009,1.018,0.865
+MWI,Malawi,Africa,2010,0.972,0.788
+MWI,Malawi,Africa,2011,1.034,0.806
+MWI,Malawi,Africa,2012,1.041,0.824
+MWI,Malawi,Africa,2013,1.12,0.854
+MWI,Malawi,Africa,2014,1.015,0.714
+MWI,Malawi,Africa,2015,1.05,0.78
+MWI,Malawi,Africa,2016,1.172,0.923
+MWI,Malawi,Africa,2017,1.193,0.923
+MWI,Malawi,Africa,2018,1.69,1.378
+MWI,Malawi,Africa,2019,1.695,1.371
+MWI,Malawi,Africa,2020,1.868,1.429
+MWI,Malawi,Africa,2021,1.682,1.315
+MWI,Malawi,Africa,2022,1.801,1.411
+MWI,Malawi,Africa,2023,1.853,1.439
+MYS,Malaysia,Asia,2000,122.881,56.154
+MYS,Malaysia,Asia,2001,130.89,63.481
+MYS,Malaysia,Asia,2002,132.035,60.705
+MYS,Malaysia,Asia,2003,153.384,62.222
+MYS,Malaysia,Asia,2004,169.674,67.61
+MYS,Malaysia,Asia,2005,169.978,68.806
+MYS,Malaysia,Asia,2006,170.166,62.325
+MYS,Malaysia,Asia,2007,175.454,68.827
+MYS,Malaysia,Asia,2008,192.847,70.211
+MYS,Malaysia,Asia,2009,192.123,68.612
+MYS,Malaysia,Asia,2010,199.346,73.374
+MYS,Malaysia,Asia,2011,203.453,71.752
+MYS,Malaysia,Asia,2012,212.994,74.28
+MYS,Malaysia,Asia,2013,241.671,87.213
+MYS,Malaysia,Asia,2014,245.053,88.718
+MYS,Malaysia,Asia,2015,235.942,76.189
+MYS,Malaysia,Asia,2016,237.294,77.291
+MYS,Malaysia,Asia,2017,244.457,80.88
+MYS,Malaysia,Asia,2018,262.647,80.676
+MYS,Malaysia,Asia,2019,277.673,94.751
+MYS,Malaysia,Asia,2020,262.159,68.495
+MYS,Malaysia,Asia,2021,273.332,73.027
+MYS,Malaysia,Asia,2022,281.884,71.195
+MYS,Malaysia,Asia,2023,276.297,77.318
+NAM,Namibia,Africa,2000,1.718,1.682
+NAM,Namibia,Africa,2001,2.231,2.129
+NAM,Namibia,Africa,2002,1.971,1.894
+NAM,Namibia,Africa,2003,2.092,1.99
+NAM,Namibia,Africa,2004,2.239,2.121
+NAM,Namibia,Africa,2005,2.532,2.44
+NAM,Namibia,Africa,2006,2.524,2.308
+NAM,Namibia,Africa,2007,2.327,2.231
+NAM,Namibia,Africa,2008,2.858,2.583
+NAM,Namibia,Africa,2009,2.66,2.473
+NAM,Namibia,Africa,2010,2.788,2.598
+NAM,Namibia,Africa,2011,2.786,2.506
+NAM,Namibia,Africa,2012,3.194,2.814
+NAM,Namibia,Africa,2013,3.004,2.601
+NAM,Namibia,Africa,2014,3.099,2.734
+NAM,Namibia,Africa,2015,3.394,2.979
+NAM,Namibia,Africa,2016,3.582,3.188
+NAM,Namibia,Africa,2017,3.59,3.03
+NAM,Namibia,Africa,2018,3.635,3.053
+NAM,Namibia,Africa,2019,3.73,3.078
+NAM,Namibia,Africa,2020,3.44,2.826
+NAM,Namibia,Africa,2021,3.608,2.979
+NAM,Namibia,Africa,2022,3.414,2.917
+NAM,Namibia,Africa,2023,3.443,2.947
+NCL,New Caledonia,Oceania,2000,2.224,1.532
+NCL,New Caledonia,Oceania,2001,1.877,1.176
+NCL,New Caledonia,Oceania,2002,2.392,1.645
+NCL,New Caledonia,Oceania,2003,2.726,1.883
+NCL,New Caledonia,Oceania,2004,2.515,1.75
+NCL,New Caledonia,Oceania,2005,2.806,2.093
+NCL,New Caledonia,Oceania,2006,2.71,1.938
+NCL,New Caledonia,Oceania,2007,2.927,2.253
+NCL,New Caledonia,Oceania,2008,2.848,2.154
+NCL,New Caledonia,Oceania,2009,3.036,2.125
+NCL,New Caledonia,Oceania,2010,3.658,2.287
+NCL,New Caledonia,Oceania,2011,3.694,2.278
+NCL,New Caledonia,Oceania,2012,3.706,2.3
+NCL,New Caledonia,Oceania,2013,3.97,2.543
+NCL,New Caledonia,Oceania,2014,5.009,3.029
+NCL,New Caledonia,Oceania,2015,4.877,2.794
+NCL,New Caledonia,Oceania,2016,5.482,2.805
+NCL,New Caledonia,Oceania,2017,5.584,2.569
+NCL,New Caledonia,Oceania,2018,5.913,2.823
+NCL,New Caledonia,Oceania,2019,5.673,2.602
+NCL,New Caledonia,Oceania,2020,5.109,2.367
+NCL,New Caledonia,Oceania,2021,4.537,2.218
+NCL,New Caledonia,Oceania,2022,5.116,2.327
+NCL,New Caledonia,Oceania,2023,5.068,2.425
+NER,Niger,Africa,2000,0.683,0.445
+NER,Niger,Africa,2001,0.646,0.397
+NER,Niger,Africa,2002,0.685,0.409
+NER,Niger,Africa,2003,0.744,0.459
+NER,Niger,Africa,2004,0.795,0.442
+NER,Niger,Africa,2005,0.691,0.43
+NER,Niger,Africa,2006,0.671,0.398
+NER,Niger,Africa,2007,0.706,0.464
+NER,Niger,Africa,2008,0.792,0.512
+NER,Niger,Africa,2009,0.952,0.667
+NER,Niger,Africa,2010,1.16,0.828
+NER,Niger,Africa,2011,1.313,0.923
+NER,Niger,Africa,2012,1.852,1.348
+NER,Niger,Africa,2013,2.078,1.539
+NER,Niger,Africa,2014,2.256,1.678
+NER,Niger,Africa,2015,2.199,1.756
+NER,Niger,Africa,2016,2.142,1.681
+NER,Niger,Africa,2017,2.243,1.814
+NER,Niger,Africa,2018,1.803,1.385
+NER,Niger,Africa,2019,2.513,2.026
+NER,Niger,Africa,2020,3.04,2.505
+NER,Niger,Africa,2021,2.588,2.188
+NER,Niger,Africa,2022,3.201,2.68
+NER,Niger,Africa,2023,3.133,2.563
+NGA,Nigeria,Africa,2000,96.831,31.54
+NGA,Nigeria,Africa,2001,100.218,37.204
+NGA,Nigeria,Africa,2002,89.906,37.573
+NGA,Nigeria,Africa,2003,100.03,34.203
+NGA,Nigeria,Africa,2004,94.962,30.847
+NGA,Nigeria,Africa,2005,101.666,39.793
+NGA,Nigeria,Africa,2006,90.097,31.979
+NGA,Nigeria,Africa,2007,82.17,27.26
+NGA,Nigeria,Africa,2008,86.489,33.499
+NGA,Nigeria,Africa,2009,77.031,27.253
+NGA,Nigeria,Africa,2010,112.05,58.741
+NGA,Nigeria,Africa,2011,126.115,69.442
+NGA,Nigeria,Africa,2012,110.125,55.858
+NGA,Nigeria,Africa,2013,117.401,62.251
+NGA,Nigeria,Africa,2014,123.971,66.604
+NGA,Nigeria,Africa,2015,110.525,54.11
+NGA,Nigeria,Africa,2016,116.396,60.54
+NGA,Nigeria,Africa,2017,112.54,58.476
+NGA,Nigeria,Africa,2018,106.786,48.436
+NGA,Nigeria,Africa,2019,127.859,68.002
+NGA,Nigeria,Africa,2020,124.899,64.36
+NGA,Nigeria,Africa,2021,147.777,82.841
+NGA,Nigeria,Africa,2022,131.441,69.383
+NGA,Nigeria,Africa,2023,129.376,66.347
+NIC,Nicaragua,North America,2000,3.71,3.495
+NIC,Nicaragua,North America,2001,3.909,3.704
+NIC,Nicaragua,North America,2002,3.976,3.759
+NIC,Nicaragua,North America,2003,4.31,3.964
+NIC,Nicaragua,North America,2004,4.362,4.162
+NIC,Nicaragua,North America,2005,4.253,4.052
+NIC,Nicaragua,North America,2006,4.407,4.203
+NIC,Nicaragua,North America,2007,4.54,4.338
+NIC,Nicaragua,North America,2008,4.353,4.155
+NIC,Nicaragua,North America,2009,4.432,4.236
+NIC,Nicaragua,North America,2010,4.453,4.232
+NIC,Nicaragua,North America,2011,4.789,4.532
+NIC,Nicaragua,North America,2012,4.534,4.309
+NIC,Nicaragua,North America,2013,4.586,4.353
+NIC,Nicaragua,North America,2014,4.72,4.47
+NIC,Nicaragua,North America,2015,5.408,5.144
+NIC,Nicaragua,North America,2016,5.379,5.1
+NIC,Nicaragua,North America,2017,5.441,5.163
+NIC,Nicaragua,North America,2018,5.178,4.935
+NIC,Nicaragua,North America,2019,5.208,5.001
+NIC,Nicaragua,North America,2020,4.641,4.459
+NIC,Nicaragua,North America,2021,5.133,4.95
+NIC,Nicaragua,North America,2022,5.131,4.942
+NIC,Nicaragua,North America,2023,5.428,5.239
+NLD,Netherlands,Europe,2000,172.154,56.084
+NLD,Netherlands,Europe,2001,177.464,56.735
+NLD,Netherlands,Europe,2002,176.738,55.279
+NLD,Netherlands,Europe,2003,180.169,56.653
+NLD,Netherlands,Europe,2004,182.09,56.829
+NLD,Netherlands,Europe,2005,178.13,56.811
+NLD,Netherlands,Europe,2006,173.279,55.41
+NLD,Netherlands,Europe,2007,173.028,54.747
+NLD,Netherlands,Europe,2008,175.904,55.119
+NLD,Netherlands,Europe,2009,170.433,52.015
+NLD,Netherlands,Europe,2010,182.479,52.661
+NLD,Netherlands,Europe,2011,169.346,52.533
+NLD,Netherlands,Europe,2012,165.752,50.443
+NLD,Netherlands,Europe,2013,164.925,48.444
+NLD,Netherlands,Europe,2014,157.503,47.304
+NLD,Netherlands,Europe,2015,163.958,47.298
+NLD,Netherlands,Europe,2016,164.812,47.761
+NLD,Netherlands,Europe,2017,162.296,47.637
+NLD,Netherlands,Europe,2018,158.264,47.787
+NLD,Netherlands,Europe,2019,152.727,47.835
+NLD,Netherlands,Europe,2020,136.974,42.415
+NLD,Netherlands,Europe,2021,139.886,42.795
+NLD,Netherlands,Europe,2022,127.503,43.775
+NLD,Netherlands,Europe,2023,117.016,44.07
+NOR,Norway,Europe,2000,42.131,22.346
+NOR,Norway,Europe,2001,43.519,23.33
+NOR,Norway,Europe,2002,42.571,23.322
+NOR,Norway,Europe,2003,43.919,24.382
+NOR,Norway,Europe,2004,44.257,24.047
+NOR,Norway,Europe,2005,43.279,23.64
+NOR,Norway,Europe,2006,43.859,24.743
+NOR,Norway,Europe,2007,45.605,24.389
+NOR,Norway,Europe,2008,44.692,23.62
+NOR,Norway,Europe,2009,43.098,23.144
+NOR,Norway,Europe,2010,45.659,24.535
+NOR,Norway,Europe,2011,44.775,24.308
+NOR,Norway,Europe,2012,44.258,24.279
+NOR,Norway,Europe,2013,44.539,24.539
+NOR,Norway,Europe,2014,44.975,24.091
+NOR,Norway,Europe,2015,45.523,23.893
+NOR,Norway,Europe,2016,44.708,23.38
+NOR,Norway,Europe,2017,44.197,22.723
+NOR,Norway,Europe,2018,44.472,23.347
+NOR,Norway,Europe,2019,42.866,22.084
+NOR,Norway,Europe,2020,41.275,21.328
+NOR,Norway,Europe,2021,41.058,22.07
+NOR,Norway,Europe,2022,40.833,22.164
+NOR,Norway,Europe,2023,38.869,21.22
+NPL,Nepal,Asia,2000,3.037,1.938
+NPL,Nepal,Asia,2001,3.236,2.004
+NPL,Nepal,Asia,2002,2.596,1.96
+NPL,Nepal,Asia,2003,2.81,2.03
+NPL,Nepal,Asia,2004,2.582,1.883
+NPL,Nepal,Asia,2005,2.987,1.933
+NPL,Nepal,Asia,2006,2.456,1.751
+NPL,Nepal,Asia,2007,2.57,1.707
+NPL,Nepal,Asia,2008,3.355,2.495
+NPL,Nepal,Asia,2009,4.126,2.965
+NPL,Nepal,Asia,2010,4.828,3.206
+NPL,Nepal,Asia,2011,5.217,3.309
+NPL,Nepal,Asia,2012,5.47,3.613
+NPL,Nepal,Asia,2013,6.218,4.034
+NPL,Nepal,Asia,2014,7.588,4.569
+NPL,Nepal,Asia,2015,6.905,3.212
+NPL,Nepal,Asia,2016,10.088,5.24
+NPL,Nepal,Asia,2017,12.422,6.363
+NPL,Nepal,Asia,2018,14.039,6.912
+NPL,Nepal,Asia,2019,12.75,5.078
+NPL,Nepal,Asia,2020,15.631,7.19
+NPL,Nepal,Asia,2021,15.486,7.528
+NPL,Nepal,Asia,2022,17.609,8.156
+NPL,Nepal,Asia,2023,18.348,8.118
+NZL,New Zealand,Oceania,2000,32.221,16.302
+NZL,New Zealand,Oceania,2001,34.356,16.427
+NZL,New Zealand,Oceania,2002,34.519,17.165
+NZL,New Zealand,Oceania,2003,36.22,17.952
+NZL,New Zealand,Oceania,2004,35.806,18.325
+NZL,New Zealand,Oceania,2005,37.401,18.516
+NZL,New Zealand,Oceania,2006,37.304,18.648
+NZL,New Zealand,Oceania,2007,36.383,18.858
+NZL,New Zealand,Oceania,2008,37.485,18.726
+NZL,New Zealand,Oceania,2009,34.594,18.001
+NZL,New Zealand,Oceania,2010,34.787,18.081
+NZL,New Zealand,Oceania,2011,34.241,18.28
+NZL,New Zealand,Oceania,2012,35.918,18.026
+NZL,New Zealand,Oceania,2013,35.219,18.42
+NZL,New Zealand,Oceania,2014,35.399,18.724
+NZL,New Zealand,Oceania,2015,35.805,19.251
+NZL,New Zealand,Oceania,2016,34.135,19.363
+NZL,New Zealand,Oceania,2017,35.661,20.227
+NZL,New Zealand,Oceania,2018,35.687,20.41
+NZL,New Zealand,Oceania,2019,36.711,20.778
+NZL,New Zealand,Oceania,2020,34.109,18.997
+NZL,New Zealand,Oceania,2021,34.597,19.733
+NZL,New Zealand,Oceania,2022,31.966,19.258
+NZL,New Zealand,Oceania,2023,31.56,19.363
+OMN,Oman,Asia,2000,23.984,8.163
+OMN,Oman,Asia,2001,22.512,5.251
+OMN,Oman,Asia,2002,26.979,6.226
+OMN,Oman,Asia,2003,34.563,11.12
+OMN,Oman,Asia,2004,29.247,7.504
+OMN,Oman,Asia,2005,31.835,6.87
+OMN,Oman,Asia,2006,40.45,14.029
+OMN,Oman,Asia,2007,45.308,18.148
+OMN,Oman,Asia,2008,47.436,13.275
+OMN,Oman,Asia,2009,44.504,10.53
+OMN,Oman,Asia,2010,51.429,12.109
+OMN,Oman,Asia,2011,57.305,12.45
+OMN,Oman,Asia,2012,63.105,14.983
+OMN,Oman,Asia,2013,65.587,13.168
+OMN,Oman,Asia,2014,66.19,14.275
+OMN,Oman,Asia,2015,67.883,12.703
+OMN,Oman,Asia,2016,66.24,10.941
+OMN,Oman,Asia,2017,66.344,11.828
+OMN,Oman,Asia,2018,70.678,12.599
+OMN,Oman,Asia,2019,72.035,12.324
+OMN,Oman,Asia,2020,71.845,10.069
+OMN,Oman,Asia,2021,75.041,11.147
+OMN,Oman,Asia,2022,77.994,12.725
+OMN,Oman,Asia,2023,79.811,12.765
+PAK,Pakistan,Asia,2000,103.94,55.39
+PAK,Pakistan,Asia,2001,105.401,55.088
+PAK,Pakistan,Asia,2002,110.566,53.659
+PAK,Pakistan,Asia,2003,113.142,44.217
+PAK,Pakistan,Asia,2004,124.637,46.331
+PAK,Pakistan,Asia,2005,129.947,48.365
+PAK,Pakistan,Asia,2006,137.912,54.216
+PAK,Pakistan,Asia,2007,148.349,57.866
+PAK,Pakistan,Asia,2008,147.901,58.93
+PAK,Pakistan,Asia,2009,148.355,58.311
+PAK,Pakistan,Asia,2010,147.504,62.145
+PAK,Pakistan,Asia,2011,149.488,60.504
+PAK,Pakistan,Asia,2012,150.555,63.616
+PAK,Pakistan,Asia,2013,148.183,61.042
+PAK,Pakistan,Asia,2014,150.81,60.428
+PAK,Pakistan,Asia,2015,144.896,54.382
+PAK,Pakistan,Asia,2016,176.741,74.33
+PAK,Pakistan,Asia,2017,211.981,83.47
+PAK,Pakistan,Asia,2018,203.5,66.654
+PAK,Pakistan,Asia,2019,190.826,61.867
+PAK,Pakistan,Asia,2020,215.51,80.077
+PAK,Pakistan,Asia,2021,243.552,94.018
+PAK,Pakistan,Asia,2022,211.97,73.32
+PAK,Pakistan,Asia,2023,186.861,58.21
+PAN,Panama,North America,2000,5.636,5.166
+PAN,Panama,North America,2001,6.909,6.438
+PAN,Panama,North America,2002,5.71,5.383
+PAN,Panama,North America,2003,5.929,5.72
+PAN,Panama,North America,2004,5.505,5.28
+PAN,Panama,North America,2005,6.742,6.54
+PAN,Panama,North America,2006,7.282,7.097
+PAN,Panama,North America,2007,7.134,6.929
+PAN,Panama,North America,2008,6.809,6.603
+PAN,Panama,North America,2009,8.051,7.797
+PAN,Panama,North America,2010,9.06,8.482
+PAN,Panama,North America,2011,9.899,8.636
+PAN,Panama,North America,2012,9.54,8.013
+PAN,Panama,North America,2013,10.274,8.687
+PAN,Panama,North America,2014,10.689,9.075
+PAN,Panama,North America,2015,10.652,9.083
+PAN,Panama,North America,2016,10.334,8.867
+PAN,Panama,North America,2017,9.568,8.596
+PAN,Panama,North America,2018,9.121,7.434
+PAN,Panama,North America,2019,12.449,8.134
+PAN,Panama,North America,2020,6.557,3.133
+PAN,Panama,North America,2021,10.145,6.434
+PAN,Panama,North America,2022,11.707,8.567
+PAN,Panama,North America,2023,13.002,9.082
+PER,Peru,South America,2000,28.678,23.167
+PER,Peru,South America,2001,25.26,20.185
+PER,Peru,South America,2002,25.592,19.364
+PER,Peru,South America,2003,24.914,18.445
+PER,Peru,South America,2004,28.504,20.698
+PER,Peru,South America,2005,30.321,20.953
+PER,Peru,South America,2006,28.299,18.727
+PER,Peru,South America,2007,34.567,22.501
+PER,Peru,South America,2008,35.572,21.423
+PER,Peru,South America,2009,39.424,23.664
+PER,Peru,South America,2010,42.505,23.193
+PER,Peru,South America,2011,42.327,23.911
+PER,Peru,South America,2012,45.509,25.696
+PER,Peru,South America,2013,42.718,23.277
+PER,Peru,South America,2014,49.388,24.847
+PER,Peru,South America,2015,49.204,24.994
+PER,Peru,South America,2016,52.698,27.861
+PER,Peru,South America,2017,54.726,33.123
+PER,Peru,South America,2018,56.014,33.898
+PER,Peru,South America,2019,58.668,35.457
+PER,Peru,South America,2020,47.237,29.235
+PER,Peru,South America,2021,59.962,34.533
+PER,Peru,South America,2022,64.785,36.218
+PER,Peru,South America,2023,66.065,37.248
+PHL,Philippines,Asia,2000,71.467,50.969
+PHL,Philippines,Asia,2001,69.799,50.054
+PHL,Philippines,Asia,2002,69.492,47.038
+PHL,Philippines,Asia,2003,69.501,45.023
+PHL,Philippines,Asia,2004,71.999,46.496
+PHL,Philippines,Asia,2005,72.334,41.971
+PHL,Philippines,Asia,2006,65.646,38.648
+PHL,Philippines,Asia,2007,70.01,36.638
+PHL,Philippines,Asia,2008,76.605,39.234
+PHL,Philippines,Asia,2009,75.581,38.652
+PHL,Philippines,Asia,2010,82.246,41.597
+PHL,Philippines,Asia,2011,82.98,38.983
+PHL,Philippines,Asia,2012,87.476,41.434
+PHL,Philippines,Asia,2013,94.825,41.319
+PHL,Philippines,Asia,2014,100.074,43.212
+PHL,Philippines,Asia,2015,111.046,49.862
+PHL,Philippines,Asia,2016,120.216,53.546
+PHL,Philippines,Asia,2017,133.576,55.787
+PHL,Philippines,Asia,2018,139.857,57.4
+PHL,Philippines,Asia,2019,142.601,55.411
+PHL,Philippines,Asia,2020,131.457,46.295
+PHL,Philippines,Asia,2021,140.27,49.391
+PHL,Philippines,Asia,2022,150.963,59.36
+PHL,Philippines,Asia,2023,160.98,60.918
+PNG,Papua New Guinea,Oceania,2000,2.938,2.418
+PNG,Papua New Guinea,Oceania,2001,3.336,2.909
+PNG,Papua New Guinea,Oceania,2002,3.666,3.191
+PNG,Papua New Guinea,Oceania,2003,4.053,3.664
+PNG,Papua New Guinea,Oceania,2004,4.687,4.225
+PNG,Papua New Guinea,Oceania,2005,4.984,4.092
+PNG,Papua New Guinea,Oceania,2006,5.051,4.026
+PNG,Papua New Guinea,Oceania,2007,6.581,5.855
+PNG,Papua New Guinea,Oceania,2008,5.545,4.503
+PNG,Papua New Guinea,Oceania,2009,5.265,4.789
+PNG,Papua New Guinea,Oceania,2010,4.715,4.371
+PNG,Papua New Guinea,Oceania,2011,5.298,4.921
+PNG,Papua New Guinea,Oceania,2012,4.372,4.019
+PNG,Papua New Guinea,Oceania,2013,4.532,4.173
+PNG,Papua New Guinea,Oceania,2014,6.125,4.932
+PNG,Papua New Guinea,Oceania,2015,6.316,5.229
+PNG,Papua New Guinea,Oceania,2016,7.024,5.766
+PNG,Papua New Guinea,Oceania,2017,6.55,5.33
+PNG,Papua New Guinea,Oceania,2018,7.596,6.647
+PNG,Papua New Guinea,Oceania,2019,7.583,6.515
+PNG,Papua New Guinea,Oceania,2020,7.911,5.841
+PNG,Papua New Guinea,Oceania,2021,7.873,5.837
+PNG,Papua New Guinea,Oceania,2022,8.436,6.453
+PNG,Papua New Guinea,Oceania,2023,8.358,6.422
+POL,Poland,Europe,2000,317.306,52.421
+POL,Poland,Europe,2001,313.267,52.183
+POL,Poland,Europe,2002,305.852,51.404
+POL,Poland,Europe,2003,318.733,54.731
+POL,Poland,Europe,2004,323.621,58.002
+POL,Poland,Europe,2005,322.577,59.595
+POL,Poland,Europe,2006,336.387,62.093
+POL,Poland,Europe,2007,335.735,65.011
+POL,Poland,Europe,2008,329.428,66.173
+POL,Poland,Europe,2009,315.886,66.945
+POL,Poland,Europe,2010,334.028,69.973
+POL,Poland,Europe,2011,333.406,69.599
+POL,Poland,Europe,2012,325.778,66.312
+POL,Poland,Europe,2013,321.757,61.681
+POL,Poland,Europe,2014,309.415,61.381
+POL,Poland,Europe,2015,312.549,64.794
+POL,Poland,Europe,2016,323.3,72.897
+POL,Poland,Europe,2017,336.505,82.452
+POL,Poland,Europe,2018,335.719,85.491
+POL,Poland,Europe,2019,317.444,87.278
+POL,Poland,Europe,2020,302.102,84.235
+POL,Poland,Europe,2021,330.694,89.709
+POL,Poland,Europe,2022,314.892,90.97
+POL,Poland,Europe,2023,283.243,90.697
+PRT,Portugal,Europe,2000,65.504,39.902
+PRT,Portugal,Europe,2001,65.187,41.266
+PRT,Portugal,Europe,2002,69.583,43.318
+PRT,Portugal,Europe,2003,64.482,39.266
+PRT,Portugal,Europe,2004,67.302,39.741
+PRT,Portugal,Europe,2005,69.64,41.481
+PRT,Portugal,Europe,2006,64.856,37.34
+PRT,Portugal,Europe,2007,62.38,35.579
+PRT,Portugal,Europe,2008,60.01,34.273
+PRT,Portugal,Europe,2009,57.147,32.181
+PRT,Portugal,Europe,2010,52.89,31.346
+PRT,Portugal,Europe,2011,51.784,28.457
+PRT,Portugal,Europe,2012,49.932,25.601
+PRT,Portugal,Europe,2013,48.146,24.973
+PRT,Portugal,Europe,2014,47.942,24.989
+PRT,Portugal,Europe,2015,52.233,25.623
+PRT,Portugal,Europe,2016,50.311,25.592
+PRT,Portugal,Europe,2017,55.165,25.93
+PRT,Portugal,Europe,2018,51.34,25.501
+PRT,Portugal,Europe,2019,47.583,26.18
+PRT,Portugal,Europe,2020,41.738,23.175
+PRT,Portugal,Europe,2021,40.3,23.781
+PRT,Portugal,Europe,2022,40.722,24.878
+PRT,Portugal,Europe,2023,37.622,25.265
+PRY,Paraguay,South America,2000,3.592,3.36
+PRY,Paraguay,South America,2001,3.687,3.495
+PRY,Paraguay,South America,2002,3.853,3.675
+PRY,Paraguay,South America,2003,4.026,3.811
+PRY,Paraguay,South America,2004,4.058,3.855
+PRY,Paraguay,South America,2005,3.772,3.554
+PRY,Paraguay,South America,2006,3.901,3.682
+PRY,Paraguay,South America,2007,4.041,3.84
+PRY,Paraguay,South America,2008,4.27,4.049
+PRY,Paraguay,South America,2009,4.525,4.261
+PRY,Paraguay,South America,2010,5.011,4.767
+PRY,Paraguay,South America,2011,5.192,4.99
+PRY,Paraguay,South America,2012,5.159,4.873
+PRY,Paraguay,South America,2013,5.169,4.954
+PRY,Paraguay,South America,2014,5.451,5.199
+PRY,Paraguay,South America,2015,6.045,5.69
+PRY,Paraguay,South America,2016,7.187,6.8
+PRY,Paraguay,South America,2017,7.939,7.669
+PRY,Paraguay,South America,2018,8.504,8.09
+PRY,Paraguay,South America,2019,8.268,7.83
+PRY,Paraguay,South America,2020,7.444,7.108
+PRY,Paraguay,South America,2021,8.187,7.837
+PRY,Paraguay,South America,2022,7.533,7.187
+PRY,Paraguay,South America,2023,7.646,7.3
+PSE,Palestine,Asia,2000,1.66,1.66
+PSE,Palestine,Asia,2001,1.345,1.345
+PSE,Palestine,Asia,2002,1.154,1.154
+PSE,Palestine,Asia,2003,1.275,1.275
+PSE,Palestine,Asia,2004,2.191,2.191
+PSE,Palestine,Asia,2005,2.737,2.737
+PSE,Palestine,Asia,2006,2.268,2.268
+PSE,Palestine,Asia,2007,2.327,2.327
+PSE,Palestine,Asia,2008,2.052,2.052
+PSE,Palestine,Asia,2009,2.088,2.088
+PSE,Palestine,Asia,2010,2.034,2.034
+PSE,Palestine,Asia,2011,2.246,2.246
+PSE,Palestine,Asia,2012,2.195,2.195
+PSE,Palestine,Asia,2013,2.437,2.437
+PSE,Palestine,Asia,2014,2.836,2.836
+PSE,Palestine,Asia,2015,3.001,3.001
+PSE,Palestine,Asia,2016,3.235,3.235
+PSE,Palestine,Asia,2017,3.265,3.265
+PSE,Palestine,Asia,2018,2.957,2.957
+PSE,Palestine,Asia,2019,3.265,3.265
+PSE,Palestine,Asia,2020,3.327,3.327
+PSE,Palestine,Asia,2021,3.635,3.635
+PSE,Palestine,Asia,2022,4.702,4.702
+PSE,Palestine,Asia,2023,4.755,4.755
+PYF,French Polynesia,Oceania,2000,0.685,0.685
+PYF,French Polynesia,Oceania,2001,0.769,0.769
+PYF,French Polynesia,Oceania,2002,0.806,0.806
+PYF,French Polynesia,Oceania,2003,0.835,0.835
+PYF,French Polynesia,Oceania,2004,0.843,0.843
+PYF,French Polynesia,Oceania,2005,0.832,0.832
+PYF,French Polynesia,Oceania,2006,0.839,0.839
+PYF,French Polynesia,Oceania,2007,0.857,0.857
+PYF,French Polynesia,Oceania,2008,0.868,0.868
+PYF,French Polynesia,Oceania,2009,0.861,0.861
+PYF,French Polynesia,Oceania,2010,0.923,0.923
+PYF,French Polynesia,Oceania,2011,0.883,0.883
+PYF,French Polynesia,Oceania,2012,0.876,0.876
+PYF,French Polynesia,Oceania,2013,0.883,0.883
+PYF,French Polynesia,Oceania,2014,0.85,0.85
+PYF,French Polynesia,Oceania,2015,0.846,0.846
+PYF,French Polynesia,Oceania,2016,0.868,0.868
+PYF,French Polynesia,Oceania,2017,0.876,0.876
+PYF,French Polynesia,Oceania,2018,0.879,0.879
+PYF,French Polynesia,Oceania,2019,0.89,0.89
+PYF,French Polynesia,Oceania,2020,0.832,0.832
+PYF,French Polynesia,Oceania,2021,0.868,0.868
+PYF,French Polynesia,Oceania,2022,0.887,0.887
+PYF,French Polynesia,Oceania,2023,0.882,0.882
+QAT,Qatar,Asia,2000,40.406,9.258
+QAT,Qatar,Asia,2001,45.914,15.559
+QAT,Qatar,Asia,2002,45.175,14.638
+QAT,Qatar,Asia,2003,46.631,13.425
+QAT,Qatar,Asia,2004,47.44,8.801
+QAT,Qatar,Asia,2005,47.682,10.853
+QAT,Qatar,Asia,2006,59.753,18.672
+QAT,Qatar,Asia,2007,59.53,12.486
+QAT,Qatar,Asia,2008,61.871,14.414
+QAT,Qatar,Asia,2009,65.305,14.766
+QAT,Qatar,Asia,2010,73.651,15.22
+QAT,Qatar,Asia,2011,81.809,10.146
+QAT,Qatar,Asia,2012,93.738,7.449
+QAT,Qatar,Asia,2013,91.433,3.045
+QAT,Qatar,Asia,2014,91.642,4.694
+QAT,Qatar,Asia,2015,93.31,4.873
+QAT,Qatar,Asia,2016,91.378,6.211
+QAT,Qatar,Asia,2017,105.657,14.274
+QAT,Qatar,Asia,2018,102.621,11.384
+QAT,Qatar,Asia,2019,101.43,10.578
+QAT,Qatar,Asia,2020,101.329,11.095
+QAT,Qatar,Asia,2021,104.386,10.394
+QAT,Qatar,Asia,2022,109.594,17.225
+QAT,Qatar,Asia,2023,119.544,18.623
+ROU,Romania,Europe,2000,93.206,28.166
+ROU,Romania,Europe,2001,98.928,32.908
+ROU,Romania,Europe,2002,99.069,30.783
+ROU,Romania,Europe,2003,103.707,29.4
+ROU,Romania,Europe,2004,103.233,30.308
+ROU,Romania,Europe,2005,101.337,29.807
+ROU,Romania,Europe,2006,104.29,28.353
+ROU,Romania,Europe,2007,108.497,28.304
+ROU,Romania,Europe,2008,106.997,27.638
+ROU,Romania,Europe,2009,87.806,24.691
+ROU,Romania,Europe,2010,84.488,23.252
+ROU,Romania,Europe,2011,92.391,24.273
+ROU,Romania,Europe,2012,89.848,25.511
+ROU,Romania,Europe,2013,78.795,23.728
+ROU,Romania,Europe,2014,79.335,24.887
+ROU,Romania,Europe,2015,78.046,24.146
+ROU,Romania,Europe,2016,76.587,25.899
+ROU,Romania,Europe,2017,79.432,27.908
+ROU,Romania,Europe,2018,79.874,28.456
+ROU,Romania,Europe,2019,76.69,29.781
+ROU,Romania,Europe,2020,73.946,29.063
+ROU,Romania,Europe,2021,77.501,30.971
+ROU,Romania,Europe,2022,73.186,32.428
+ROU,Romania,Europe,2023,67.866,32.81
+RUS,Russia,Europe,2000,1480.576,318.265
+RUS,Russia,Europe,2001,1518.081,324.29
+RUS,Russia,Europe,2002,1508.33,315.523
+RUS,Russia,Europe,2003,1539.006,309.457
+RUS,Russia,Europe,2004,1545.353,309.808
+RUS,Russia,Europe,2005,1563.98,320.286
+RUS,Russia,Europe,2006,1623.428,335.318
+RUS,Russia,Europe,2007,1624.315,326.253
+RUS,Russia,Europe,2008,1652.731,343.679
+RUS,Russia,Europe,2009,1545.236,322.578
+RUS,Russia,Europe,2010,1633.147,333.202
+RUS,Russia,Europe,2011,1684.989,344.934
+RUS,Russia,Europe,2012,1700.104,352.425
+RUS,Russia,Europe,2013,1637.547,354.879
+RUS,Russia,Europe,2014,1637.311,383.699
+RUS,Russia,Europe,2015,1635.244,406.41
+RUS,Russia,Europe,2016,1629.328,400.525
+RUS,Russia,Europe,2017,1661.012,414.626
+RUS,Russia,Europe,2018,1709.91,392.624
+RUS,Russia,Europe,2019,1704.459,400.012
+RUS,Russia,Europe,2020,1631.902,381.968
+RUS,Russia,Europe,2021,1674.524,375.4
+RUS,Russia,Europe,2022,1675.461,391.392
+RUS,Russia,Europe,2023,1733.135,427.178
+RWA,Rwanda,Africa,2000,0.515,0.484
+RWA,Rwanda,Africa,2001,0.519,0.484
+RWA,Rwanda,Africa,2002,0.512,0.473
+RWA,Rwanda,Africa,2003,0.505,0.465
+RWA,Rwanda,Africa,2004,0.516,0.476
+RWA,Rwanda,Africa,2005,0.514,0.476
+RWA,Rwanda,Africa,2006,0.514,0.476
+RWA,Rwanda,Africa,2007,0.542,0.505
+RWA,Rwanda,Africa,2008,0.531,0.495
+RWA,Rwanda,Africa,2009,0.555,0.524
+RWA,Rwanda,Africa,2010,0.581,0.55
+RWA,Rwanda,Africa,2011,0.643,0.608
+RWA,Rwanda,Africa,2012,0.718,0.685
+RWA,Rwanda,Africa,2013,0.779,0.744
+RWA,Rwanda,Africa,2014,0.83,0.784
+RWA,Rwanda,Africa,2015,0.967,0.85
+RWA,Rwanda,Africa,2016,1.052,0.843
+RWA,Rwanda,Africa,2017,1.17,0.934
+RWA,Rwanda,Africa,2018,1.313,1.041
+RWA,Rwanda,Africa,2019,1.413,1.114
+RWA,Rwanda,Africa,2020,1.394,1.107
+RWA,Rwanda,Africa,2021,1.699,1.326
+RWA,Rwanda,Africa,2022,1.957,1.367
+RWA,Rwanda,Africa,2023,2.016,1.394
+SAU,Saudi Arabia,Asia,2000,309.639,198.371
+SAU,Saudi Arabia,Asia,2001,324.374,205.004
+SAU,Saudi Arabia,Asia,2002,346.93,219.46
+SAU,Saudi Arabia,Asia,2003,351.228,216.839
+SAU,Saudi Arabia,Asia,2004,407.702,263.196
+SAU,Saudi Arabia,Asia,2005,412.234,256.689
+SAU,Saudi Arabia,Asia,2006,444.977,283.766
+SAU,Saudi Arabia,Asia,2007,423.314,258.466
+SAU,Saudi Arabia,Asia,2008,469.43,288.817
+SAU,Saudi Arabia,Asia,2009,503.97,326.067
+SAU,Saudi Arabia,Asia,2010,555.64,359.645
+SAU,Saudi Arabia,Asia,2011,540.236,335.71
+SAU,Saudi Arabia,Asia,2012,605.712,386.219
+SAU,Saudi Arabia,Asia,2013,583.178,359.381
+SAU,Saudi Arabia,Asia,2014,585.109,355.28
+SAU,Saudi Arabia,Asia,2015,624.547,390.526
+SAU,Saudi Arabia,Asia,2016,641.174,395.724
+SAU,Saudi Arabia,Asia,2017,644.487,393.125
+SAU,Saudi Arabia,Asia,2018,652.204,391.612
+SAU,Saudi Arabia,Asia,2019,708.335,446.993
+SAU,Saudi Arabia,Asia,2020,653.565,388.279
+SAU,Saudi Arabia,Asia,2021,695.394,420.649
+SAU,Saudi Arabia,Asia,2022,666.994,435.507
+SAU,Saudi Arabia,Asia,2023,677.442,443.735
+SDN,Sudan,Africa,2000,5.292,5.011
+SDN,Sudan,Africa,2001,6.018,5.757
+SDN,Sudan,Africa,2002,7.634,7.357
+SDN,Sudan,Africa,2003,8.515,8.2
+SDN,Sudan,Africa,2004,10.866,10.378
+SDN,Sudan,Africa,2005,10.558,9.926
+SDN,Sudan,Africa,2006,11.545,10.938
+SDN,Sudan,Africa,2007,13.564,12.817
+SDN,Sudan,Africa,2008,14.179,13.578
+SDN,Sudan,Africa,2009,14.805,13.989
+SDN,Sudan,Africa,2010,15.07,13.695
+SDN,Sudan,Africa,2011,14.711,12.911
+SDN,Sudan,Africa,2012,15.763,13.747
+SDN,Sudan,Africa,2013,17.374,15.165
+SDN,Sudan,Africa,2014,13.095,10.856
+SDN,Sudan,Africa,2015,14.247,11.787
+SDN,Sudan,Africa,2016,19.737,17.455
+SDN,Sudan,Africa,2017,20.306,18.031
+SDN,Sudan,Africa,2018,20.516,18.276
+SDN,Sudan,Africa,2019,22.007,19.928
+SDN,Sudan,Africa,2020,19.8,19.346
+SDN,Sudan,Africa,2021,19.208,18.752
+SDN,Sudan,Africa,2022,17.529,17.129
+SDN,Sudan,Africa,2023,17.716,17.466
+SEN,Senegal,Africa,2000,3.902,3.36
+SEN,Senegal,Africa,2001,4.258,3.638
+SEN,Senegal,Africa,2002,4.437,3.495
+SEN,Senegal,Africa,2003,4.928,3.947
+SEN,Senegal,Africa,2004,5.238,3.891
+SEN,Senegal,Africa,2005,5.539,4.104
+SEN,Senegal,Africa,2006,4.43,2.829
+SEN,Senegal,Africa,2007,5.196,3.246
+SEN,Senegal,Africa,2008,4.74,2.935
+SEN,Senegal,Africa,2009,5.258,3.206
+SEN,Senegal,Africa,2010,6.862,4.573
+SEN,Senegal,Africa,2011,7.819,5.051
+SEN,Senegal,Africa,2012,7.362,4.697
+SEN,Senegal,Africa,2013,7.853,4.934
+SEN,Senegal,Africa,2014,8.724,5.654
+SEN,Senegal,Africa,2015,9.845,6.859
+SEN,Senegal,Africa,2016,10.013,6.769
+SEN,Senegal,Africa,2017,10.757,7.256
+SEN,Senegal,Africa,2018,11.33,6.951
+SEN,Senegal,Africa,2019,12.711,7.971
+SEN,Senegal,Africa,2020,10.82,6.718
+SEN,Senegal,Africa,2021,12.319,7.427
+SEN,Senegal,Africa,2022,14.133,8.933
+SEN,Senegal,Africa,2023,14.082,8.542
+SGP,Singapore,Asia,2000,37.369,34.661
+SGP,Singapore,Asia,2001,38.525,34.437
+SGP,Singapore,Asia,2002,40.208,33.573
+SGP,Singapore,Asia,2003,39.534,29.241
+SGP,Singapore,Asia,2004,41.0,28.861
+SGP,Singapore,Asia,2005,39.6,28.084
+SGP,Singapore,Asia,2006,40.6,28.194
+SGP,Singapore,Asia,2007,41.1,27.794
+SGP,Singapore,Asia,2008,40.2,26.603
+SGP,Singapore,Asia,2009,40.8,27.064
+SGP,Singapore,Asia,2010,44.4,29.49
+SGP,Singapore,Asia,2011,47.0,31.963
+SGP,Singapore,Asia,2012,46.1,29.73
+SGP,Singapore,Asia,2013,47.0,27.676
+SGP,Singapore,Asia,2014,47.6,26.912
+SGP,Singapore,Asia,2015,49.4,28.305
+SGP,Singapore,Asia,2016,49.1,27.438
+SGP,Singapore,Asia,2017,50.1,26.542
+SGP,Singapore,Asia,2018,50.3,27.907
+SGP,Singapore,Asia,2019,49.0,26.375
+SGP,Singapore,Asia,2020,46.7,23.943
+SGP,Singapore,Asia,2021,50.1,26.789
+SGP,Singapore,Asia,2022,48.934,26.282
+SGP,Singapore,Asia,2023,51.068,29.888
+SLE,Sierra Leone,Africa,2000,0.271,0.271
+SLE,Sierra Leone,Africa,2001,0.374,0.374
+SLE,Sierra Leone,Africa,2002,0.502,0.487
+SLE,Sierra Leone,Africa,2003,0.539,0.539
+SLE,Sierra Leone,Africa,2004,0.52,0.52
+SLE,Sierra Leone,Africa,2005,0.432,0.432
+SLE,Sierra Leone,Africa,2006,0.575,0.575
+SLE,Sierra Leone,Africa,2007,0.487,0.487
+SLE,Sierra Leone,Africa,2008,0.506,0.506
+SLE,Sierra Leone,Africa,2009,0.502,0.502
+SLE,Sierra Leone,Africa,2010,0.546,0.546
+SLE,Sierra Leone,Africa,2011,0.714,0.714
+SLE,Sierra Leone,Africa,2012,0.832,0.832
+SLE,Sierra Leone,Africa,2013,1.052,1.052
+SLE,Sierra Leone,Africa,2014,1.129,1.129
+SLE,Sierra Leone,Africa,2015,1.084,1.084
+SLE,Sierra Leone,Africa,2016,1.14,1.14
+SLE,Sierra Leone,Africa,2017,1.096,1.096
+SLE,Sierra Leone,Africa,2018,1.037,1.037
+SLE,Sierra Leone,Africa,2019,1.118,1.118
+SLE,Sierra Leone,Africa,2020,1.187,1.187
+SLE,Sierra Leone,Africa,2021,1.484,1.484
+SLE,Sierra Leone,Africa,2022,1.444,1.444
+SLE,Sierra Leone,Africa,2023,1.38,1.38
+SLV,El Salvador,North America,2000,5.648,5.214
+SLV,El Salvador,North America,2001,5.829,5.357
+SLV,El Salvador,North America,2002,6.036,5.514
+SLV,El Salvador,North America,2003,6.396,5.851
+SLV,El Salvador,North America,2004,6.216,5.727
+SLV,El Salvador,North America,2005,6.262,5.83
+SLV,El Salvador,North America,2006,6.689,6.181
+SLV,El Salvador,North America,2007,6.819,6.321
+SLV,El Salvador,North America,2008,6.375,5.885
+SLV,El Salvador,North America,2009,6.283,5.83
+SLV,El Salvador,North America,2010,6.287,5.808
+SLV,El Salvador,North America,2011,6.467,5.98
+SLV,El Salvador,North America,2012,6.436,5.932
+SLV,El Salvador,North America,2013,6.058,5.625
+SLV,El Salvador,North America,2014,6.12,5.76
+SLV,El Salvador,North America,2015,6.637,6.28
+SLV,El Salvador,North America,2016,6.572,6.254
+SLV,El Salvador,North America,2017,5.942,5.621
+SLV,El Salvador,North America,2018,6.452,6.064
+SLV,El Salvador,North America,2019,7.634,7.178
+SLV,El Salvador,North America,2020,6.135,5.778
+SLV,El Salvador,North America,2021,6.977,6.595
+SLV,El Salvador,North America,2022,7.913,7.133
+SLV,El Salvador,North America,2023,8.67,7.562
+SOM,Somalia,Africa,2000,0.509,0.509
+SOM,Somalia,Africa,2001,0.542,0.542
+SOM,Somalia,Africa,2002,0.575,0.575
+SOM,Somalia,Africa,2003,0.605,0.605
+SOM,Somalia,Africa,2004,0.627,0.627
+SOM,Somalia,Africa,2005,0.649,0.649
+SOM,Somalia,Africa,2006,0.671,0.671
+SOM,Somalia,Africa,2007,0.692,0.692
+SOM,Somalia,Africa,2008,0.722,0.722
+SOM,Somalia,Africa,2009,0.744,0.744
+SOM,Somalia,Africa,2010,0.777,0.777
+SOM,Somalia,Africa,2011,0.81,0.81
+SOM,Somalia,Africa,2012,0.832,0.832
+SOM,Somalia,Africa,2013,0.857,0.857
+SOM,Somalia,Africa,2014,0.887,0.887
+SOM,Somalia,Africa,2015,0.923,0.923
+SOM,Somalia,Africa,2016,0.956,0.956
+SOM,Somalia,Africa,2017,0.993,0.993
+SOM,Somalia,Africa,2018,1.033,1.033
+SOM,Somalia,Africa,2019,1.07,1.07
+SOM,Somalia,Africa,2020,1.14,1.14
+SOM,Somalia,Africa,2021,1.154,1.154
+SOM,Somalia,Africa,2022,1.271,1.271
+SOM,Somalia,Africa,2023,1.296,1.296
+SRB,Serbia,Europe,2000,39.606,3.923
+SRB,Serbia,Europe,2001,42.541,7.226
+SRB,Serbia,Europe,2002,45.486,8.439
+SRB,Serbia,Europe,2003,48.649,9.478
+SRB,Serbia,Europe,2004,52.942,11.088
+SRB,Serbia,Europe,2005,50.058,12.687
+SRB,Serbia,Europe,2006,53.721,13.446
+SRB,Serbia,Europe,2007,52.16,12.062
+SRB,Serbia,Europe,2008,51.737,10.274
+SRB,Serbia,Europe,2009,45.92,10.154
+SRB,Serbia,Europe,2010,45.694,9.585
+SRB,Serbia,Europe,2011,48.956,9.296
+SRB,Serbia,Europe,2012,43.764,8.893
+SRB,Serbia,Europe,2013,44.576,8.215
+SRB,Serbia,Europe,2014,37.331,8.215
+SRB,Serbia,Europe,2015,43.897,8.489
+SRB,Serbia,Europe,2016,45.193,8.89
+SRB,Serbia,Europe,2017,45.673,8.874
+SRB,Serbia,Europe,2018,44.478,8.969
+SRB,Serbia,Europe,2019,44.445,9.223
+SRB,Serbia,Europe,2020,45.356,8.602
+SRB,Serbia,Europe,2021,43.886,9.65
+SRB,Serbia,Europe,2022,44.462,10.755
+SRB,Serbia,Europe,2023,42.907,10.617
+SSD,South Sudan,Africa,2000,0.445,0.445
+SSD,South Sudan,Africa,2001,0.511,0.511
+SSD,South Sudan,Africa,2002,0.652,0.652
+SSD,South Sudan,Africa,2003,0.728,0.728
+SSD,South Sudan,Africa,2004,0.92,0.92
+SSD,South Sudan,Africa,2005,0.882,0.882
+SSD,South Sudan,Africa,2006,0.965,0.965
+SSD,South Sudan,Africa,2007,1.134,1.134
+SSD,South Sudan,Africa,2008,1.198,1.198
+SSD,South Sudan,Africa,2009,1.248,1.248
+SSD,South Sudan,Africa,2010,1.27,1.27
+SSD,South Sudan,Africa,2011,1.239,1.239
+SSD,South Sudan,Africa,2012,1.33,1.33
+SSD,South Sudan,Africa,2013,1.444,1.444
+SSD,South Sudan,Africa,2014,1.499,1.499
+SSD,South Sudan,Africa,2015,1.913,1.913
+SSD,South Sudan,Africa,2016,1.704,1.704
+SSD,South Sudan,Africa,2017,1.455,1.455
+SSD,South Sudan,Africa,2018,1.737,1.737
+SSD,South Sudan,Africa,2019,1.77,1.77
+SSD,South Sudan,Africa,2020,1.707,1.707
+SSD,South Sudan,Africa,2021,1.74,1.74
+SSD,South Sudan,Africa,2022,1.634,1.634
+SSD,South Sudan,Africa,2023,1.666,1.666
+STP,Sao Tome and Principe,Africa,2000,0.051,0.051
+STP,Sao Tome and Principe,Africa,2001,0.051,0.051
+STP,Sao Tome and Principe,Africa,2002,0.055,0.055
+STP,Sao Tome and Principe,Africa,2003,0.062,0.062
+STP,Sao Tome and Principe,Africa,2004,0.073,0.073
+STP,Sao Tome and Principe,Africa,2005,0.077,0.077
+STP,Sao Tome and Principe,Africa,2006,0.081,0.081
+STP,Sao Tome and Principe,Africa,2007,0.081,0.081
+STP,Sao Tome and Principe,Africa,2008,0.084,0.084
+STP,Sao Tome and Principe,Africa,2009,0.092,0.092
+STP,Sao Tome and Principe,Africa,2010,0.106,0.106
+STP,Sao Tome and Principe,Africa,2011,0.099,0.099
+STP,Sao Tome and Principe,Africa,2012,0.11,0.11
+STP,Sao Tome and Principe,Africa,2013,0.11,0.11
+STP,Sao Tome and Principe,Africa,2014,0.128,0.128
+STP,Sao Tome and Principe,Africa,2015,0.136,0.136
+STP,Sao Tome and Principe,Africa,2016,0.147,0.147
+STP,Sao Tome and Principe,Africa,2017,0.139,0.139
+STP,Sao Tome and Principe,Africa,2018,0.139,0.139
+STP,Sao Tome and Principe,Africa,2019,0.147,0.147
+STP,Sao Tome and Principe,Africa,2020,0.143,0.143
+STP,Sao Tome and Principe,Africa,2021,0.143,0.143
+STP,Sao Tome and Principe,Africa,2022,0.136,0.136
+STP,Sao Tome and Principe,Africa,2023,0.14,0.14
+SUR,Suriname,South America,2000,2.193,2.165
+SUR,Suriname,South America,2001,2.363,2.327
+SUR,Suriname,South America,2002,1.561,1.524
+SUR,Suriname,South America,2003,1.539,1.502
+SUR,Suriname,South America,2004,1.553,1.517
+SUR,Suriname,South America,2005,1.586,1.55
+SUR,Suriname,South America,2006,1.74,1.704
+SUR,Suriname,South America,2007,1.758,1.722
+SUR,Suriname,South America,2008,1.941,1.905
+SUR,Suriname,South America,2009,1.989,1.96
+SUR,Suriname,South America,2010,2.375,2.349
+SUR,Suriname,South America,2011,2.758,2.719
+SUR,Suriname,South America,2012,2.494,2.44
+SUR,Suriname,South America,2013,3.151,3.092
+SUR,Suriname,South America,2014,3.201,3.166
+SUR,Suriname,South America,2015,2.714,2.678
+SUR,Suriname,South America,2016,2.914,2.898
+SUR,Suriname,South America,2017,2.43,2.411
+SUR,Suriname,South America,2018,2.093,2.07
+SUR,Suriname,South America,2019,2.632,2.601
+SUR,Suriname,South America,2020,2.922,2.887
+SUR,Suriname,South America,2021,2.647,2.616
+SUR,Suriname,South America,2022,2.828,2.789
+SUR,Suriname,South America,2023,2.869,2.832
+SVK,Slovakia,Europe,2000,41.187,7.346
+SVK,Slovakia,Europe,2001,43.273,7.964
+SVK,Slovakia,Europe,2002,42.034,7.94
+SVK,Slovakia,Europe,2003,42.359,8.016
+SVK,Slovakia,Europe,2004,42.857,8.238
+SVK,Slovakia,Europe,2005,42.857,9.202
+SVK,Slovakia,Europe,2006,42.639,8.811
+SVK,Slovakia,Europe,2007,41.032,9.165
+SVK,Slovakia,Europe,2008,41.425,9.497
+SVK,Slovakia,Europe,2009,37.681,8.886
+SVK,Slovakia,Europe,2010,38.464,9.229
+SVK,Slovakia,Europe,2011,38.045,8.75
+SVK,Slovakia,Europe,2012,35.961,9.003
+SVK,Slovakia,Europe,2013,35.622,8.868
+SVK,Slovakia,Europe,2014,33.708,8.748
+SVK,Slovakia,Europe,2015,34.528,9.528
+SVK,Slovakia,Europe,2016,34.978,9.897
+SVK,Slovakia,Europe,2017,36.184,10.011
+SVK,Slovakia,Europe,2018,36.184,10.124
+SVK,Slovakia,Europe,2019,33.853,10.222
+SVK,Slovakia,Europe,2020,31.176,9.518
+SVK,Slovakia,Europe,2021,35.251,10.145
+SVK,Slovakia,Europe,2022,31.589,10.349
+SVK,Slovakia,Europe,2023,30.766,10.119
+SVN,Slovenia,Europe,2000,15.06,6.795
+SVN,Slovenia,Europe,2001,16.309,7.289
+SVN,Slovenia,Europe,2002,16.571,7.239
+SVN,Slovenia,Europe,2003,16.278,7.161
+SVN,Slovenia,Europe,2004,16.711,7.357
+SVN,Slovenia,Europe,2005,16.942,7.543
+SVN,Slovenia,Europe,2006,17.184,7.71
+SVN,Slovenia,Europe,2007,17.349,7.608
+SVN,Slovenia,Europe,2008,18.285,8.785
+SVN,Slovenia,Europe,2009,16.209,7.57
+SVN,Slovenia,Europe,2010,16.466,7.622
+SVN,Slovenia,Europe,2011,16.364,7.654
+SVN,Slovenia,Europe,2012,15.765,7.459
+SVN,Slovenia,Europe,2013,15.137,7.085
+SVN,Slovenia,Europe,2014,13.568,6.924
+SVN,Slovenia,Europe,2015,13.659,6.844
+SVN,Slovenia,Europe,2016,14.468,7.216
+SVN,Slovenia,Europe,2017,14.637,7.284
+SVN,Slovenia,Europe,2018,14.563,7.331
+SVN,Slovenia,Europe,2019,14.053,7.034
+SVN,Slovenia,Europe,2020,12.873,5.996
+SVN,Slovenia,Europe,2021,13.076,6.515
+SVN,Slovenia,Europe,2022,12.728,7.117
+SVN,Slovenia,Europe,2023,12.012,6.619
+SWE,Sweden,Europe,2000,54.892,40.406
+SWE,Sweden,Europe,2001,55.782,40.116
+SWE,Sweden,Europe,2002,56.634,40.439
+SWE,Sweden,Europe,2003,57.221,41.14
+SWE,Sweden,Europe,2004,56.428,40.088
+SWE,Sweden,Europe,2005,53.787,38.542
+SWE,Sweden,Europe,2006,53.651,37.987
+SWE,Sweden,Europe,2007,52.879,37.014
+SWE,Sweden,Europe,2008,50.765,35.579
+SWE,Sweden,Europe,2009,47.143,34.615
+SWE,Sweden,Europe,2010,53.029,36.433
+SWE,Sweden,Europe,2011,49.114,34.027
+SWE,Sweden,Europe,2012,46.607,32.626
+SWE,Sweden,Europe,2013,45.106,31.245
+SWE,Sweden,Europe,2014,43.385,30.292
+SWE,Sweden,Europe,2015,43.31,30.38
+SWE,Sweden,Europe,2016,43.308,30.237
+SWE,Sweden,Europe,2017,42.355,29.316
+SWE,Sweden,Europe,2018,41.856,28.894
+SWE,Sweden,Europe,2019,40.772,28.464
+SWE,Sweden,Europe,2020,36.622,26.282
+SWE,Sweden,Europe,2021,38.568,27.891
+SWE,Sweden,Europe,2022,36.342,25.627
+SWE,Sweden,Europe,2023,36.709,25.949
+SWZ,Eswatini,Africa,2000,1.205,0.672
+SWZ,Eswatini,Africa,2001,1.099,0.592
+SWZ,Eswatini,Africa,2002,1.081,0.594
+SWZ,Eswatini,Africa,2003,1.004,0.606
+SWZ,Eswatini,Africa,2004,1.004,0.61
+SWZ,Eswatini,Africa,2005,1.015,0.634
+SWZ,Eswatini,Africa,2006,1.015,0.629
+SWZ,Eswatini,Africa,2007,1.044,0.641
+SWZ,Eswatini,Africa,2008,1.019,0.606
+SWZ,Eswatini,Africa,2009,1.055,0.674
+SWZ,Eswatini,Africa,2010,0.997,0.628
+SWZ,Eswatini,Africa,2011,0.96,0.63
+SWZ,Eswatini,Africa,2012,1.11,0.652
+SWZ,Eswatini,Africa,2013,1.315,0.718
+SWZ,Eswatini,Africa,2014,0.762,0.714
+SWZ,Eswatini,Africa,2015,0.85,0.729
+SWZ,Eswatini,Africa,2016,1.022,0.806
+SWZ,Eswatini,Africa,2017,0.971,0.828
+SWZ,Eswatini,Africa,2018,1.015,0.872
+SWZ,Eswatini,Africa,2019,1.099,0.923
+SWZ,Eswatini,Africa,2020,0.989,0.847
+SWZ,Eswatini,Africa,2021,0.989,0.828
+SWZ,Eswatini,Africa,2022,1.028,0.849
+SWZ,Eswatini,Africa,2023,1.03,0.857
+SXM,Sint Maarten (Dutch part),North America,2000,0.553,0.553
+SXM,Sint Maarten (Dutch part),North America,2001,0.563,0.563
+SXM,Sint Maarten (Dutch part),North America,2002,0.542,0.542
+SXM,Sint Maarten (Dutch part),North America,2003,0.543,0.543
+SXM,Sint Maarten (Dutch part),North America,2004,0.57,0.57
+SXM,Sint Maarten (Dutch part),North America,2005,0.564,0.564
+SXM,Sint Maarten (Dutch part),North America,2006,0.588,0.588
+SXM,Sint Maarten (Dutch part),North America,2007,0.662,0.662
+SXM,Sint Maarten (Dutch part),North America,2008,0.637,0.637
+SXM,Sint Maarten (Dutch part),North America,2009,0.652,0.652
+SXM,Sint Maarten (Dutch part),North America,2010,0.449,0.449
+SXM,Sint Maarten (Dutch part),North America,2011,0.573,0.573
+SXM,Sint Maarten (Dutch part),North America,2012,0.7,0.7
+SXM,Sint Maarten (Dutch part),North America,2013,0.714,0.714
+SXM,Sint Maarten (Dutch part),North America,2014,0.725,0.725
+SXM,Sint Maarten (Dutch part),North America,2015,0.744,0.744
+SXM,Sint Maarten (Dutch part),North America,2016,0.747,0.747
+SXM,Sint Maarten (Dutch part),North America,2017,0.703,0.703
+SXM,Sint Maarten (Dutch part),North America,2018,0.685,0.685
+SXM,Sint Maarten (Dutch part),North America,2019,0.689,0.689
+SXM,Sint Maarten (Dutch part),North America,2020,0.652,0.652
+SXM,Sint Maarten (Dutch part),North America,2021,0.682,0.682
+SXM,Sint Maarten (Dutch part),North America,2022,0.692,0.692
+SXM,Sint Maarten (Dutch part),North America,2023,0.691,0.691
+SYC,Seychelles,Africa,2000,0.319,0.319
+SYC,Seychelles,Africa,2001,0.341,0.341
+SYC,Seychelles,Africa,2002,0.348,0.348
+SYC,Seychelles,Africa,2003,0.341,0.341
+SYC,Seychelles,Africa,2004,0.377,0.377
+SYC,Seychelles,Africa,2005,0.381,0.381
+SYC,Seychelles,Africa,2006,0.385,0.385
+SYC,Seychelles,Africa,2007,0.403,0.403
+SYC,Seychelles,Africa,2008,0.414,0.414
+SYC,Seychelles,Africa,2009,0.443,0.443
+SYC,Seychelles,Africa,2010,0.44,0.44
+SYC,Seychelles,Africa,2011,0.403,0.403
+SYC,Seychelles,Africa,2012,0.418,0.418
+SYC,Seychelles,Africa,2013,0.414,0.414
+SYC,Seychelles,Africa,2014,0.458,0.458
+SYC,Seychelles,Africa,2015,0.498,0.498
+SYC,Seychelles,Africa,2016,0.553,0.553
+SYC,Seychelles,Africa,2017,0.575,0.575
+SYC,Seychelles,Africa,2018,0.597,0.597
+SYC,Seychelles,Africa,2019,0.59,0.59
+SYC,Seychelles,Africa,2020,0.597,0.597
+SYC,Seychelles,Africa,2021,0.612,0.612
+SYC,Seychelles,Africa,2022,0.629,0.629
+SYC,Seychelles,Africa,2023,0.641,0.641
+SYR,Syria,Asia,2000,54.527,34.842
+SYR,Syria,Asia,2001,51.343,34.306
+SYR,Syria,Asia,2002,40.727,22.97
+SYR,Syria,Asia,2003,55.377,37.626
+SYR,Syria,Asia,2004,51.692,33.988
+SYR,Syria,Asia,2005,51.162,35.432
+SYR,Syria,Asia,2006,54.04,38.242
+SYR,Syria,Asia,2007,66.973,51.34
+SYR,Syria,Asia,2008,68.084,52.974
+SYR,Syria,Asia,2009,63.261,45.314
+SYR,Syria,Asia,2010,62.057,39.842
+SYR,Syria,Asia,2011,59.078,40.348
+SYR,Syria,Asia,2012,46.339,30.581
+SYR,Syria,Asia,2013,34.257,22.011
+SYR,Syria,Asia,2014,34.869,24.301
+SYR,Syria,Asia,2015,31.115,21.412
+SYR,Syria,Asia,2016,29.162,20.474
+SYR,Syria,Asia,2017,34.473,24.513
+SYR,Syria,Asia,2018,31.771,22.878
+SYR,Syria,Asia,2019,33.492,24.356
+SYR,Syria,Asia,2020,32.344,23.772
+SYR,Syria,Asia,2021,32.508,23.072
+SYR,Syria,Asia,2022,31.423,23.198
+SYR,Syria,Asia,2023,31.674,23.461
+TCA,Turks and Caicos Islands,North America,2000,0.106,0.106
+TCA,Turks and Caicos Islands,North America,2001,0.114,0.114
+TCA,Turks and Caicos Islands,North America,2002,0.15,0.15
+TCA,Turks and Caicos Islands,North America,2003,0.154,0.154
+TCA,Turks and Caicos Islands,North America,2004,0.161,0.161
+TCA,Turks and Caicos Islands,North America,2005,0.187,0.187
+TCA,Turks and Caicos Islands,North America,2006,0.216,0.216
+TCA,Turks and Caicos Islands,North America,2007,0.253,0.253
+TCA,Turks and Caicos Islands,North America,2008,0.264,0.264
+TCA,Turks and Caicos Islands,North America,2009,0.275,0.275
+TCA,Turks and Caicos Islands,North America,2010,0.282,0.282
+TCA,Turks and Caicos Islands,North America,2011,0.282,0.282
+TCA,Turks and Caicos Islands,North America,2012,0.282,0.282
+TCA,Turks and Caicos Islands,North America,2013,0.286,0.286
+TCA,Turks and Caicos Islands,North America,2014,0.308,0.308
+TCA,Turks and Caicos Islands,North America,2015,0.315,0.315
+TCA,Turks and Caicos Islands,North America,2016,0.326,0.326
+TCA,Turks and Caicos Islands,North America,2017,0.352,0.352
+TCA,Turks and Caicos Islands,North America,2018,0.359,0.359
+TCA,Turks and Caicos Islands,North America,2019,0.363,0.363
+TCA,Turks and Caicos Islands,North America,2020,0.359,0.359
+TCA,Turks and Caicos Islands,North America,2021,0.366,0.366
+TCA,Turks and Caicos Islands,North America,2022,0.366,0.366
+TCA,Turks and Caicos Islands,North America,2023,0.365,0.365
+TCD,Chad,Africa,2000,0.488,0.487
+TCD,Chad,Africa,2001,0.506,0.502
+TCD,Chad,Africa,2002,0.531,0.513
+TCD,Chad,Africa,2003,0.882,0.744
+TCD,Chad,Africa,2004,0.906,0.751
+TCD,Chad,Africa,2005,0.929,0.769
+TCD,Chad,Africa,2006,0.957,0.788
+TCD,Chad,Africa,2007,1.089,0.876
+TCD,Chad,Africa,2008,0.872,0.744
+TCD,Chad,Africa,2009,1.22,1.11
+TCD,Chad,Africa,2010,1.236,1.136
+TCD,Chad,Africa,2011,1.277,1.129
+TCD,Chad,Africa,2012,1.747,1.499
+TCD,Chad,Africa,2013,2.082,1.759
+TCD,Chad,Africa,2014,2.183,1.799
+TCD,Chad,Africa,2015,2.352,1.818
+TCD,Chad,Africa,2016,2.382,1.784
+TCD,Chad,Africa,2017,2.341,1.766
+TCD,Chad,Africa,2018,2.384,1.843
+TCD,Chad,Africa,2019,2.3,1.821
+TCD,Chad,Africa,2020,2.356,1.924
+TCD,Chad,Africa,2021,2.67,2.136
+TCD,Chad,Africa,2022,2.8,2.15
+TCD,Chad,Africa,2023,2.848,2.218
+TGO,Togo,Africa,2000,1.331,1.011
+TGO,Togo,Africa,2001,1.159,0.762
+TGO,Togo,Africa,2002,1.322,0.832
+TGO,Togo,Africa,2003,1.805,1.063
+TGO,Togo,Africa,2004,1.744,0.997
+TGO,Togo,Africa,2005,1.722,0.938
+TGO,Togo,Africa,2006,1.501,0.821
+TGO,Togo,Africa,2007,1.517,0.912
+TGO,Togo,Africa,2008,1.523,1.052
+TGO,Togo,Africa,2009,2.536,1.99
+TGO,Togo,Africa,2010,2.596,2.045
+TGO,Togo,Africa,2011,2.504,1.865
+TGO,Togo,Africa,2012,2.216,1.576
+TGO,Togo,Africa,2013,1.635,1.129
+TGO,Togo,Africa,2014,1.491,1.055
+TGO,Togo,Africa,2015,1.798,0.936
+TGO,Togo,Africa,2016,2.293,1.466
+TGO,Togo,Africa,2017,1.912,1.075
+TGO,Togo,Africa,2018,2.034,1.359
+TGO,Togo,Africa,2019,2.364,1.319
+TGO,Togo,Africa,2020,2.751,1.748
+TGO,Togo,Africa,2021,2.62,1.414
+TGO,Togo,Africa,2022,2.739,1.46
+TGO,Togo,Africa,2023,2.671,1.397
+THA,Thailand,Asia,2000,167.352,79.347
+THA,Thailand,Asia,2001,172.267,75.165
+THA,Thailand,Asia,2002,184.665,78.938
+THA,Thailand,Asia,2003,191.088,83.86
+THA,Thailand,Asia,2004,207.331,91.753
+THA,Thailand,Asia,2005,214.325,90.839
+THA,Thailand,Asia,2006,215.825,87.308
+THA,Thailand,Asia,2007,224.083,84.633
+THA,Thailand,Asia,2008,224.249,78.484
+THA,Thailand,Asia,2009,228.836,79.822
+THA,Thailand,Asia,2010,241.019,80.785
+THA,Thailand,Asia,2011,244.878,84.609
+THA,Thailand,Asia,2012,262.348,90.833
+THA,Thailand,Asia,2013,263.754,91.381
+THA,Thailand,Asia,2014,272.488,91.137
+THA,Thailand,Asia,2015,277.099,95.218
+THA,Thailand,Asia,2016,284.045,98.924
+THA,Thailand,Asia,2017,283.348,101.146
+THA,Thailand,Asia,2018,288.305,102.33
+THA,Thailand,Asia,2019,281.877,103.652
+THA,Thailand,Asia,2020,271.923,96.312
+THA,Thailand,Asia,2021,267.142,90.92
+THA,Thailand,Asia,2022,272.573,105.828
+THA,Thailand,Asia,2023,264.734,104.343
+TJK,Tajikistan,Asia,2000,2.236,0.729
+TJK,Tajikistan,Asia,2001,2.287,0.78
+TJK,Tajikistan,Asia,2002,1.872,0.769
+TJK,Tajikistan,Asia,2003,2.072,0.832
+TJK,Tajikistan,Asia,2004,2.562,1.077
+TJK,Tajikistan,Asia,2005,2.441,0.917
+TJK,Tajikistan,Asia,2006,2.656,1.11
+TJK,Tajikistan,Asia,2007,3.229,1.524
+TJK,Tajikistan,Asia,2008,2.897,1.473
+TJK,Tajikistan,Asia,2009,2.445,1.598
+TJK,Tajikistan,Asia,2010,2.535,1.688
+TJK,Tajikistan,Asia,2011,2.342,1.457
+TJK,Tajikistan,Asia,2012,2.934,1.836
+TJK,Tajikistan,Asia,2013,2.908,1.836
+TJK,Tajikistan,Asia,2014,4.606,2.552
+TJK,Tajikistan,Asia,2015,5.307,2.841
+TJK,Tajikistan,Asia,2016,6.016,2.779
+TJK,Tajikistan,Asia,2017,6.879,2.372
+TJK,Tajikistan,Asia,2018,8.081,2.93
+TJK,Tajikistan,Asia,2019,8.714,2.936
+TJK,Tajikistan,Asia,2020,9.423,3.358
+TJK,Tajikistan,Asia,2021,9.384,3.135
+TJK,Tajikistan,Asia,2022,10.521,3.706
+TJK,Tajikistan,Asia,2023,10.264,3.808
+TTO,Trinidad and Tobago,North America,2000,24.35,4.272
+TTO,Trinidad and Tobago,North America,2001,26.74,3.727
+TTO,Trinidad and Tobago,North America,2002,28.683,3.613
+TTO,Trinidad and Tobago,North America,2003,32.37,4.477
+TTO,Trinidad and Tobago,North America,2004,32.688,2.568
+TTO,Trinidad and Tobago,North America,2005,38.205,4.019
+TTO,Trinidad and Tobago,North America,2006,42.708,4.001
+TTO,Trinidad and Tobago,North America,2007,45.564,4.965
+TTO,Trinidad and Tobago,North America,2008,44.443,5.016
+TTO,Trinidad and Tobago,North America,2009,44.417,4.788
+TTO,Trinidad and Tobago,North America,2010,47.092,4.639
+TTO,Trinidad and Tobago,North America,2011,47.043,4.906
+TTO,Trinidad and Tobago,North America,2012,46.159,4.723
+TTO,Trinidad and Tobago,North America,2013,45.799,3.855
+TTO,Trinidad and Tobago,North America,2014,46.866,4.76
+TTO,Trinidad and Tobago,North America,2015,45.534,5.133
+TTO,Trinidad and Tobago,North America,2016,39.867,4.056
+TTO,Trinidad and Tobago,North America,2017,40.297,5.108
+TTO,Trinidad and Tobago,North America,2018,40.307,3.931
+TTO,Trinidad and Tobago,North America,2019,40.755,3.748
+TTO,Trinidad and Tobago,North America,2020,35.043,3.44
+TTO,Trinidad and Tobago,North America,2021,36.389,3.144
+TTO,Trinidad and Tobago,North America,2022,37.493,4.163
+TTO,Trinidad and Tobago,North America,2023,35.536,4.247
+TUN,Tunisia,Africa,2000,19.436,10.562
+TUN,Tunisia,Africa,2001,20.261,10.849
+TUN,Tunisia,Africa,2002,20.38,10.981
+TUN,Tunisia,Africa,2003,21.042,11.267
+TUN,Tunisia,Africa,2004,22.144,11.659
+TUN,Tunisia,Africa,2005,22.516,11.831
+TUN,Tunisia,Africa,2006,22.915,11.836
+TUN,Tunisia,Africa,2007,24.725,12.225
+TUN,Tunisia,Africa,2008,25.453,11.97
+TUN,Tunisia,Africa,2009,25.353,11.554
+TUN,Tunisia,Africa,2010,27.9,11.498
+TUN,Tunisia,Africa,2011,26.429,10.768
+TUN,Tunisia,Africa,2012,28.194,10.823
+TUN,Tunisia,Africa,2013,28.773,11.386
+TUN,Tunisia,Africa,2014,29.875,11.852
+TUN,Tunisia,Africa,2015,31.381,14.004
+TUN,Tunisia,Africa,2016,30.971,13.679
+TUN,Tunisia,Africa,2017,31.677,14.314
+TUN,Tunisia,Africa,2018,31.122,13.74
+TUN,Tunisia,Africa,2019,30.579,13.066
+TUN,Tunisia,Africa,2020,28.845,12.463
+TUN,Tunisia,Africa,2021,31.527,13.506
+TUN,Tunisia,Africa,2022,30.785,13.408
+TUN,Tunisia,Africa,2023,31.738,14.462
+TUR,Turkey,Asia,2000,232.934,83.478
+TUR,Turkey,Asia,2001,216.872,79.198
+TUR,Turkey,Asia,2002,224.32,81.248
+TUR,Turkey,Asia,2003,239.849,82.782
+TUR,Turkey,Asia,2004,247.843,86.729
+TUR,Turkey,Asia,2005,267.711,85.264
+TUR,Turkey,Asia,2006,285.429,84.056
+TUR,Turkey,Asia,2007,316.497,88.686
+TUR,Turkey,Asia,2008,312.628,87.255
+TUR,Turkey,Asia,2009,318.568,84.008
+TUR,Turkey,Asia,2010,318.71,81.342
+TUR,Turkey,Asia,2011,344.215,84.966
+TUR,Turkey,Asia,2012,358.645,90.715
+TUR,Turkey,Asia,2013,350.634,95.672
+TUR,Turkey,Asia,2014,367.272,100.357
+TUR,Turkey,Asia,2015,387.704,109.354
+TUR,Turkey,Asia,2016,405.552,116.646
+TUR,Turkey,Asia,2017,430.622,119.63
+TUR,Turkey,Asia,2018,423.818,116.761
+TUR,Turkey,Asia,2019,406.568,115.728
+TUR,Turkey,Asia,2020,416.328,115.652
+TUR,Turkey,Asia,2021,457.377,122.541
+TUR,Turkey,Asia,2022,443.603,128.859
+TUR,Turkey,Asia,2023,486.945,133.637
+TWN,Taiwan,Asia,2000,226.934,92.142
+TWN,Taiwan,Asia,2001,231.431,88.183
+TWN,Taiwan,Asia,2002,238.567,85.26
+TWN,Taiwan,Asia,2003,249.129,85.301
+TWN,Taiwan,Asia,2004,259.367,86.759
+TWN,Taiwan,Asia,2005,266.888,87.816
+TWN,Taiwan,Asia,2006,276.552,88.935
+TWN,Taiwan,Asia,2007,280.08,84.166
+TWN,Taiwan,Asia,2008,266.975,75.889
+TWN,Taiwan,Asia,2009,253.028,70.98
+TWN,Taiwan,Asia,2010,270.718,72.398
+TWN,Taiwan,Asia,2011,276.771,68.657
+TWN,Taiwan,Asia,2012,273.282,65.86
+TWN,Taiwan,Asia,2013,274.576,64.128
+TWN,Taiwan,Asia,2014,276.959,64.377
+TWN,Taiwan,Asia,2015,276.264,64.288
+TWN,Taiwan,Asia,2016,280.197,66.724
+TWN,Taiwan,Asia,2017,285.736,66.051
+TWN,Taiwan,Asia,2018,284.151,62.118
+TWN,Taiwan,Asia,2019,274.704,57.936
+TWN,Taiwan,Asia,2020,272.464,55.162
+TWN,Taiwan,Asia,2021,283.821,49.903
+TWN,Taiwan,Asia,2022,273.989,52.858
+TWN,Taiwan,Asia,2023,267.127,54.125
+TZA,Tanzania,Africa,2000,2.572,2.026
+TZA,Tanzania,Africa,2001,3.041,2.473
+TZA,Tanzania,Africa,2002,3.486,2.865
+TZA,Tanzania,Africa,2003,3.687,3.067
+TZA,Tanzania,Africa,2004,4.221,3.294
+TZA,Tanzania,Africa,2005,5.356,4.056
+TZA,Tanzania,Africa,2006,5.876,4.346
+TZA,Tanzania,Africa,2007,5.706,3.984
+TZA,Tanzania,Africa,2008,5.989,3.984
+TZA,Tanzania,Africa,2009,5.807,3.602
+TZA,Tanzania,Africa,2010,7.194,4.567
+TZA,Tanzania,Africa,2011,8.44,5.431
+TZA,Tanzania,Africa,2012,10.367,7.252
+TZA,Tanzania,Africa,2013,11.251,8.296
+TZA,Tanzania,Africa,2014,10.997,7.445
+TZA,Tanzania,Africa,2015,12.783,8.678
+TZA,Tanzania,Africa,2016,13.529,8.493
+TZA,Tanzania,Africa,2017,13.513,7.977
+TZA,Tanzania,Africa,2018,14.233,8.189
+TZA,Tanzania,Africa,2019,16.191,8.893
+TZA,Tanzania,Africa,2020,15.952,9.169
+TZA,Tanzania,Africa,2021,17.678,10.23
+TZA,Tanzania,Africa,2022,19.702,10.847
+TZA,Tanzania,Africa,2023,20.31,11.06
+UGA,Uganda,Africa,2000,1.361,1.253
+UGA,Uganda,Africa,2001,1.417,1.293
+UGA,Uganda,Africa,2002,1.443,1.301
+UGA,Uganda,Africa,2003,1.513,1.374
+UGA,Uganda,Africa,2004,1.607,1.458
+UGA,Uganda,Africa,2005,2.018,1.854
+UGA,Uganda,Africa,2006,2.387,2.224
+UGA,Uganda,Africa,2007,2.706,2.561
+UGA,Uganda,Africa,2008,2.78,2.594
+UGA,Uganda,Africa,2009,2.996,2.796
+UGA,Uganda,Africa,2010,3.57,3.246
+UGA,Uganda,Africa,2011,3.828,3.433
+UGA,Uganda,Africa,2012,3.627,3.199
+UGA,Uganda,Africa,2013,3.755,3.397
+UGA,Uganda,Africa,2014,4.09,3.697
+UGA,Uganda,Africa,2015,4.529,4.18
+UGA,Uganda,Africa,2016,4.817,4.444
+UGA,Uganda,Africa,2017,5.406,5.031
+UGA,Uganda,Africa,2018,5.549,5.166
+UGA,Uganda,Africa,2019,5.761,5.302
+UGA,Uganda,Africa,2020,5.571,5.012
+UGA,Uganda,Africa,2021,6.232,5.544
+UGA,Uganda,Africa,2022,6.128,5.47
+UGA,Uganda,Africa,2023,6.236,5.578
+UKR,Ukraine,Europe,2000,285.663,31.578
+UKR,Ukraine,Europe,2001,303.876,33.959
+UKR,Ukraine,Europe,2002,295.901,35.329
+UKR,Ukraine,Europe,2003,307.245,37.207
+UKR,Ukraine,Europe,2004,310.626,36.424
+UKR,Ukraine,Europe,2005,313.513,36.209
+UKR,Ukraine,Europe,2006,333.054,40.458
+UKR,Ukraine,Europe,2007,336.829,43.07
+UKR,Ukraine,Europe,2008,325.983,43.841
+UKR,Ukraine,Europe,2009,277.593,42.642
+UKR,Ukraine,Europe,2010,294.366,39.788
+UKR,Ukraine,Europe,2011,308.376,39.729
+UKR,Ukraine,Europe,2012,304.43,38.431
+UKR,Ukraine,Europe,2013,297.54,37.337
+UKR,Ukraine,Europe,2014,257.703,35.33
+UKR,Ukraine,Europe,2015,223.85,30.481
+UKR,Ukraine,Europe,2016,234.106,34.119
+UKR,Ukraine,Europe,2017,223.288,35.336
+UKR,Ukraine,Europe,2018,231.9,35.209
+UKR,Ukraine,Europe,2019,222.188,38.477
+UKR,Ukraine,Europe,2020,207.101,34.911
+UKR,Ukraine,Europe,2021,210.636,37.067
+UKR,Ukraine,Europe,2022,143.04,31.397
+UKR,Ukraine,Europe,2023,139.325,31.055
+URY,Uruguay,South America,2000,5.277,4.891
+URY,Uruguay,South America,2001,5.041,4.518
+URY,Uruguay,South America,2002,4.569,4.074
+URY,Uruguay,South America,2003,4.537,3.953
+URY,Uruguay,South America,2004,5.574,5.1
+URY,Uruguay,South America,2005,5.737,5.276
+URY,Uruguay,South America,2006,6.611,6.115
+URY,Uruguay,South America,2007,5.96,5.481
+URY,Uruguay,South America,2008,8.218,7.768
+URY,Uruguay,South America,2009,7.99,7.401
+URY,Uruguay,South America,2010,6.322,5.804
+URY,Uruguay,South America,2011,7.686,7.115
+URY,Uruguay,South America,2012,8.605,8.138
+URY,Uruguay,South America,2013,7.491,7.049
+URY,Uruguay,South America,2014,6.684,6.262
+URY,Uruguay,South America,2015,6.738,6.284
+URY,Uruguay,South America,2016,6.52,6.119
+URY,Uruguay,South America,2017,6.151,5.705
+URY,Uruguay,South America,2018,6.57,6.134
+URY,Uruguay,South America,2019,6.408,5.95
+URY,Uruguay,South America,2020,6.477,6.024
+URY,Uruguay,South America,2021,7.829,7.332
+URY,Uruguay,South America,2022,7.501,6.987
+URY,Uruguay,South America,2023,7.627,7.096
+USA,United States,North America,2000,6023.158,2440.405
+USA,United States,North America,2001,5903.562,2448.622
+USA,United States,North America,2002,5947.819,2443.823
+USA,United States,North America,2003,6006.44,2505.134
+USA,United States,North America,2004,6111.545,2571.107
+USA,United States,North America,2005,6126.903,2584.13
+USA,United States,North America,2006,6045.326,2550.54
+USA,United States,North America,2007,6121.542,2538.968
+USA,United States,North America,2008,5919.221,2370.623
+USA,United States,North America,2009,5486.104,2243.79
+USA,United States,North America,2010,5669.25,2258.293
+USA,United States,North America,2011,5538.973,2212.686
+USA,United States,North America,2012,5331.467,2152.244
+USA,United States,North America,2013,5473.436,2178.417
+USA,United States,North America,2014,5531.385,2210.569
+USA,United States,North America,2015,5368.497,2235.988
+USA,United States,North America,2016,5245.362,2252.27
+USA,United States,North America,2017,5195.417,2259.157
+USA,United States,North America,2018,5361.236,2305.441
+USA,United States,North America,2019,5235.912,2299.82
+USA,United States,North America,2020,4689.954,1991.579
+USA,United States,North America,2021,5020.111,2182.605
+USA,United States,North America,2022,5055.403,2198.937
+USA,United States,North America,2023,4918.407,2199.111
+UZB,Uzbekistan,Asia,2000,123.478,19.232
+UZB,Uzbekistan,Asia,2001,126.223,19.016
+UZB,Uzbekistan,Asia,2002,132.577,18.727
+UZB,Uzbekistan,Asia,2003,130.296,19.969
+UZB,Uzbekistan,Asia,2004,129.099,18.609
+UZB,Uzbekistan,Asia,2005,121.602,14.429
+UZB,Uzbekistan,Asia,2006,124.899,14.483
+UZB,Uzbekistan,Asia,2007,123.823,13.784
+UZB,Uzbekistan,Asia,2008,128.387,13.08
+UZB,Uzbekistan,Asia,2009,109.23,11.648
+UZB,Uzbekistan,Asia,2010,107.668,10.885
+UZB,Uzbekistan,Asia,2011,116.755,9.94
+UZB,Uzbekistan,Asia,2012,118.86,8.915
+UZB,Uzbekistan,Asia,2013,112.395,10.281
+UZB,Uzbekistan,Asia,2014,107.496,10.091
+UZB,Uzbekistan,Asia,2015,103.374,10.234
+UZB,Uzbekistan,Asia,2016,109.837,10.721
+UZB,Uzbekistan,Asia,2017,108.883,11.116
+UZB,Uzbekistan,Asia,2018,102.33,11.688
+UZB,Uzbekistan,Asia,2019,107.947,11.322
+UZB,Uzbekistan,Asia,2020,108.139,12.491
+UZB,Uzbekistan,Asia,2021,123.162,11.128
+UZB,Uzbekistan,Asia,2022,119.105,11.509
+UZB,Uzbekistan,Asia,2023,122.872,11.608
+VCT,Saint Vincent and the Grenadines,North America,2000,0.143,0.143
+VCT,Saint Vincent and the Grenadines,North America,2001,0.176,0.176
+VCT,Saint Vincent and the Grenadines,North America,2002,0.187,0.187
+VCT,Saint Vincent and the Grenadines,North America,2003,0.202,0.202
+VCT,Saint Vincent and the Grenadines,North America,2004,0.22,0.22
+VCT,Saint Vincent and the Grenadines,North America,2005,0.22,0.22
+VCT,Saint Vincent and the Grenadines,North America,2006,0.22,0.22
+VCT,Saint Vincent and the Grenadines,North America,2007,0.238,0.238
+VCT,Saint Vincent and the Grenadines,North America,2008,0.22,0.22
+VCT,Saint Vincent and the Grenadines,North America,2009,0.278,0.278
+VCT,Saint Vincent and the Grenadines,North America,2010,0.224,0.224
+VCT,Saint Vincent and the Grenadines,North America,2011,0.216,0.216
+VCT,Saint Vincent and the Grenadines,North America,2012,0.231,0.231
+VCT,Saint Vincent and the Grenadines,North America,2013,0.216,0.216
+VCT,Saint Vincent and the Grenadines,North America,2014,0.256,0.256
+VCT,Saint Vincent and the Grenadines,North America,2015,0.234,0.234
+VCT,Saint Vincent and the Grenadines,North America,2016,0.242,0.242
+VCT,Saint Vincent and the Grenadines,North America,2017,0.213,0.213
+VCT,Saint Vincent and the Grenadines,North America,2018,0.242,0.242
+VCT,Saint Vincent and the Grenadines,North America,2019,0.22,0.22
+VCT,Saint Vincent and the Grenadines,North America,2020,0.238,0.238
+VCT,Saint Vincent and the Grenadines,North America,2021,0.234,0.234
+VCT,Saint Vincent and the Grenadines,North America,2022,0.247,0.247
+VCT,Saint Vincent and the Grenadines,North America,2023,0.246,0.246
+VEN,Venezuela,South America,2000,142.902,82.572
+VEN,Venezuela,South America,2001,130.618,74.812
+VEN,Venezuela,South America,2002,164.233,101.493
+VEN,Venezuela,South America,2003,154.364,95.187
+VEN,Venezuela,South America,2004,142.842,85.349
+VEN,Venezuela,South America,2005,148.408,97.272
+VEN,Venezuela,South America,2006,155.841,100.646
+VEN,Venezuela,South America,2007,154.167,99.28
+VEN,Venezuela,South America,2008,155.758,101.592
+VEN,Venezuela,South America,2009,152.176,98.875
+VEN,Venezuela,South America,2010,189.582,132.738
+VEN,Venezuela,South America,2011,168.713,106.388
+VEN,Venezuela,South America,2012,175.845,106.56
+VEN,Venezuela,South America,2013,198.452,128.255
+VEN,Venezuela,South America,2014,175.992,106.716
+VEN,Venezuela,South America,2015,166.328,98.382
+VEN,Venezuela,South America,2016,152.733,83.664
+VEN,Venezuela,South America,2017,139.093,75.467
+VEN,Venezuela,South America,2018,111.24,52.749
+VEN,Venezuela,South America,2019,105.43,52.135
+VEN,Venezuela,South America,2020,80.901,38.285
+VEN,Venezuela,South America,2021,94.902,40.37
+VEN,Venezuela,South America,2022,108.424,51.739
+VEN,Venezuela,South America,2023,119.588,62.579
+VGB,British Virgin Islands,North America,2000,0.117,0.117
+VGB,British Virgin Islands,North America,2001,0.128,0.128
+VGB,British Virgin Islands,North America,2002,0.139,0.139
+VGB,British Virgin Islands,North America,2003,0.147,0.147
+VGB,British Virgin Islands,North America,2004,0.154,0.154
+VGB,British Virgin Islands,North America,2005,0.165,0.165
+VGB,British Virgin Islands,North America,2006,0.18,0.18
+VGB,British Virgin Islands,North America,2007,0.183,0.183
+VGB,British Virgin Islands,North America,2008,0.191,0.191
+VGB,British Virgin Islands,North America,2009,0.194,0.194
+VGB,British Virgin Islands,North America,2010,0.213,0.213
+VGB,British Virgin Islands,North America,2011,0.209,0.209
+VGB,British Virgin Islands,North America,2012,0.209,0.209
+VGB,British Virgin Islands,North America,2013,0.213,0.213
+VGB,British Virgin Islands,North America,2014,0.216,0.216
+VGB,British Virgin Islands,North America,2015,0.224,0.224
+VGB,British Virgin Islands,North America,2016,0.227,0.227
+VGB,British Virgin Islands,North America,2017,0.18,0.18
+VGB,British Virgin Islands,North America,2018,0.158,0.158
+VGB,British Virgin Islands,North America,2019,0.183,0.183
+VGB,British Virgin Islands,North America,2020,0.18,0.18
+VGB,British Virgin Islands,North America,2021,0.183,0.183
+VGB,British Virgin Islands,North America,2022,0.186,0.186
+VGB,British Virgin Islands,North America,2023,0.185,0.185
+VNM,Vietnam,Asia,2000,53.935,23.193
+VNM,Vietnam,Asia,2001,60.983,25.562
+VNM,Vietnam,Asia,2002,69.531,28.638
+VNM,Vietnam,Asia,2003,77.261,29.499
+VNM,Vietnam,Asia,2004,88.939,33.891
+VNM,Vietnam,Asia,2005,95.842,33.855
+VNM,Vietnam,Asia,2006,99.656,32.415
+VNM,Vietnam,Asia,2007,101.433,37.358
+VNM,Vietnam,Asia,2008,114.3,40.42
+VNM,Vietnam,Asia,2009,124.493,43.341
+VNM,Vietnam,Asia,2010,139.564,49.303
+VNM,Vietnam,Asia,2011,152.564,47.178
+VNM,Vietnam,Asia,2012,144.288,44.21
+VNM,Vietnam,Asia,2013,151.459,43.909
+VNM,Vietnam,Asia,2014,180.048,47.698
+VNM,Vietnam,Asia,2015,213.391,58.913
+VNM,Vietnam,Asia,2016,221.027,55.367
+VNM,Vietnam,Asia,2017,227.694,57.048
+VNM,Vietnam,Asia,2018,255.468,63.63
+VNM,Vietnam,Asia,2019,339.312,70.807
+VNM,Vietnam,Asia,2020,362.599,68.385
+VNM,Vietnam,Asia,2021,314.197,64.083
+VNM,Vietnam,Asia,2022,322.653,72.805
+VNM,Vietnam,Asia,2023,347.399,78.204
+YEM,Yemen,Asia,2000,15.832,13.953
+YEM,Yemen,Asia,2001,17.194,15.451
+YEM,Yemen,Asia,2002,16.707,14.975
+YEM,Yemen,Asia,2003,18.609,16.521
+YEM,Yemen,Asia,2004,20.109,18.096
+YEM,Yemen,Asia,2005,21.797,19.254
+YEM,Yemen,Asia,2006,23.906,20.566
+YEM,Yemen,Asia,2007,23.676,20.093
+YEM,Yemen,Asia,2008,24.537,21.141
+YEM,Yemen,Asia,2009,26.897,22.515
+YEM,Yemen,Asia,2010,25.818,20.086
+YEM,Yemen,Asia,2011,22.625,17.437
+YEM,Yemen,Asia,2012,20.467,15.318
+YEM,Yemen,Asia,2013,27.281,21.321
+YEM,Yemen,Asia,2014,26.592,20.753
+YEM,Yemen,Asia,2015,14.123,9.64
+YEM,Yemen,Asia,2016,10.044,7.573
+YEM,Yemen,Asia,2017,9.214,7.362
+YEM,Yemen,Asia,2018,11.504,9.504
+YEM,Yemen,Asia,2019,11.788,9.359
+YEM,Yemen,Asia,2020,10.757,8.138
+YEM,Yemen,Asia,2021,10.608,7.82
+YEM,Yemen,Asia,2022,10.404,7.952
+YEM,Yemen,Asia,2023,10.141,8.042
+ZAF,South Africa,Africa,2000,378.333,33.302
+ZAF,South Africa,Africa,2001,371.602,25.886
+ZAF,South Africa,Africa,2002,356.501,22.449
+ZAF,South Africa,Africa,2003,404.406,39.743
+ZAF,South Africa,Africa,2004,449.322,54.238
+ZAF,South Africa,Africa,2005,416.205,27.832
+ZAF,South Africa,Africa,2006,446.744,53.08
+ZAF,South Africa,Africa,2007,465.034,59.334
+ZAF,South Africa,Africa,2008,494.673,62.764
+ZAF,South Africa,Africa,2009,474.512,71.07
+ZAF,South Africa,Africa,2010,467.353,46.324
+ZAF,South Africa,Africa,2011,474.273,60.247
+ZAF,South Africa,Africa,2012,461.438,49.468
+ZAF,South Africa,Africa,2013,456.188,49.515
+ZAF,South Africa,Africa,2014,481.638,54.539
+ZAF,South Africa,Africa,2015,457.473,54.688
+ZAF,South Africa,Africa,2016,457.05,59.012
+ZAF,South Africa,Africa,2017,440.01,57.257
+ZAF,South Africa,Africa,2018,453.766,54.275
+ZAF,South Africa,Africa,2019,470.727,50.167
+ZAF,South Africa,Africa,2020,435.298,46.606
+ZAF,South Africa,Africa,2021,439.464,59.91
+ZAF,South Africa,Africa,2022,428.782,59.159
+ZAF,South Africa,Africa,2023,436.604,59.618
+ZMB,Zambia,Africa,2000,1.784,1.341
+ZMB,Zambia,Africa,2001,1.886,1.499
+ZMB,Zambia,Africa,2002,1.961,1.565
+ZMB,Zambia,Africa,2003,2.074,1.612
+ZMB,Zambia,Africa,2004,2.104,1.71
+ZMB,Zambia,Africa,2005,2.243,1.755
+ZMB,Zambia,Africa,2006,2.231,1.883
+ZMB,Zambia,Africa,2007,2.298,1.795
+ZMB,Zambia,Africa,2008,2.553,2.023
+ZMB,Zambia,Africa,2009,2.94,2.197
+ZMB,Zambia,Africa,2010,3.121,2.302
+ZMB,Zambia,Africa,2011,3.379,2.649
+ZMB,Zambia,Africa,2012,4.177,3.206
+ZMB,Zambia,Africa,2013,4.427,3.256
+ZMB,Zambia,Africa,2014,5.283,3.657
+ZMB,Zambia,Africa,2015,5.522,3.875
+ZMB,Zambia,Africa,2016,5.978,4.236
+ZMB,Zambia,Africa,2017,7.459,4.089
+ZMB,Zambia,Africa,2018,8.658,3.609
+ZMB,Zambia,Africa,2019,8.846,4.443
+ZMB,Zambia,Africa,2020,9.991,4.483
+ZMB,Zambia,Africa,2021,9.35,4.78
+ZMB,Zambia,Africa,2022,10.939,4.977
+ZMB,Zambia,Africa,2023,11.831,5.074
+ZWE,Zimbabwe,Africa,2000,13.815,3.287
+ZWE,Zimbabwe,Africa,2001,12.509,2.648
+ZWE,Zimbabwe,Africa,2002,11.896,2.532
+ZWE,Zimbabwe,Africa,2003,10.61,2.267
+ZWE,Zimbabwe,Africa,2004,9.429,1.813
+ZWE,Zimbabwe,Africa,2005,10.698,1.986
+ZWE,Zimbabwe,Africa,2006,10.365,1.905
+ZWE,Zimbabwe,Africa,2007,9.835,1.872
+ZWE,Zimbabwe,Africa,2008,7.72,1.611
+ZWE,Zimbabwe,Africa,2009,8.25,1.641
+ZWE,Zimbabwe,Africa,2010,8.754,1.938
+ZWE,Zimbabwe,Africa,2011,10.363,3.261
+ZWE,Zimbabwe,Africa,2012,11.257,3.693
+ZWE,Zimbabwe,Africa,2013,11.671,4.104
+ZWE,Zimbabwe,Africa,2014,11.946,3.718
+ZWE,Zimbabwe,Africa,2015,12.017,3.756
+ZWE,Zimbabwe,Africa,2016,10.588,3.405
+ZWE,Zimbabwe,Africa,2017,9.831,3.359
+ZWE,Zimbabwe,Africa,2018,11.209,4.162
+ZWE,Zimbabwe,Africa,2019,10.267,3.784
+ZWE,Zimbabwe,Africa,2020,8.491,3.063
+ZWE,Zimbabwe,Africa,2021,10.223,3.745
+ZWE,Zimbabwe,Africa,2022,12.232,4.679
+ZWE,Zimbabwe,Africa,2023,13.443,4.771

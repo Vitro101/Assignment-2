@@ -1,0 +1,623 @@
+---
+title: "Final Assessment — Introduction to Data Science"
+subtitle: "11372 & 11516"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 2
+    number_sections: false
+  html_document:
+    toc: true
+    toc_float: true
+    theme: readable
+params:
+  studentID: "uXXXXXXX"
+---
+
+<!--
+=============================================================================
+  HOW TO USE THIS TEMPLATE
+
+  1. Put your real student ID in the YAML header above, replacing uXXXXXXX.
+  2. Run the setup chunk below once. It creates your personal data in data/.
+  3. Work down the file. Write your code in the empty chunks and your
+     answers in the places marked "YOUR ANSWER".
+  4. Knit to PDF/HTML and submit this .Rmd together with the PDF/HTML.
+  5. Feel free to do changes in the template as needed.
+
+  Keep the Assignment Brief open beside this file — it has the full wording
+  of every question. The one-line prompts here are reminders, not the
+  complete question.
+
+  If knitting to PDF/HTML fails because LaTeX is missing, run this once in the
+  console:   install.packages("tinytex"); tinytex::install_tinytex()
+=============================================================================
+-->
+
+```{r setup, include=TRUE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+
+## --------------------------------------------------------------------------
+##  DO NOT EDIT personalise.R. Run this chunk once to build your dataset.
+## --------------------------------------------------------------------------
+source("personalise.R")
+
+my <- make_my_dataset(params$studentID,
+                      raw_dir = "data_raw",
+                      out_dir = "data")
+```
+
+```{r libraries}
+# Load the packages you need here.
+# library(tidyverse)
+# library(lubridate)
+
+```
+
+\newpage
+
+# Introduction
+
+*Briefly introduce the dataset, the questions you set out to answer, and how this report is
+organised. Half a page is plenty.*
+
+**YOUR ANSWER**
+
+## Assumptions
+
+*State any assumptions you are making about the data or the analysis before you begin.*
+
+**YOUR ANSWER**
+
+\newpage
+
+# Task 1: Data preparation and wrangling
+
+### 1.1 Import the four CSV files
+
+```{r t1q1}
+
+```
+
+### 1.2 Reshape `Renewables.csv` to one row per country per year
+
+*Remember: this file contains rows that are not countries.*
+
+```{r t1q2}
+
+```
+
+*What did you do with the non-country rows, and why?*
+
+**YOUR ANSWER**
+
+### 1.3 Rename the columns
+
+```{r t1q3}
+
+```
+
+### 1.4 Make `Year` consistent across all data frames
+
+```{r t1q4}
+
+```
+
+### 1.5 Merge the five new variables into the master data frame
+
+*Add `Renewables`, `ConsCO2`, `Population`, `GDP`, `GDPCapita`.*
+
+```{r t1q5}
+
+```
+
+*How many rows failed to match on each join, and what did you do about them?*
+
+**YOUR ANSWER**
+
+### 1.6 Handle the NAs
+
+```{r t1q6}
+
+```
+
+*Justify your treatment of each variable. Different variables may warrant different choices.*
+
+**YOUR ANSWER**
+
+### 1.7 Add `Decade` and `Period`
+
+```{r t1q7}
+
+```
+
+### 1.8 Add the four cumulative variables
+
+*`CumCO2`, `CumOilCO2`, `CumRenew`, `CumConsCO2`.*
+
+```{r t1q8}
+
+```
+
+### 1.9 Add `NetImported` and `OilShare`
+
+```{r t1q9}
+
+```
+
+### 1.10 Add the four per-capita variables
+
+*`CO2_PC`, `OilCO2_PC`, `Renew_PC`, `ConsCO2_PC`.*
+
+```{r t1q10}
+
+```
+
+```{r t1-check}
+# A quick look at your finished master data frame.
+# dim(master)
+# str(master)
+
+```
+
+\newpage
+
+## 1A. Data Quality Audit Report
+
+*Approximately 250 words in total across the three parts below. Every claim must reference a
+specific value, country, year or column from **your** data.*
+
+### i. Defect inventory
+
+*Complete the table. Add rows as needed — there are more defects than there are rows here.*
+
+| File | Column | Rows affected | How I detected it | How I handled it |
+|---|---|---|---|---|
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+
+```{r t1a-detection}
+# The code you used to find the defects.
+
+```
+
+### ii. The negative emissions problem
+
+```{r t1a-negatives}
+# Identify the negative-emissions rows by country and year.
+
+```
+
+*Which rows are they? Why do negative values legitimately appear in published emissions series?
+What did you do, and what alternative did you reject?*
+
+**YOUR ANSWER**
+
+### iii. Coverage gap in consumption-based data
+
+```{r t1a-coverage}
+# Count the countries with no consumption-based data, and compare the
+# countries that do and do not have coverage.
+
+```
+
+*How many countries have no coverage? Name three. Is imputing zero valid? If it biases
+`ConsCO2_PC` and `NetImported`, in which direction, and for which type of country is the bias
+worst? Support this with a number.*
+
+**YOUR ANSWER**
+
+\newpage
+
+# Task 2: Exploratory data analysis
+
+### 2.1 Highest-emitting year, and the largest year-on-year fall
+
+```{r t2q1}
+
+```
+
+*What caused the largest fall?*
+
+**YOUR ANSWER**
+
+### 2.2 Cumulative totals over time for the whole dataset
+
+```{r t2q2, fig.width=8, fig.height=5}
+
+```
+
+### 2.3 Extract `lastYear_data`
+
+*Compute the final year — do not type it in.*
+
+```{r t2q3}
+
+```
+
+### 2.4 Top 10 countries on four measures
+
+*`top10total`, `top10percap`, `top10net`, `top10renew`.*
+
+```{r t2q4}
+
+```
+
+### 2.5 Totals by region
+
+```{r t2q5}
+
+```
+
+### 2.6 Cumulative emissions over time, top 10 countries (log Y)
+
+```{r t2q6, fig.width=8, fig.height=5}
+
+```
+
+### 2.7 Faceted plot, one panel per country
+
+```{r t2q7, fig.width=9, fig.height=7}
+
+```
+
+### 2.8 Top 10 by emissions per capita
+
+```{r t2q8, fig.width=8, fig.height=5}
+
+```
+
+### 2.9 Total, average and median cumulative emissions by region
+
+```{r t2q9, fig.width=8, fig.height=5}
+
+```
+
+### 2.10 Top 2 countries per region by emissions per capita
+
+```{r t2q10}
+
+```
+
+---
+
+## 2A. Counterintuitive finding
+
+*What did you expect, and why was that reasonable?*
+
+**YOUR ANSWER**
+
+*What does the data actually show? Quote a specific value, country or trend from your own plots.*
+
+**YOUR ANSWER**
+
+*What real-world mechanism could explain the discrepancy?*
+
+**YOUR ANSWER**
+
+### Supporting visualisation
+
+```{r t2a-plot, fig.width=8, fig.height=5}
+
+```
+
+*Caption (2–3 sentences): what does this chart show, and why did you choose this chart type?*
+
+**YOUR ANSWER**
+
+---
+
+## 2B. Visualisation design critique
+
+**Visualisation chosen:** *(state which question it is from)*
+
+*Approximately 150 words covering: two design decisions and what each communicates; one
+alternative you rejected and concretely why it would communicate worse; one limitation a reader
+could misinterpret, and how you would mitigate it.*
+
+**YOUR ANSWER**
+
+\newpage
+
+# Task 3: Data-driven modelling
+
+### 3.1 Build `cor_data`
+
+```{r t3q1}
+
+```
+
+### 3.2 Correlation matrix
+
+```{r t3q2, fig.width=6, fig.height=5}
+
+```
+
+*Report `cor(CumCO2, GDP)` and `cor(CumCO2, GDPCapita)`. Why are those two numbers so different?*
+
+**YOUR ANSWER**
+
+### 3.3 Distribution of `CumCO2`, with and without log
+
+```{r t3q3, fig.width=8, fig.height=4}
+
+```
+
+### 3.4 Train/test split
+
+```{r t3q4}
+## Required — do not remove or change this line:
+set.seed(seed_from_id(params$studentID))
+
+# Your 65/35 split goes below.
+
+```
+
+### 3.5 Linear model: `CumCO2 ~ GDP`
+
+```{r t3q5}
+
+```
+
+### 3.6 Linear model: all predictors
+
+```{r t3q6}
+
+```
+
+### 3.7 Interpret and compare the two models
+
+*When should the first be preferred, and when the second? If the full model has the higher test
+RMSE, explain why — that is not an error.*
+
+**YOUR ANSWER**
+
+### 3.8 Alternative models
+
+```{r t3q8}
+
+```
+
+*Comparison table:*
+
+| Model | RMSE | R-squared |
+|---|---|---|
+| Linear (GDP only) | | |
+| Linear (all variables) | | |
+| | | |
+| | | |
+
+**YOUR ANSWER** *(brief comment on the comparison)*
+
+---
+
+## 3A. Assumption checking
+
+### i. Linearity
+
+```{r t3a-linearity, fig.width=8, fig.height=6}
+
+```
+
+*Does a linear relationship look reasonable? Which predictor departs from it most clearly?*
+
+**YOUR ANSWER**
+
+### ii. Distribution of the response
+
+*Using your plots from 3.3 — does raw `CumCO2` satisfy the normality assumption? Is a
+transformation warranted?*
+
+**YOUR ANSWER**
+
+### iii. Residual diagnostics
+
+```{r t3a-diagnostics, fig.width=8, fig.height=7}
+
+```
+
+| Plot | What assumption it tests | Does your model satisfy it? |
+|---|---|---|
+| Residuals vs Fitted | | |
+| Normal Q-Q | | |
+| Scale-Location | | |
+| Residuals vs Leverage | | |
+
+### iv. Influential observations
+
+```{r t3a-leverage}
+# Identify the high-leverage country, then refit without it.
+
+```
+
+**High-leverage country:** *name it*
+
+**New test RMSE without it:** *value*
+
+*Is removing it defensible? Two sentences.*
+
+**YOUR ANSWER**
+
+### v. Verdict
+
+*Is linear regression a valid choice here? If assumptions are violated, what does that mean in
+practice for your coefficients and predictions?*
+
+**YOUR ANSWER**
+
+---
+
+## 3B. Feature engineering critique
+
+*Approximately 300 words across the three parts.*
+
+### i. Theoretical critique
+
+*State the physical pathway from GDP to emissions. Then explain why high correlation still does
+not license a causal claim: name at least two confounding or mediating variables GDP is proxying
+for. Reference your own correlation from 3.2, and contrast it with the `GDPCapita` correlation.*
+
+**YOUR ANSWER**
+
+### ii. Proposed feature
+
+*Propose one engineered feature not in the dataset. Say exactly how you would construct it —
+what raw data, what calculation — and why it is more causally connected to emissions than GDP.*
+
+**YOUR ANSWER**
+
+### iii. Ethical risk
+
+*If this model allocated climate finance or set national reduction obligations, name one
+specific way it would be systematically unfair, and show that the unfairness comes from the
+structure of the model, not just "bias in the data".*
+
+*Use your own data: name a country with large positive `NetImported` and one with large negative
+`NetImported`, and build your argument around them.*
+
+```{r t3b-evidence}
+# Pull out the two countries you want to use.
+
+```
+
+**YOUR ANSWER**
+
+\newpage
+
+# Task 4: Insights
+
+## Narrative thesis
+
+*One sentence: the single story a reader should take away from your dashboard.*
+
+**YOUR ANSWER**
+
+## Dashboard sketch
+
+*Embed your photographed hand-drawn sketch below. This is mandatory — without it you lose all
+design marks.*
+
+```{r t4-sketch, echo=FALSE, out.width="100%"}
+# knitr::include_graphics("my_dashboard_sketch.jpg")
+
+```
+
+## 4.1 Data augmentation
+
+*How would you augment this dataset for a comprehensive view of the transition? What sources,
+and what would each add?*
+
+**YOUR ANSWER**
+
+## 4.2 Key insights
+
+*Which insights would you highlight for a public audience? What figures would you use, and why
+is each important?*
+
+**YOUR ANSWER**
+
+## 4.3 Design elements
+
+*Layout, colour, typography, placement.*
+
+**YOUR ANSWER**
+
+## 4.4 Audience consideration
+
+*How does the design serve a public audience — accessible, understandable, actionable?*
+
+**YOUR ANSWER**
+
+## 4.5 Additional questions
+
+*One relevant metric or visualisation you deliberately omitted, and why omitting it serves
+clarity.*
+
+**YOUR ANSWER**
+
+*One way your dashboard could be misread, and how design mitigates it.*
+
+**YOUR ANSWER**
+
+*Does your headline figure use total or per-capita emissions? Defend that choice against the
+obvious objection.*
+
+**YOUR ANSWER**
+
+\newpage
+
+# Conclusions
+
+*What are the main things your analysis shows? Keep it grounded in your own numbers.*
+
+**YOUR ANSWER**
+
+\newpage
+
+# Section 5: Verification
+
+## 5.1 Results Summary Table
+
+*Fill every cell by hand from your own output. If you could not compute one, write `NA` and say
+why in a footnote below the table.*
+
+| # | Quantity | Your value |
+|---|---|---|
+| 1 | Dataset fingerprint (printed by the setup chunk) | |
+| 2 | First and last year in your dataset | |
+| 3 | Number of countries in your `Emissions.csv` | |
+| 4 | `dim()` of your final merged master data frame | |
+| 5 | Number of duplicate rows you removed in Task 1 | |
+| 6 | Countries and years of the negative-emissions rows (1A ii) | |
+| 7 | Number of countries with no consumption-based data (1A iii) | |
+| 8 | Year with the highest total CO2, and that total (Task 2.1) | |
+| 9 | Top country by cumulative emissions, and by emissions per capita | |
+| 10 | `cor(CumCO2, GDP)` and `cor(CumCO2, GDPCapita)` (2 dp) | |
+| 11 | Test RMSE of the GDP-only model (Task 3.5) | |
+| 12 | Test RMSE of the full model (Task 3.6) | |
+| 13 | The high-leverage country you identified (3A iv) | |
+
+## 5.2 Reproducibility appendix
+
+*Run this chunk unchanged. Do not edit it.*
+
+```{r reproducibility}
+cat("Student ID  :", params$studentID, "\n")
+cat("Fingerprint :", my$fingerprint, "\n")
+cat("Window      :", paste(my$window, collapse = " - "), "\n")
+cat("Knitted at  :", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"), "\n")
+cat("Chunks run  :", length(knitr::all_labels()), "\n\n")
+print(sessionInfo()$R.version$version.string)
+```
+
+\newpage
+
+# Appendix: Decision Log
+
+*Minimum five entries. Write each one **at the time you make the decision**, not at the end.
+Every entry must reference something specific from your own analysis — a variable name, a
+country, a line of code, an output value. Generic entries receive zero marks. Add rows freely;
+more than five is viewed favourably.*
+
+| # | Task & step | Decision made | Alternative considered | Why I chose this | Impact on results |
+|---|---|---|---|---|---|
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+| 5 | | | | | |
+
+---
+
+# Declaration
+
+> I confirm that the dataset analysed in this submission was generated from my own student ID,
+> that the values reported in Section 5.1 are the values produced by the code in this document,
+> and that all explanations and interpretations are my own work.
+>
+**Student ID:** ______________  **Date:** ____________
