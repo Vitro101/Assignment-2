@@ -79,10 +79,22 @@ organised. Half a page is plenty.*
 ### 1.1 Import the four CSV files
 
 ```{r t1q1}
-emmissions <- read_csv("data/Emissions.csv")
-renewables <- read_csv("data/Renewables.csv")
-consumption <- read_csv("data/Consumption.csv")
-countries <- read_csv("data/Countries.csv")
+emissionsRaw <- read_csv("data/Emissions.csv")
+renewablesRaw <- read_csv("data/Renewables.csv")
+consumptionRaw <- read_csv("data/Consumption.csv")
+countriesRaw <- read_csv("data/Countries.csv")
+
+glimpse(emissionsRaw)
+glimpse(renewablesRaw)
+glimpse(consumptionRaw)
+glimpse(countriesRaw)
+
+# summary(emissionsRaw)
+# summary(renewablesRaw)
+# summary(consumptionRaw)
+# summary(countriesRaw)
+
+# select(renewablesRaw, Country.Region)
 ```
 
 ### 1.2 Reshape `Renewables.csv` to one row per country per year
@@ -90,24 +102,67 @@ countries <- read_csv("data/Countries.csv")
 *Remember: this file contains rows that are not countries.*
 
 ```{r t1q2}
+renewablesData <- renewablesRaw %>%
+  filter(!Country.Region %in% c("World", "European Union (27)")) %>%
+  rename(Country = Country.Region) %>%
+  pivot_longer(cols = -Country, 
+               names_to = "Year", 
+               values_to = "Renewables"
+  )
 
+head(renewablesData)
 ```
 
 *What did you do with the non-country rows, and why?*
 
-**YOUR ANSWER**
+The 'World' and 'European Union (27)' totals overlap with the individual country observations. These aggregate rows were removed to prevent double counting and ensure the dataset only contains countries.
 
 ### 1.3 Rename the columns
 
 ```{r t1q3}
+emissionsData <- emissionsRaw %>%
+  rename(
+    ISO = iso_code,
+    Country = location,
+    Region = region,
+    Year = year,
+    CO2 = annual_co2_mt,
+    OilCO2 = annual_oil_co2_mt
+  )
 
+consumptionData <- consumptionRaw %>%
+  rename(
+    ISO = `Country Code`,
+    ConsCO2 = `Consumption CO2`
+  )
+
+countriesData <- countriesRaw %>%
+  rename(
+    ISO = countryCode,
+    Population = popData2022,
+    GDPCapita = `GDP/capita`
+  )
 ```
 
 ### 1.4 Make `Year` consistent across all data frames
 
 ```{r t1q4}
+# Identifying incorrect years
+consumptionData %>%
+  # Detects all strings not containing exactly 4 digits
+  filter(!str_detect(Year, "^\\d{4}$")) %>%
+  select(ISO, Year) %>%
+  head(10)
 
+consumptionData <- consumptionData %>%
+  mutate(
+    # Capitalise all codes and remove whitespace
+    ISO = str_to_upper(str_trim(ISO)),
+    # Extracts the dates from values containing additional characters
+    Year = as.integer(str_extract(Year, "\\d{4}"))
+  )
 ```
+The consumption data frame is the only data frame containing inconsistent year values. 
 
 ### 1.5 Merge the five new variables into the master data frame
 
@@ -611,7 +666,7 @@ more than five is viewed favourably.*
 
 | # | Task & step | Decision made | Alternative considered | Why I chose this | Impact on results |
 |---|---|---|---|---|---|
-| 1 | | | | | |
+| 1 | 1.4 Cleaning year values | Using str_extract() | Using lubridate and parse_date_time() | Simpler for this task since it only needs the year. Using lubridate would have still required string cleaning due to the character values. | No impact, only better code. |
 | 2 | | | | | |
 | 3 | | | | | |
 | 4 | | | | | |
