@@ -79,10 +79,10 @@ organised. Half a page is plenty.*
 ### 1.1 Import the four CSV files
 
 ```{r t1q1}
-emissionsRaw <- read_csv("data/Emissions.csv")
-renewablesRaw <- read_csv("data/Renewables.csv")
-consumptionRaw <- read_csv("data/Consumption.csv")
-countriesRaw <- read_csv("data/Countries.csv")
+emissionsRaw <- read_csv("data/Emissions.csv", trim_ws = TRUE)
+renewablesRaw <- read_csv("data/Renewables.csv", trim_ws = TRUE)
+consumptionRaw <- read_csv("data/Consumption.csv", trim_ws = TRUE)
+countriesRaw <- read_csv("data/Countries.csv", trim_ws = TRUE)
 
 glimpse(emissionsRaw)
 glimpse(renewablesRaw)
@@ -154,10 +154,16 @@ consumptionData %>%
   select(ISO, Year) %>%
   head(10)
 
+emissionsData <- emissionsData %>%
+  mutate(Year = as.integer(Year))
+
+renewablesData <- renewablesData %>%
+  mutate(Year = as.integer(Year))
+
 consumptionData <- consumptionData %>%
   mutate(
-    # Capitalise all codes and remove whitespace
-    ISO = str_to_upper(str_trim(ISO)),
+    # Capitalise all codes
+    ISO = str_to_upper(ISO),
     # Extracts the dates from values containing additional characters
     Year = as.integer(str_extract(Year, "\\d{4}"))
   )
@@ -169,7 +175,60 @@ The consumption data frame is the only data frame containing inconsistent year v
 *Add `Renewables`, `ConsCO2`, `Population`, `GDP`, `GDPCapita`.*
 
 ```{r t1q5}
+# Remove duplicate rows
+emissionsData <- distinct(emissionsData)
 
+# Fix differing country names in renewablesData
+renewablesData <- renewablesData %>%
+  mutate(
+    Country = recode(
+      Country,
+      "Côte d'Ivoire" = "Cote d'Ivoire",
+      "Congo, Dem. Rep." = "Democratic Republic of Congo",
+      "Republic of Korea" = "South Korea",
+      "United Republic of Tanzania" = "Tanzania"
+    )
+  )
+
+# Correct Cameroons population scale
+countriesData <- countriesData |>
+  mutate(
+    Population = if_else(ISO == "CMR",
+      Population * 1000,
+      Population
+    )
+  )
+
+# Count how many emissions rows fail to match
+unmatchedRenewables <- emissionsData %>%
+  anti_join(
+    renewablesData,
+    by = c("Country", "Year")
+  )
+
+unmatchedConsumption <- emissionsData %>%
+  anti_join(
+    consumptionData,
+    by = c("ISO", "Year")
+  )
+
+unmatchedCountries <- emissionsData %>%
+  anti_join(
+    countriesData,
+    by = "ISO"
+  )
+
+# Return the count
+joinAudit <- tibble(
+  source = c("Renewables", "Consumption", "Countries"),
+  unmatchedRows = c(
+    nrow(unmatchedRenewables),
+    nrow(unmatchedConsumption),
+    nrow(unmatchedCountries)
+  )
+)
+
+joinAudit
 ```
 
 *How many rows failed to match on each join, and what did you do about them?*
@@ -667,7 +726,7 @@ more than five is viewed favourably.*
 | # | Task & step | Decision made | Alternative considered | Why I chose this | Impact on results |
 |---|---|---|---|---|---|
 | 1 | 1.4 Cleaning year values | Using str_extract() | Using lubridate and parse_date_time() | Simpler for this task since it only needs the year. Using lubridate would have still required string cleaning due to the character values. | No impact, only better code. |
-| 2 | | | | | |
+| 2 | 1.5 Fixing value anomaly | To scale Cameroons population by a factor of 1000 | Leaving the value as is | I chose to rescale this value as Cameroons implied population from its GDP per capita was 1000 times larger then its recorded population, implying the recorded value is in thousands scale, whereas all other values are in the ones scale. | Changed Cameroons population from 27,633 to 27,633,000. |
 | 3 | | | | | |
 | 4 | | | | | |
 | 5 | | | | | |
