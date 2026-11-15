@@ -50,10 +50,8 @@ my <- make_my_dataset(params$studentID,
 
 ```{r libraries}
 # Load the packages you need here.
-library(tidyverse)
-library(ggplot2)
-library(usethis)
-library(lubridate)
+packages <- c("tidyverse", "ggplot2", "usethis", "lubridate", "dplyr")
+lapply(packages, library, character.only = TRUE)
 
 ```
 
@@ -103,8 +101,10 @@ glimpse(countriesRaw)
 
 ```{r t1q2}
 renewablesData <- renewablesRaw %>%
+  # Remove world and european union rows
   filter(!Country.Region %in% c("World", "European Union (27)")) %>%
   rename(Country = Country.Region) %>%
+  # Reshape renewables 
   pivot_longer(cols = -Country, 
                names_to = "Year", 
                values_to = "Renewables"
@@ -139,6 +139,7 @@ consumptionData <- consumptionRaw %>%
 countriesData <- countriesRaw %>%
   rename(
     ISO = countryCode,
+    Country = Country,
     Population = popData2022,
     GDPCapita = `GDP/capita`
   )
@@ -148,11 +149,11 @@ countriesData <- countriesRaw %>%
 
 ```{r t1q4}
 # Identifying incorrect years
-consumptionData %>%
-  # Detects all strings not containing exactly 4 digits
-  filter(!str_detect(Year, "^\\d{4}$")) %>%
-  select(ISO, Year) %>%
-  head(10)
+# consumptionData %>%
+#   # Detects all strings not containing exactly 4 digits
+#   filter(!str_detect(Year, "^\\d{4}$")) %>%
+#   select(ISO, Year) %>%
+#   head(10)
 
 emissionsData <- emissionsData %>%
   mutate(Year = as.integer(Year))
@@ -164,7 +165,7 @@ consumptionData <- consumptionData %>%
   mutate(
     # Capitalise all codes
     ISO = str_to_upper(ISO),
-    # Extracts the dates from values containing additional characters
+    # Extracts the year digits from years containing additional characters
     Year = as.integer(str_extract(Year, "\\d{4}"))
   )
 ```
@@ -199,7 +200,7 @@ countriesData <- countriesData |>
     )
   )
 
-# Count how many emissions rows fail to match
+# Count how manyrows fail to match for each dataset
 unmatchedRenewables <- emissionsData %>%
   anti_join(
     renewablesData,
@@ -218,7 +219,7 @@ unmatchedCountries <- emissionsData %>%
     by = "ISO"
   )
 
-# Return the count
+# Return the fail count as a table
 joinAudit <- tibble(
   source = c("Renewables", "Consumption", "Countries"),
   unmatchedRows = c(
@@ -229,6 +230,23 @@ joinAudit <- tibble(
 )
 
 joinAudit
+
+# Create master table, preserving all emissions data
+masterData <- emissionsData %>%
+  left_join(
+    renewablesData,
+    by = c("Country", "Year")
+  ) %>%
+  left_join(
+    consumptionData,
+    by = c("ISO", "Year")
+  ) %>%
+  left_join(
+    countriesData %>% select(ISO, Population, GDP, GDPCapita), by = "ISO"
+  )
+
+# Check na values for each column
+colSums(is.na(masterData))
 ```
 
 *How many rows failed to match on each join, and what did you do about them?*
