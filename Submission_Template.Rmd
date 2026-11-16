@@ -349,7 +349,7 @@ GDP: Missing values were calculated from GDP per capita multiplied by population
 ### 1.7 Add `Decade` and `Period`
 
 ```{r t1q7}
-masterData <- masterData |>
+masterData <- masterData %>%
   mutate(
     Decade = paste(
       (Year %/% 10) * 10,
@@ -368,13 +368,27 @@ masterData <- masterData |>
 *`CumCO2`, `CumOilCO2`, `CumRenew`, `CumConsCO2`.*
 
 ```{r t1q8}
-
+masterData <- masterData %>%
+  arrange(ISO, Year) %>%
+  group_by(ISO) %>%
+  mutate(
+    CumCO2 = cumsum(CO2),
+    CumOilCO2 = cumsum(OilCO2),
+    CumRenew = cumsum(Renewables),
+    CumConsCO2 = cumsum(ConsCO2)
+  ) %>%
+  ungroup()
 ```
 
 ### 1.9 Add `NetImported` and `OilShare`
 
 ```{r t1q9}
-
+masterData <- masterData %>%
+  mutate(
+    # NetImported is zero for countries whose consumption was estimated from production
+    NetImported = CumConsCO2 - CumCO2,
+    OilShare = round(CumOilCO2 / CumCO2, 3)
+  )
 ```
 
 ### 1.10 Add the four per-capita variables
@@ -382,7 +396,13 @@ masterData <- masterData |>
 *`CO2_PC`, `OilCO2_PC`, `Renew_PC`, `ConsCO2_PC`.*
 
 ```{r t1q10}
-
+masterData <- masterData %>%
+  mutate(
+    CO2_PC = round(CumCO2 * 1000000 / Population, 3),
+    OilCO2_PC = round(CumOilCO2 * 1000000 / Population, 3),
+    Renew_PC = round(CumRenew * 1000000 / Population, 3),
+    ConsCO2_PC = round(CumConsCO2 * 1000000 / Population, 3)
+  )
 ```
 
 ```{r t1-check}
