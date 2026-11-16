@@ -3,14 +3,14 @@ title: "Final Assessment — Introduction to Data Science"
 subtitle: "11372 & 11516"
 date: "`r format(Sys.Date(), '%d %B %Y')`"
 output:
-  pdf_document:
-    toc: true
-    toc_depth: 2
-    number_sections: false
   html_document:
     toc: true
     toc_float: true
     theme: readable
+  pdf_document:
+    toc: true
+    toc_depth: 2
+    number_sections: false
 params:
   studentID: "u3318186"
 ---
@@ -185,7 +185,7 @@ renewablesData <- renewablesData %>%
   )
 
 # Correct Cameroons population scale
-countriesData <- countriesData |>
+countriesData <- countriesData %>%
   mutate(
     Population = if_else(ISO == "CMR",
       Population * 1000,
@@ -328,17 +328,17 @@ colSums(is.na(masterData))
 
 Different treatments were applied according to each variable’s meaning and the available data.
 
-CO2: Negative observations were treated as invalid and replaced with NA. Missing values were then estimated using linear interpolation within each country, using neighbouring years to preserve the country’s emissions trend.
+CO2: Negative observations were treated as invalid and replaced with NA. Missing values were then estimated using linear interpolation within each country, using neighbouring years to preserve the country's emissions trend.
 
 OilCO2: The invalid placeholder value of -999 was replaced with NA, followed by interpolation within each country. For missing endpoints, the nearest available observation was used because interpolation between two surrounding years was not possible.
 
-Renewables: Missing observations were first interpolated within each country. Remaining gaps were filled using the median renewable generation per million people for the same region and year, scaled to the country’s population to account for differences in country size.
+Renewables: Missing observations were first interpolated within each country. Remaining gaps were filled using the median renewable generation per million people for the same region and year, scaled to the country's population to account for differences in country size.
 
 ConsCO2: Missing observations were first interpolated within each country. Remaining NAs were replaced with production-based CO2 emissions. This provides a datapoint when consumption data is unavailable, but assumes zero net imported emissions.
 
-GDPCapita: Missing values were replaced with the regional median from the country table. The median limits the influence of unusually wealthy countries, although it may not accurately represent an individual country’s income.
+GDPCapita: Missing values were replaced with the regional median from the country table. The median limits the influence of unusually wealthy countries, although it may not accurately represent an individual country's income.
 
-GDP: Missing values were calculated from GDP per capita multiplied by population and divided by one million to match GDP’s units. This maintains consistency between the economic variables.
+GDP: Missing values were calculated from GDP per capita multiplied by population and divided by one million to match GDP's units. This maintains consistency between the economic variables.
 
 ### 1.7 Add `Decade` and `Period`
 
@@ -520,7 +520,7 @@ negativeRows
 *Which rows are they? Why do negative values legitimately appear in published emissions series?
 What did you do, and what alternative did you reject?*
 
-Negative CO2 values occurred in Cameroon (2012: −0.921 Mt), Equatorial Guinea (2019: −1.613 Mt) and Ukraine (2016: −66.098 Mt). Negative accounting adjustments can represent downward revisions rather than atmospheric carbon removal. These implausible annual observations were fixed by interpolating from neighbouring years. I chose against using zero replacement because it would assume no emissions occurred in negative years.
+Negative CO2 values occurred in Cameroon (2012: -0.921 Mt), Equatorial Guinea (2019: -1.613 Mt) and Ukraine (2016: -66.098 Mt). Negative accounting adjustments can represent downward revisions rather than atmospheric carbon removal. These implausible annual observations were fixed by interpolating from neighbouring years. I chose against using zero replacement because it would assume no emissions occurred in negative years.
 
 ### iii. Coverage gap in consumption-based data
 
@@ -545,9 +545,9 @@ coverageSummary <- coverageData %>%
   summarise(
     countryCount = n(),
     medianPopulation = median(Population),
-    medianGDPCapita = median(GDPCapita, na.rm = TRUE),
-    .groups = "drop"
-  )
+    medianGDPCapita = median(GDPCapita, na.rm = TRUE))
+
+coverageSummary
 ```
 
 *How many countries have no coverage? Name three. Is imputing zero valid? If it biases
