@@ -68,7 +68,7 @@ organised. Half a page is plenty.*
 
 *State any assumptions you are making about the data or the analysis before you begin.*
 
-**YOUR ANSWER**
+Assumption 1: Regional countries have comparable renewable generation rates.
 
 \newpage
 
@@ -200,7 +200,7 @@ countriesData <- countriesData |>
     )
   )
 
-# Count how manyrows fail to match for each dataset
+# Count how many rows fail to match for each dataset
 unmatchedRenewables <- emissionsData %>%
   anti_join(
     renewablesData,
@@ -220,7 +220,7 @@ unmatchedCountries <- emissionsData %>%
   )
 
 # Return the fail count as a table
-joinAudit <- tibble(
+unmatchedRows <- tibble(
   source = c("Renewables", "Consumption", "Countries"),
   unmatchedRows = c(
     nrow(unmatchedRenewables),
@@ -229,9 +229,9 @@ joinAudit <- tibble(
   )
 )
 
-joinAudit
+unmatchedRows
 
-# Create master table, preserving all emissions data
+# Create master table while preserving all emissions data entries
 masterData <- emissionsData %>%
   left_join(
     renewablesData,
@@ -245,7 +245,7 @@ masterData <- emissionsData %>%
     countriesData %>% select(ISO, Population, GDP, GDPCapita), by = "ISO"
   )
 
-# Check na values for each column
+# Check missing values for each column
 colSums(is.na(masterData))
 ```
 
@@ -256,17 +256,111 @@ colSums(is.na(masterData))
 ### 1.6 Handle the NAs
 
 ```{r t1q6}
+# Function for estimating missing values using known values
+interpolateSeries <- function(yearValues, seriesValues) {
+  knownValues <- !is.na(seriesValues)
 
+  # If there are insufficient values, return the values unchanged
+  if (sum(knownValues) < 2) {
+    return(seriesValues)
+  }
+
+  approx(
+    x = yearValues[knownValues],
+    y = seriesValues[knownValues],
+    xout = yearValues,
+    rule = 2
+  )$y
+}
+
+# Mark invalid values as missing
+masterData <- masterData %>%
+  mutate(
+    CO2 = if_else(CO2 < 0, NA_real_, CO2),
+    OilCO2 = na_if(OilCO2, -999)
+  )
+
+# Apply function to missing values
+masterData <- masterData %>%
+  arrange(ISO, Year) %>%
+  group_by(ISO) %>%
+  mutate(
+    CO2 = interpolateSeries(Year, CO2),
+    OilCO2 = round(interpolateSeries(Year, OilCO2), 3),
+    Renewables = interpolateSeries(Year, Renewables),
+    ConsCO2 = interpolateSeries(Year, ConsCO2)
+  ) %>%
+  ungroup()
+
+# Fill remaining renewables using regional rates from the countries region
+masterData <- masterData %>%
+  group_by(Region, Year) %>%
+  mutate(
+    Renewables = coalesce(
+      Renewables,
+      round(
+        median(Renewables * 1000000 / Population, TRUE) * Population / 1000000, 2)
+    )
+  ) %>%
+  ungroup()
+
+# Calculate regional income medians from country table
+incomeBenchmarks <- countriesData %>%
+  left_join(
+    distinct(emissionsData, ISO, Region),
+    by = "ISO"
+  ) %>%
+  group_by(Region) %>%
+  summarise(regionalIncome = median(GDPCapita, TRUE))
+
+# Fill remaining consumption and economic values
+masterData <- masterData %>%
+  left_join(incomeBenchmarks, by = "Region") %>%
+  mutate(
+    ConsCO2 = coalesce(ConsCO2, CO2),
+    GDPCapita = coalesce(GDPCapita, regionalIncome),
+    GDP = coalesce(
+      GDP,
+      round(GDPCapita * Population / 1000000)
+    )
+  ) %>%
+  select(-regionalIncome)
+
+# Check missing values for each column
+colSums(is.na(masterData))
 ```
 
 *Justify your treatment of each variable. Different variables may warrant different choices.*
 
-**YOUR ANSWER**
+Different treatments were applied according to each variable’s meaning and the available data.
+
+CO2: Negative observations were treated as invalid and replaced with NA. Missing values were then estimated using linear interpolation within each country, using neighbouring years to preserve the country’s emissions trend.
+
+OilCO2: The invalid placeholder value of -999 was replaced with NA, followed by interpolation within each country. For missing endpoints, the nearest available observation was used because interpolation between two surrounding years was not possible.
+
+Renewables: Missing observations were first interpolated within each country. Remaining gaps were filled using the median renewable generation per million people for the same region and year, scaled to the country’s population to account for differences in country size.
+
+ConsCO2: Missing observations were first interpolated within each country. Remaining NAs were replaced with production-based CO2 emissions. This provides a datapoint when consumption data is unavailable, but assumes zero net imported emissions.
+
+GDPCapita: Missing values were replaced with the regional median from the country table. The median limits the influence of unusually wealthy countries, although it may not accurately represent an individual country’s income.
+
+GDP: Missing values were calculated from GDP per capita multiplied by population and divided by one million to match GDP’s units. This maintains consistency between the economic variables.
 
 ### 1.7 Add `Decade` and `Period`
 
 ```{r t1q7}
-
+masterData <- masterData |>
+  mutate(
+    Decade = paste(
+      (Year %/% 10) * 10,
+      "s", sep = ""
+    ),
+    Period = if_else(
+      Year < 2016,
+      "Pre-Paris",
+      "Post-Paris"
+    )
+  )
 ```
 
 ### 1.8 Add the four cumulative variables
