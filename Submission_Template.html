@@ -2342,6 +2342,35 @@ demonstrate carbon neutrality in trade.</p>
 <h1>Task 2: Exploratory data analysis</h1>
 <div id="highest-emitting-year-and-the-largest-year-on-year-fall" class="section level3">
 <h3>2.1 Highest-emitting year, and the largest year-on-year fall</h3>
+<pre class="r"><code>annualTotals &lt;- masterData %&gt;%
+  group_by(Year) %&gt;%
+  summarise(
+    totalCO2 = sum(CO2)
+  ) %&gt;%
+  arrange(Year) %&gt;%
+  mutate(
+    annualChange = totalCO2 - lag(totalCO2),
+    percentageChange = annualChange / lag(totalCO2) * 100
+  )
+
+highestYear &lt;- annualTotals %&gt;%
+  slice_max(totalCO2, n = 1) %&gt;%
+  select(Year, totalCO2)
+
+largestFall &lt;- annualTotals %&gt;%
+  filter(!is.na(annualChange)) %&gt;%
+  slice_min(annualChange, n = 1)
+
+print(highestYear)</code></pre>
+<pre><code>## # A tibble: 1 × 2
+##    Year totalCO2
+##   &lt;int&gt;    &lt;dbl&gt;
+## 1  2022   34306.</code></pre>
+<pre class="r"><code>print(largestFall)</code></pre>
+<pre><code>## # A tibble: 1 × 4
+##    Year totalCO2 annualChange percentageChange
+##   &lt;int&gt;    &lt;dbl&gt;        &lt;dbl&gt;            &lt;dbl&gt;
+## 1  2020   32115.       -1459.            -4.35</code></pre>
 <p><em>What caused the largest fall?</em></p>
 <p><strong>YOUR ANSWER</strong></p>
 </div>
@@ -2735,7 +2764,7 @@ capita</td>
 <pre class="r"><code>cat(&quot;Window      :&quot;, paste(my$window, collapse = &quot; - &quot;), &quot;\n&quot;)</code></pre>
 <pre><code>## Window      : 2003 - 2022</code></pre>
 <pre class="r"><code>cat(&quot;Knitted at  :&quot;, format(Sys.time(), &quot;%Y-%m-%d %H:%M:%S %Z&quot;), &quot;\n&quot;)</code></pre>
-<pre><code>## Knitted at  : 2026-11-16 18:47:28 AEDT</code></pre>
+<pre><code>## Knitted at  : 2026-11-16 20:12:13 AEDT</code></pre>
 <pre class="r"><code>cat(&quot;Chunks run  :&quot;, length(knitr::all_labels()), &quot;\n\n&quot;)</code></pre>
 <pre><code>## Chunks run  : 40</code></pre>
 <pre class="r"><code>print(sessionInfo()$R.version$version.string)</code></pre>

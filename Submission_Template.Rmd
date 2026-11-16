@@ -563,17 +563,70 @@ The consumption data entirely excludes 53 countries, including Afghanistan, Ango
 ### 2.1 Highest-emitting year, and the largest year-on-year fall
 
 ```{r t2q1}
+annualTotals <- masterData %>%
+  group_by(Year) %>%
+  summarise(totalCO2 = sum(CO2)) %>%
+  arrange(Year) %>%
+  mutate(
+    annualChange = totalCO2 - lag(totalCO2),
+    percentageChange = annualChange / lag(totalCO2) * 100
+  )
 
+highestYear <- annualTotals %>%
+  slice_max(totalCO2, n = 1) %>%
+  select(Year, totalCO2)
+
+largestFall <- annualTotals %>%
+  filter(!is.na(annualChange)) %>%
+  slice_min(annualChange, n = 1)
+
+print(highestYear)
+print(largestFall)
 ```
 
 *What caused the largest fall?*
 
-**YOUR ANSWER**
+The largest fall occurred in 2020, likely because COVID-19 restrictions reduced transport, industrial activity and energy demand.
 
 ### 2.2 Cumulative totals over time for the whole dataset
 
 ```{r t2q2, fig.width=8, fig.height=5}
+cumulativeTotals <- masterData %>%
+  group_by(Year) %>%
+  summarise(
+    CumCO2 = sum(CumCO2),
+    CumOilCO2 = sum(CumOilCO2),
+    CumRenew = sum(CumRenew),
+    CumConsCO2 = sum(CumConsCO2)
+  )
 
+cumulativePlot <- cumulativeTotals %>%
+  pivot_longer(
+    cols = -Year,
+    names_to = "measure",
+    values_to = "value"
+  ) %>%
+  mutate(
+    unit = if_else(
+      measure == "CumRenew",
+      "Renewable generation (TWh)",
+      "CO2 emissions (million tonnes)"
+    )
+  )
+
+ggplot(cumulativePlot, aes(Year, value, colour = measure)) +
+  geom_line(linewidth = 0.9) +
+  facet_wrap(~ unit, scales = "free_y", ncol = 1) +
+  scale_y_continuous(labels = scales::label_comma()) +
+  labs(
+    title = "Cumulative emissions and renewable generation",
+    subtitle = "For all countries",
+    x = "Year",
+    y = NULL,
+    colour = "Measure",
+  ) +
+  theme_minimal() +
+  theme(legend.position = "bottom")
 ```
 
 ### 2.3 Extract `lastYear_data`
@@ -581,7 +634,16 @@ The consumption data entirely excludes 53 countries, including Afghanistan, Ango
 *Compute the final year — do not type it in.*
 
 ```{r t2q3}
+lastYear_data <- masterData %>%
+  filter(Year == max(Year))
 
+print(
+  lastYear_data %>%
+    summarise(
+      finalYear = first(Year),
+      countries = n()
+    )
+)
 ```
 
 ### 2.4 Top 10 countries on four measures
@@ -589,37 +651,148 @@ The consumption data entirely excludes 53 countries, including Afghanistan, Ango
 *`top10total`, `top10percap`, `top10net`, `top10renew`.*
 
 ```{r t2q4}
+top10total <- lastYear_data %>%
+  slice_max(CumCO2, n = 10)
 
+top10percap <- lastYear_data %>%
+  slice_max(CO2_PC, n = 10)
+
+top10net <- lastYear_data %>%
+  slice_max(NetImported, n = 10)
+
+top10renew <- lastYear_data %>%
+  slice_max(Renew_PC, n = 10)
+
+print(top10total %>% select(Country, CumCO2))
+print(top10percap %>% select(Country, CO2_PC))
+print(top10net %>% select(Country, NetImported))
+print(top10renew %>% select(Country, Renew_PC))
 ```
 
 ### 2.5 Totals by region
 
 ```{r t2q5}
+regionalTotals <- lastYear_data %>%
+  group_by(Region) %>%
+  summarise(
+    CumCO2 = sum(CumCO2),
+    CumOilCO2 = sum(CumOilCO2),
+    CumRenew = sum(CumRenew),
+    CumConsCO2 = sum(CumConsCO2)
+  )
 
+print(regionalTotals, width = Inf)
 ```
 
 ### 2.6 Cumulative emissions over time, top 10 countries (log Y)
 
 ```{r t2q6, fig.width=8, fig.height=5}
+topCountryHistory <- masterData %>%
+  filter(ISO %in% top10total$ISO)
 
+ggplot(topCountryHistory, aes(Year, CumCO2, colour = Country)) +
+  geom_line() +
+  scale_y_log10() +
+  labs(
+    title = "Cumulative emissions of the ten largest emitters",
+    x = "Year",
+    y = "Cumulative CO2 (million tonnes; log scale)",
+  ) +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  guides(colour = guide_legend(ncol = 5))
 ```
 
 ### 2.7 Faceted plot, one panel per country
 
-```{r t2q7, fig.width=9, fig.height=7}
+```{r t2q7, fig.width=9, fig.height=10}
+annualPlot <- topCountryHistory %>%
+  select(Country, Year, CO2, OilCO2, Renewables) %>%
+  pivot_longer(
+    cols = c(CO2, OilCO2, Renewables),
+    names_to = "measure",
+    values_to = "value"
+  )
 
+ggplot(annualPlot, aes(Year, value, colour = measure)) +
+  geom_line() +
+  facet_wrap(~ Country, scales = "free_y", ncol = 2) +
+  labs(
+    title = "Annual emissions and renewable generation",
+    x = "Year",
+    y = "Annual value",
+    colour = "Measure",
+    caption = paste(
+      "CO2 and OilCO2: million tonnes. Renewables: TWh.",
+      "Panels have different scales."
+    )
+  ) +
+  theme_minimal() +
+  theme(legend.position = "bottom")
 ```
 
 ### 2.8 Top 10 by emissions per capita
 
 ```{r t2q8, fig.width=8, fig.height=5}
+perCapitaPlot <- top10percap %>%
+  select(Country, CumCO2, Population, CO2_PC) %>%
+  mutate(
+    Country = factor(Country, levels = rev(Country))
+  ) %>%
+  pivot_longer(
+    cols = c(CumCO2, Population, CO2_PC),
+    names_to = "measure",
+    values_to = "value"
+  )
 
+ggplot(perCapitaPlot, aes(value, Country)) +
+  geom_col(fill = "steelblue") +
+  facet_wrap(~ measure, scales = "free_x", nrow = 1) +
+  labs(
+    title = "Comparing the ten highest per-capita emitters",
+    x = NULL,
+    y = NULL,
+    caption = paste(
+      "CumCO2: Mt. Population: people in 2022.",
+      "CO2_PC: cumulative tonnes per person. Panels have independent scales."
+    )
+  ) +
+  theme_minimal()
 ```
 
 ### 2.9 Total, average and median cumulative emissions by region
 
 ```{r t2q9, fig.width=8, fig.height=5}
+regionalStatistics <- lastYear_data %>%
+  group_by(Region) %>%
+  summarise(
+    Total = sum(CumCO2),
+    Average = mean(CumCO2),
+    Median = median(CumCO2)
+  )
 
+regionalPlot <- regionalStatistics %>%
+  pivot_longer(
+    cols = c(Total, Average, Median),
+    names_to = "statistic",
+    values_to = "value"
+  )
+
+ggplot(regionalPlot, aes(Region, value, fill = Region)) +
+  geom_col() +
+  facet_wrap(~ statistic, scales = "free_y") +
+  labs(
+    title = "Regional cumulative emissions",
+    x = NULL,
+    y = "Cumulative CO2 (million tonnes)",
+    caption = "Panels have independent scales. Average and median are per country."
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    legend.position = "bottom"
+  )
 ```
 
 ### 2.10 Top 2 countries per region by emissions per capita
