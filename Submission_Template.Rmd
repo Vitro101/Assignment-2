@@ -781,6 +781,7 @@ regionalPlot <- regionalStatistics %>%
 ggplot(regionalPlot, aes(Region, value, fill = Region)) +
   geom_col() +
   facet_wrap(~ statistic, scales = "free_y") +
+  scale_y_continuous(labels = scales::label_comma()) +
   labs(
     title = "Regional cumulative emissions",
     x = NULL,
@@ -798,7 +799,13 @@ ggplot(regionalPlot, aes(Region, value, fill = Region)) +
 ### 2.10 Top 2 countries per region by emissions per capita
 
 ```{r t2q10}
+topTwoPerRegion <- lastYear_data %>%
+  group_by(Region) %>%
+  slice_max(CO2_PC, n = 2) %>%
+  ungroup() %>%
+  select(Region, Country, CO2_PC)
 
+print(topTwoPerRegion)
 ```
 
 ---
@@ -807,37 +814,66 @@ ggplot(regionalPlot, aes(Region, value, fill = Region)) +
 
 *What did you expect, and why was that reasonable?*
 
-**YOUR ANSWER**
+I initially believed that total and per-capita emissions would strongly correlate with population, thus I expected China to rank highly in both total and per-capita emissions because its large cumulative emissions suggested substantial emissions relative to other countries. However, I initially underestimated how strongly population size could change the rankings.
 
 *What does the data actually show? Quote a specific value, country or trend from your own plots.*
 
-**YOUR ANSWER**
+China has the largest cumulative emissions, at 177,138 Mt, but its cumulative emissions per person are only 124.292 tonnes. Qatar records only 1,630 Mt in cumulative emissions yet leads the per-capita ranking at 563 tonnes. Saudi Arabia and the United States are the only countries to appear in both top-ten lists.
 
 *What real-world mechanism could explain the discrepancy?*
 
-**YOUR ANSWER**
+Population size helps explain this. China’s cumulative emissions are divided by roughly 1.425 billion people, compared with roughly 2.892 million for Qatar. It turns out countries can contribute much less in total emissions while recording substantially higher emissions per resident. Industrial structure and energy production could also contribute, although these explanations cannot directly be tested with this dataset.
 
 ### Supporting visualisation
 
-```{r t2a-plot, fig.width=8, fig.height=5}
+```{r t2a-plot, fig.width=8, fig.height=6}
+comparisonData <- lastYear_data %>%
+  filter(Country %in% c("China", "Qatar")) %>%
+  select(Country, CumCO2, Population, CO2_PC)
 
+print(comparisonData)
+
+ggplot(lastYear_data, aes(Population, CO2_PC)) +
+  geom_point(colour = "grey") +
+  geom_point(
+    data = comparisonData,
+    colour = "steelblue",
+    size = 3
+  ) +
+  geom_text(
+    data = comparisonData,
+    aes(label = Country),
+    vjust = -1
+  ) +
+  scale_x_log10() +
+  scale_y_log10() +
+  labs(
+    title = "Country population and cumulative emissions per person",
+    x = "Population in 2022 (people, log scale)",
+    y = "Cumulative CO2 per person (tonnes, log scale)"
+  ) +
+  theme_minimal()
 ```
 
 *Caption (2–3 sentences): what does this chart show, and why did you choose this chart type?*
 
-**YOUR ANSWER**
+This scatter plot showcases the contrasting population sizes and per-capita emissions of China and Qatar compared to other countries. The logarithmic axes make countries with widely different values comparable. I chose this chart type as it visualises the weak correlation between cumulative emissions per person and population, where I initially believed we would see a strong correlation between the two.
 
 ---
 
 ## 2B. Visualisation design critique
 
-**Visualisation chosen:** *(state which question it is from)*
+**Visualisation chosen:** *2.6 Cumulative emissions over time, top 10 countries (log Y)*
 
 *Approximately 150 words covering: two design decisions and what each communicates; one
 alternative you rejected and concretely why it would communicate worse; one limitation a reader
 could misinterpret, and how you would mitigate it.*
 
-**YOUR ANSWER**
+A line chart communicates how cumulative emissions develop over time, while distinct colours allow readers to follow individual countries. Restricting the graph to the ten largest final-year emitters limits clutter and focuses attention on major contributors within this dataset.
+
+The logarithmic vertical axis makes smaller trajectories visible. China reaches 177,138.120 Mt, compared with Indonesia’s 9,936.862 Mt. A linear-axis alternative would communicate absolute differences more directly, but compress lower-emitting countries and make their trajectories harder to distinguish.
+
+One limitation is that readers may interpret equal vertical gaps as equal absolute differences. On a logarithmic scale, equal gaps represent equal ratios. Explicit axis labelling and a caption explaining this relationship reduce that risk. The caption also identifies the accumulation period, preventing readers from interpreting these values as each country’s complete historical emissions.
 
 \newpage
 
