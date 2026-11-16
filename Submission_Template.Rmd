@@ -148,13 +148,6 @@ countriesData <- countriesRaw %>%
 ### 1.4 Make `Year` consistent across all data frames
 
 ```{r t1q4}
-# Identifying incorrect years
-# consumptionData %>%
-#   # Detects all strings not containing exactly 4 digits
-#   filter(!str_detect(Year, "^\\d{4}$")) %>%
-#   select(ISO, Year) %>%
-#   head(10)
-
 emissionsData <- emissionsData %>%
   mutate(Year = as.integer(Year))
 
@@ -247,11 +240,12 @@ masterData <- emissionsData %>%
 
 # Check missing values for each column
 colSums(is.na(masterData))
+dim(masterData)
 ```
 
 *How many rows failed to match on each join, and what did you do about them?*
 
-**YOUR ANSWER**
+After standardising join keys and removing duplicates, 120 rows failed to match the renewables data, 1,063 failed to match the consumption data, and none failed to match the country reference data. Left joins ensured all 3,020 emissions observations were preserved, with unmatched supplementary values initially joined as NA. These missing values were fixed in 1.6.
 
 ### 1.6 Handle the NAs
 
@@ -407,8 +401,8 @@ masterData <- masterData %>%
 
 ```{r t1-check}
 # A quick look at your finished master data frame.
-# dim(master)
-# str(master)
+dim(masterData)
+str(masterData)
 
 ```
 
@@ -423,17 +417,88 @@ specific value, country, year or column from **your** data.*
 
 *Complete the table. Add rows as needed — there are more defects than there are rows here.*
 
-| File | Column | Rows affected | How I detected it | How I handled it |
+| File | Column | Rows affected (Example row) | How I detected it | How I handled it |
 |---|---|---|---|---|
-| | | | | |
-| | | | | |
-| | | | | |
-| | | | | |
-| | | | | |
-| | | | | |
+| Emissions.csv | All | 5 rows (Peru, 2009) | duplicated() | Removed using distinct() |
+| Emissions.csv | CO2 | 3 (Cameroon, 2012) | Filtered negative values | Interpolated within country |
+| Emissions.csv | OilCO2| 6 (Moldova, 2003) | Filtered -999 | Interpolated using nearest observation at endpoints |
+| Renewables.csv | Country.Region | 2 aggregate rows (World/EU) | Inspected names | Excluded aggregate rows |
+| Renewables.csv | Country.Region | 6 names (South Korea, 2003-2022) | Inspected names | Trimmed whitespace and recoded variants |
+| Renewables.csv | Country.Region | 5 cells (Comoros, 2011-2015) | Checked missing values | Interpolated |
+| Renewables.csv | Country.Region | 120 country-years (Ukraine, 2003-2022) | anti_join() | Population-scaled regional medians |
+| Consumption.csv | Country Code | 78 (Albania, 2018) | Compared original/standardised codes | Trimmed whitespace and capitalised |
+| Consumption.csv | Year | 117 (UAE, 2007) | Regular expression check | Extracted integer from character |
+| Consumption.csv | Missing observations | 1063 (Panama, 2006) | anti_join() |Interpolated, production estimate for absent series |
+| Countries.csv | Population | 1 (Cameroon, 2022) | Compared with GDP calculated population | Multiplied by 1000 |
+| Countries.csv | GDP/GDPCapita | 23 countries (Aruba, 2022) | Counted NAs | Derived from median regional income |
 
 ```{r t1a-detection}
 # The code you used to find the defects.
+
+# Use raw datasets without trimming
+consumptionAudit <- read_csv("data/Consumption.csv", col_types = cols(.default = col_character()), trim_ws = FALSE)
+
+renewablesAudit <- read_csv("data/Renewables.csv", trim_ws = FALSE, show_col_types = FALSE)
+
+# Exact duplicates and invalid oil observations
+duplicateRows <- emissionsRaw[
+  duplicated(emissionsRaw),
+]
+
+duplicateRows
+
+emissionsRaw %>%
+  filter(annual_oil_co2_mt == -999)
+
+# Counts of consumption format problems
+consumptionAudit %>%
+  summarise(
+    inconsistentCodes = sum(
+      `Country Code` != str_to_upper(str_trim(`Country Code`))
+    ),
+    inconsistentYears = sum(!str_detect(Year, "^\\d{4}$"))
+  )
+
+# Format problem examples
+consumptionAudit %>%
+  filter(
+    !str_detect(Year, "^\\d{4}$") |
+      str_detect(`Consumption CO2`, fixed(","))
+  ) %>%
+  head(10)
+
+# Names that initially differ from the emissions country names, including aggregates and whitespace variants.
+renewablesAudit %>%
+  distinct(Country.Region) %>%
+  anti_join(
+    emissionsData %>% distinct(Country),
+    by = c("Country.Region" = "Country")
+  )
+
+# Locate missing renewable measurements
+renewablesAudit %>%
+  pivot_longer(
+    cols = -Country.Region,
+    names_to = "yearValue",
+    values_to = "renewableValue"
+  ) %>%
+  filter(is.na(renewableValue))
+
+# Population consistency check
+countriesRaw %>%
+  mutate(
+    impliedPopulation = GDP * 1000000 / `GDP/capita`,
+    populationRatio = impliedPopulation / popData2022
+  ) %>%
+  filter(populationRatio > 100)
+
+# Countries with missing economic values
+countriesRaw %>%
+  filter(is.na(GDP) | is.na(`GDP/capita`))
+
+# Previously calculated unmatched join counts
+unmatchedRows
+
 
 ```
 
@@ -441,13 +506,21 @@ specific value, country, year or column from **your** data.*
 
 ```{r t1a-negatives}
 # Identify the negative-emissions rows by country and year.
+negativeRows <- emissionsRaw %>%
+  filter(annual_co2_mt < 0) %>%
+  select(
+    Country = location,
+    Year = year,
+    CO2 = annual_co2_mt
+  )
 
+negativeRows
 ```
 
 *Which rows are they? Why do negative values legitimately appear in published emissions series?
 What did you do, and what alternative did you reject?*
 
-**YOUR ANSWER**
+Negative CO2 values occurred in Cameroon (2012: −0.921 Mt), Equatorial Guinea (2019: −1.613 Mt) and Ukraine (2016: −66.098 Mt). Negative accounting adjustments can represent downward revisions rather than atmospheric carbon removal. These implausible annual observations were fixed by interpolating from neighbouring years. I chose against using zero replacement because it would assume no emissions occurred in negative years.
 
 ### iii. Coverage gap in consumption-based data
 
@@ -455,13 +528,33 @@ What did you do, and what alternative did you reject?*
 # Count the countries with no consumption-based data, and compare the
 # countries that do and do not have coverage.
 
+coverageData <- countriesData %>%
+  mutate(
+    hasConsumption = ISO %in% consumptionData$ISO
+  )
+
+noConsumptionCountries <- coverageData %>%
+  filter(!hasConsumption) %>%
+  select(ISO, Country, Population)
+
+nrow(noConsumptionCountries)
+noConsumptionCountries
+
+coverageSummary <- coverageData %>%
+  group_by(hasConsumption) %>%
+  summarise(
+    countryCount = n(),
+    medianPopulation = median(Population),
+    medianGDPCapita = median(GDPCapita, na.rm = TRUE),
+    .groups = "drop"
+  )
 ```
 
 *How many countries have no coverage? Name three. Is imputing zero valid? If it biases
 `ConsCO2_PC` and `NetImported`, in which direction, and for which type of country is the bias
 worst? Support this with a number.*
 
-**YOUR ANSWER**
+The consumption data entirely excludes 53 countries, including Afghanistan, Angola and Andorra. Their median population is 919,428 compared with 16,860,080 among covered countries. Zero imputation would underestimate ConsCO2_PC and NetImported, particularly misrepresenting carbon importing countries. Instead, production emissions provided an estimation value, forcing their estimated NetImported to zero. This zero value represents unknown emission/consumption balances, and does not demonstrate carbon neutrality in trade.
 
 \newpage
 
