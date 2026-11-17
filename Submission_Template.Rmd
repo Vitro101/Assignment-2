@@ -50,7 +50,7 @@ my <- make_my_dataset(params$studentID,
 
 ```{r libraries}
 # Load the packages you need here.
-packages <- c("tidyverse", "ggplot2", "usethis", "lubridate", "dplyr")
+packages <- c("tidyverse", "ggplot2", "usethis", "lubridate", "dplyr", "GGally", "glmnet")
 lapply(packages, library, character.only = TRUE)
 
 ```
@@ -886,23 +886,65 @@ One limitation is that readers may interpret equal vertical gaps as equal absolu
 ### 3.1 Build `cor_data`
 
 ```{r t3q1}
+countryData <- lastYear_data %>%
+  arrange(ISO)
 
+cor_data <- countryData %>%
+  select(CumCO2, CumConsCO2, Population, GDP, GDPCapita)
+
+print(head(cor_data))
 ```
 
 ### 3.2 Correlation matrix
 
-```{r t3q2, fig.width=6, fig.height=5}
+```{r t3q2, fig.width=6, fig.height=6}
+correlationMatrix <- cor(cor_data)
 
+print(round(correlationMatrix, 2))
+
+ggcorr(
+  data = NULL,
+  cor_matrix = correlationMatrix,
+  label = TRUE,
+  label_round = 2,
+  low = "lightblue",
+  mid = "white",
+  high = "darkred",
+  midpoint = 0,
+  name = "Correlation"
+)
+
+gdpCorrelation <- correlationMatrix["CumCO2", "GDP"]
+incomeCorrelation <- correlationMatrix["CumCO2", "GDPCapita"]
+
+round(gdpCorrelation, 2)
+round(incomeCorrelation, 2)
 ```
 
 *Report `cor(CumCO2, GDP)` and `cor(CumCO2, GDPCapita)`. Why are those two numbers so different?*
 
-**YOUR ANSWER**
+The correlation between CumCO2 and GDP is 0.98 and the correlation between CumCO2 and GDPCapita is 0.11. These numbers are very different because total GDP reflects the overall size of an economy, whereas GDP per capita measures economic output per person. Thus, these results suggest that cumulative emissions are more closely associated with overall economic size than with output per person.
 
 ### 3.3 Distribution of `CumCO2`, with and without log
 
 ```{r t3q3, fig.width=8, fig.height=4}
+par(mfrow = c(1, 2))
 
+hist(
+  cor_data$CumCO2,
+  main = "Original distribution",
+  xlab = "Cumulative CO2 (Mt)",
+  col = "steelblue"
+)
+
+hist(
+  log(cor_data$CumCO2),
+  main = "Log-transformed distribution",
+  xlab = "Natural log of cumulative CO2",
+  col = "steelblue"
+)
+
+par(mfrow = c(1, 1))
 ```
 
 ### 3.4 Train/test split
@@ -912,19 +954,71 @@ One limitation is that readers may interpret equal vertical gaps as equal absolu
 set.seed(seed_from_id(params$studentID))
 
 # Your 65/35 split goes below.
+trainingRows <- sample(
+  nrow(cor_data),
+  size = floor(0.65 * nrow(cor_data))
+)
 
+trainingData <- cor_data[trainingRows, ]
+testingData <- cor_data[-trainingRows, ]
+
+trainingCountries <- countryData$Country[trainingRows]
+
+cat("Training rows:", nrow(trainingData), "\nTesting rows:", nrow(testingData), "\n")
 ```
 
 ### 3.5 Linear model: `CumCO2 ~ GDP`
 
 ```{r t3q5}
+evaluateModel <- function(actualValues, predictedValues) {
+  c(
+    RMSE = sqrt(mean((actualValues - predictedValues)^2)),
+    R2 = 1 - sum((actualValues - predictedValues)^2) /
+      sum((actualValues - mean(actualValues))^2)
+  )
+}
 
+gdpModel <- glm(
+  CumCO2 ~ GDP,
+  data = trainingData
+)
+
+gdpPredictions <- predict(
+  gdpModel,
+  newdata = testingData,
+  type = "response"
+)
+
+gdpScores <- evaluateModel(
+  testingData$CumCO2,
+  gdpPredictions
+)
+
+summary(gdpModel)
+gdpScores
 ```
 
 ### 3.6 Linear model: all predictors
 
 ```{r t3q6}
+fullModel <- glm(
+  CumCO2 ~ .,
+  data = trainingData
+)
 
+fullPredictions <- predict(
+  fullModel,
+  newdata = testingData,
+  type = "response"
+)
+
+fullScores <- evaluateModel(
+  testingData$CumCO2,
+  fullPredictions
+)
+
+summary(fullModel)
+fullScores
 ```
 
 ### 3.7 Interpret and compare the two models
@@ -932,24 +1026,58 @@ set.seed(seed_from_id(params$studentID))
 *When should the first be preferred, and when the second? If the full model has the higher test
 RMSE, explain why — that is not an error.*
 
-**YOUR ANSWER**
+The GDP-only model produced a test RMSE of 4,093.43 Mt and an R2 of 0.493, explaining approximately 49.3% of the variation in cumulative CO2 emissions in the test data. The full model performed better, with a test RMSE of 2,742.03 Mt and an R2 of 0.773, explaining approximately 77.3% of the variation. Adding the other predictors reduced test RMSE by roughly 33.0%.
+
+Based on these results, the full model is preferable for prediction, while the GDP-only model remains useful when simplicity or limited predictor availability matters. The GDP-only coefficient represents the estimated change in cumulative emissions associated with a one-unit increase in GDP. In the full model, each coefficient describes an association while holding the other included predictors constant.
+
+However, the full model’s performance requires caution because Task 1 replaced missing consumption emissions with production emissions. For countries with replaced values, CumConsCO2 equals CumCO2 by extension. This artificially strengthens the relationship between this predictor and the response, so the improved test results may partly reflect this replacement rather than independent prediction.
 
 ### 3.8 Alternative models
 
 ```{r t3q8}
+# Convert train/test data into numeric matrices
+trainingX <- model.matrix(CumCO2 ~ ., trainingData)[, -1]
+testingX <- model.matrix(CumCO2 ~ ., testingData)[, -1]
 
+set.seed(seed_from_id(params$studentID))
+
+lassoModel <- cv.glmnet(
+  x = trainingX,
+  y = trainingData$CumCO2,
+  alpha = 1,
+  nfolds = 5,
+  type.measure = "mse",
+  standardize = TRUE
+)
+
+lassoPredictions <- as.numeric(
+  predict(
+    lassoModel,
+    newx = testingX,
+    s = "lambda.min"
+  )
+)
+
+lassoScores <- evaluateModel(
+  testingData$CumCO2,
+  lassoPredictions
+)
+
+# Display selected lambda and predictor coefficients
+print(lassoModel$lambda.min)
+print(coef(lassoModel, s = "lambda.min"))
+lassoScores
 ```
 
 *Comparison table:*
 
 | Model | RMSE | R-squared |
 |---|---|---|
-| Linear (GDP only) | | |
-| Linear (all variables) | | |
-| | | |
-| | | |
+| Linear (GDP only) | 4093.43 | 0.493 |
+| Linear (all variables) | 2742.03 | 0.773 |
+| Lasso regression | 3534.23 | 0.622 |
 
-**YOUR ANSWER** *(brief comment on the comparison)*
+The full linear model performed best, with the lowest test RMSE (2742.03) and highest R-squared (0.773). Lasso improved on the GDP-only model but performed worse than the full model, suggesting that coefficient shrinkage and variable selection did not improve prediction on this test split.
 
 ---
 
@@ -958,54 +1086,101 @@ RMSE, explain why — that is not an error.*
 ### i. Linearity
 
 ```{r t3a-linearity, fig.width=8, fig.height=6}
+linearityData <- trainingData %>%
+  pivot_longer(
+    cols = -CumCO2,
+    names_to = "predictor",
+    values_to = "value"
+  )
 
+ggplot(linearityData, aes(value, CumCO2)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE, colour = "steelblue") +
+  facet_wrap(~ predictor, scales = "free_x") +
+  scale_x_continuous(labels = scales::label_comma()) +
+  labs(
+    title = "Cumulative emissions against each predictor",
+    x = "Predictor value",
+    y = "Cumulative CO2 (Mt)"
+  ) +
+  theme_minimal()
 ```
 
 *Does a linear relationship look reasonable? Which predictor departs from it most clearly?*
 
-**YOUR ANSWER**
+A linear relationship looks reasonably plausible for CumConsCO2 and GDP, which show clear positive associations with cumulative CO2 emissions. Population also shows a positive association, although there is scattering and the trend appears strongly influenced by a few larger observations. GDPCapita departs the most from a linear relationship, the countries with similar GDP per capita have very different cumulative emissions and the points show little consistent upward trend.
 
 ### ii. Distribution of the response
 
 *Using your plots from 3.3 — does raw `CumCO2` satisfy the normality assumption? Is a
 transformation warranted?*
 
-**YOUR ANSWER**
+Raw CumCO2 is strongly right-skewed, with most countries having relatively low cumulative emissions and a few showing extremely large values. The log transformation creates a much more symmetric, approximately bell-shaped distribution, suggesting it is worth investigating.
 
 ### iii. Residual diagnostics
 
 ```{r t3a-diagnostics, fig.width=8, fig.height=7}
+par(mfrow = c(2, 2))
 
+plot(
+  fullModel,
+  which = c(1, 2, 3, 5),
+  labels.id = trainingCountries
+)
+
+par(mfrow = c(1, 1))
 ```
 
 | Plot | What assumption it tests | Does your model satisfy it? |
 |---|---|---|
-| Residuals vs Fitted | | |
-| Normal Q-Q | | |
-| Scale-Location | | |
-| Residuals vs Leverage | | |
+| Residuals vs Fitted | Whether a linear conditional relationship is appropriate | Not really, the red line curves away from zero |
+| Normal Q-Q | Whether errors are approximately normally distributed | The plot shows substantial departures from the reference line, indicating that errors are not normally distributed |
+| Scale-Location | Whether error variance is approximately constant | No, the red line rises strongly with fitted values, indicating greater residual variability for countries with higher predicted emissions |
+| Residuals vs Leverage | Whether individual observations exert excessive influence | China and the United States have very high leverage and large standardised residuals, indicating that they strongly influence the fitted model |
 
 ### iv. Influential observations
 
 ```{r t3a-leverage}
-# Identify the high-leverage country, then refit without it.
+# Remove China from the training data
+trainingWithoutChina <- trainingData[-which(trainingCountries == "China"), ]
 
+reducedModel <- glm(
+  CumCO2 ~ CumConsCO2 + Population + GDP + GDPCapita,
+  data = trainingWithoutChina
+)
+
+reducedPredictions <- predict(
+  reducedModel,
+  newdata = testingData,
+  type = "response"
+)
+
+reducedScores <- evaluateModel(
+  testingData$CumCO2,
+  reducedPredictions
+)
+
+data.frame(
+  Model = c("Full training data", "Highest-leverage country removed"),
+  rbind(fullScores, reducedScores),
+  row.names = NULL
+)
 ```
 
-**High-leverage country:** *name it*
+**High-leverage country:** China
 
-**New test RMSE without it:** *value*
+**New test RMSE without it:** 932.36 Mt, originally 2742.03 Mt
 
 *Is removing it defensible? Two sentences.*
 
-**YOUR ANSWER**
+Removing China is defensible because its high leverage and large standardised residual indicate substantial influence, and excluding it reduced the test RMSE from 2,742.03 to 932.36 Mt. However, permanent exclusion is tough to justify without evidence of a data error, because its genuine scale is relevant for a model intended to represent all countries.
 
 ### v. Verdict
 
 *Is linear regression a valid choice here? If assumptions are violated, what does that mean in
 practice for your coefficients and predictions?*
 
-**YOUR ANSWER**
+Linear regression is a useful baseline, but the full model does not adequately satisfy all assumptions. The curved residual trend suggests an imperfect linear specification, while the rising Scale-Location trend indicates unequal error variance. China and the United States also strongly influence the fit, with removing China reducing test RMSE from 2,742.03 to 932.36 Mt. This demonstrates that the coefficients may be sensitive to individual countries, conventional standard errors and confidence intervals may be unreliable, and prediction accuracy may vary considerably across country sizes. These findings support using alternative models, while using this original model as a baseline.
 
 ---
 
