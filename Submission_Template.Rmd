@@ -62,7 +62,9 @@ lapply(packages, library, character.only = TRUE)
 *Briefly introduce the dataset, the questions you set out to answer, and how this report is
 organised. Half a page is plenty.*
 
-**YOUR ANSWER**
+This report examines CO2 emissions and renewable electricity generation across 151 countries between 2003 and 2022, using a personalised dataset generated from my student ID. It investigates how emissions changed over time, how country rankings differ when accounting for population, and how international trade affects the distinction between production based and consumption based emissions.
+
+The analysis begins with data cleaning, joining and feature creation, followed by exploratory visualisations and comparisons. Linear and Lasso regression models are then evaluated to investigate relationships between cumulative emissions and economic and population variables. Finally, a dashboard presents the main findings for a public audience, with attention to data limitations and fair comparisons between countries.
 
 ## Assumptions
 
@@ -1345,7 +1347,9 @@ The main headline uses total annual production emissions: 34,306 Mt in 2022, com
 
 *What are the main things your analysis shows? Keep it grounded in your own numbers.*
 
-**YOUR ANSWER**
+Across the countries, annual production emissions reached approximately 34,306 Mt in 2022, despite a 4.35% fall in 2020, while renewable electricity generation reached approximately 7,971 TWh. Country rankings changed substantially when population was considered: China led cumulative emissions at approximately 177,138 Mt, whereas Qatar led cumulative emissions per person at 563.6 tonnes. The contrasting net imported emissions of the United States (+6,978 Mt) and China (-24,192 Mt) also demonstrate why production totals alone provide an incomplete picture of responsibility.
+
+Cumulative emissions were strongly correlated with GDP (0.98), but weakly correlated with GDP per capita (0.11). The full linear model achieved the lowest test RMSE among the three main models, at 2,742.03 Mt, compared with 4,093.43 Mt for GDP alone and 3,534.23 Mt for Lasso. However, residual problems, influential countries and the replacement of missing consumption data with production emissions limit confidence in these results. The findings therefore support considering emissions, renewable generation, population and trade together, while treating model predictions and estimated values cautiously.
 
 \newpage
 
@@ -1358,19 +1362,25 @@ why in a footnote below the table.*
 
 | # | Quantity | Your value |
 |---|---|---|
-| 1 | Dataset fingerprint (printed by the setup chunk) | |
-| 2 | First and last year in your dataset | |
-| 3 | Number of countries in your `Emissions.csv` | |
-| 4 | `dim()` of your final merged master data frame | |
-| 5 | Number of duplicate rows you removed in Task 1 | |
-| 6 | Countries and years of the negative-emissions rows (1A ii) | |
-| 7 | Number of countries with no consumption-based data (1A iii) | |
-| 8 | Year with the highest total CO2, and that total (Task 2.1) | |
-| 9 | Top country by cumulative emissions, and by emissions per capita | |
-| 10 | `cor(CumCO2, GDP)` and `cor(CumCO2, GDPCapita)` (2 dp) | |
-| 11 | Test RMSE of the GDP-only model (Task 3.5) | |
-| 12 | Test RMSE of the full model (Task 3.6) | |
-| 13 | The high-leverage country you identified (3A iv) | |
+| 1 | Dataset fingerprint (printed by the setup chunk) | EM-612876-8802-7625 |
+| 2 | First and last year in your dataset | 2003, 2022|
+| 3 | Number of countries in your `Emissions.csv` | 151 |
+| 4 | `dim()` of your final merged master data frame | 3020 x 23 |
+| 5 | Number of duplicate rows you removed in Task 1 | 5 |
+| 6 | Countries and years of the negative-emissions rows (1A ii) | Cameroon, 2012; Equatorial Guinea, 2019; Ukraine, 2016 |
+| 7 | Number of countries with no consumption-based data (1A iii) | 53 |
+| 8 | Year with the highest total CO2, and that total (Task 2.1) | 2022: 34,305.691 Mt |
+| 9 | Top country by cumulative emissions, and by emissions per capita | China, Qatar|
+| 10 | `cor(CumCO2, GDP)` and `cor(CumCO2, GDPCapita)` (2 dp) | 0.98, 0.11 |
+| 11 | Test RMSE of the GDP-only model (Task 3.5) | 4,093.43 Mt |
+| 12 | Test RMSE of the full model (Task 3.6) | 2,742.03 |
+| 13 | The high-leverage country you identified (3A iv) | China |
+
+```{r}
+names(emissionsRaw)
+```
+
+
 
 ## 5.2 Reproducibility appendix
 
