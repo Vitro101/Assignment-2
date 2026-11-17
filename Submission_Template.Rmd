@@ -3,14 +3,14 @@ title: "Final Assessment — Introduction to Data Science"
 subtitle: "11372 & 11516"
 date: "`r format(Sys.Date(), '%d %B %Y')`"
 output:
-  pdf_document:
-    toc: true
-    toc_depth: 2
-    number_sections: false
   html_document:
     toc: true
     toc_float: true
     theme: readable
+  pdf_document:
+    toc: true
+    toc_depth: 2
+    number_sections: false
 params:
   studentID: "u3318186"
 ---
@@ -70,7 +70,7 @@ The analysis begins with data cleaning, joining and feature creation, followed b
 
 *State any assumptions you are making about the data or the analysis before you begin.*
 
-Assumption 1: Regional countries have comparable renewable generation rates.
+Regional countries have comparable renewable generation rates.
 
 \newpage
 
@@ -811,7 +811,7 @@ topTwoPerRegion <- lastYear_data %>%
   ungroup() %>%
   select(Region, Country, CO2_PC)
 
-print(topTwoPerRegion)
+print(topTwoPerRegion, n = Inf)
 ```
 
 ---
@@ -1175,7 +1175,7 @@ data.frame(
 
 *Is removing it defensible? Two sentences.*
 
-Removing China is defensible because its high leverage and large standardised residual indicate substantial influence, and excluding it reduced the test RMSE from 2,742.03 to 932.36 Mt. However, permanent exclusion is tough to justify without evidence of a data error, because its genuine scale is relevant for a model intended to represent all countries.
+Removing China is defensible because its high leverage and large standardised residual indicate substantial influence, and excluding it reduced the test RMSE from 2,742.03 to 932.36 Mt. However, permanent exclusion cannot be justified without evidence of a data error or a clearly defined population that excludes China, because its genuine scale is relevant for a model intended to represent all countries.
 
 ### v. Verdict
 
@@ -1261,9 +1261,9 @@ knitr::include_graphics("my_dashboard_sketch.jpg")
 *How would you augment this dataset for a comprehensive view of the transition? What sources,
 and what would each add?*
 
-I would add renewable electricity statistics to examine generation by technology and renewables share of electricity generation. This would help distinguish growing renewable output from reduced dependence on fossil fuels. Sector-level energy data would also help explain whether changes come from transport, industry, households or services.
+I would add renewable electricity statistics from IRENA to examine generation by technology and renewables share of electricity generation. This would help distinguish growing renewable output from reduced dependence on fossil fuels. Sector-level energy data from the IEA would also help explain whether changes come from transport, industry, households or services.
 
-Annual population and GDP data would improve comparisons over time, replacing the fixed 2022 population used in this analysis.
+Annual population and GDP data from the World Bank would improve comparisons over time, replacing the fixed 2022 population used in this analysis.
 
 ## 4.2 Key insights
 
