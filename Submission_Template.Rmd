@@ -1194,14 +1194,18 @@ Linear regression is a useful baseline, but the full model does not adequately s
 not license a causal claim: name at least two confounding or mediating variables GDP is proxying
 for. Reference your own correlation from 3.2, and contrast it with the `GDPCapita` correlation.*
 
-**YOUR ANSWER**
+GDP has a plausible connection to emissions, economic activity creates demand for goods, transport and energy, and fossil-fuel burning releases CO2. GDP correlates with CumCO2 at 0.98, compared with 0.11 for GDPCapita.
+
+However, correlation does not mean causation. Total GDP partly follows population and industrial scale, while energy efficiency and industrial structure affect emissions associated with economic activity. GDP per capita removes much of the population size effect. A single GDP observation also cannot represent changing economic conditions throughout the cumulative emissions period.
 
 ### ii. Proposed feature
 
 *Propose one engineered feature not in the dataset. Say exactly how you would construct it —
 what raw data, what calculation — and why it is more causally connected to emissions than GDP.*
 
-**YOUR ANSWER**
+I propose cumulative fossil-fuel burning emissions estimated from independent energy use data. For each country and year, I would get coal, oil and gas consumption in terajoules, multiply each quantity by a fuel-specific emissions factor in tonnes of CO2 per TJ, then cumsum across fuels and the dataset's years.
+
+This feature would follow the physical pathway from combustion to CO2 more directly than GDP. It would distinguish economies with similar output but different fossil-fuel dependence. However, it would not fully capture other emissions and must use independent energy measurements rather than derived data.
 
 ### iii. Ethical risk
 
@@ -1214,10 +1218,21 @@ structure of the model, not just "bias in the data".*
 
 ```{r t3b-evidence}
 # Pull out the two countries you want to use.
+importCountry <- lastYear_data %>%
+  slice_max(NetImported, n = 1, with_ties = FALSE)
 
+exportCountry <- lastYear_data %>%
+  slice_min(NetImported, n = 1, with_ties = FALSE)
+
+tradeEvidence <- bind_rows(importCountry, exportCountry) %>%
+  select(Country, CumCO2, CumConsCO2, NetImported)
+
+print(tradeEvidence)
 ```
 
-**YOUR ANSWER**
+A GDP-only model could give countries with similar economic output similar emissions-reduction targets, even when their energy use and trade patterns differ. This creates a risk of unfair targets because the model does not account for emissions linked to imported and exported goods.
+
+For example, the United States has approximately 6,978 Mt of net imported emissions, while China has approximately -24,192 Mt, showing that it exports more embodied emissions than it imports. Targets based on production emissions could overlook emissions caused by American demand while holding China responsible for producing goods consumed overseas. GDP alone therefore provides an incomplete basis for sharing emissions-reduction responsibilities.
 
 \newpage
 
@@ -1227,7 +1242,7 @@ structure of the model, not just "bias in the data".*
 
 *One sentence: the single story a reader should take away from your dashboard.*
 
-**YOUR ANSWER**
+Understanding the energy transition requires tracking emissions alongside renewable electricity generation, while recognising that population and trade change how national responsibility is understood.
 
 ## Dashboard sketch
 
@@ -1235,7 +1250,7 @@ structure of the model, not just "bias in the data".*
 design marks.*
 
 ```{r t4-sketch, echo=FALSE, out.width="100%"}
-# knitr::include_graphics("my_dashboard_sketch.jpg")
+knitr::include_graphics("my_dashboard_sketch.jpg")
 
 ```
 
@@ -1244,42 +1259,85 @@ design marks.*
 *How would you augment this dataset for a comprehensive view of the transition? What sources,
 and what would each add?*
 
-**YOUR ANSWER**
+I would add renewable electricity statistics to examine generation by technology and renewables share of electricity generation. This would help distinguish growing renewable output from reduced dependence on fossil fuels. Sector-level energy data would also help explain whether changes come from transport, industry, households or services.
+
+Annual population and GDP data would improve comparisons over time, replacing the fixed 2022 population used in this analysis.
 
 ## 4.2 Key insights
 
 *Which insights would you highlight for a public audience? What figures would you use, and why
 is each important?*
 
-**YOUR ANSWER**
+```{r}
+# Charts used for dashboard
+ggplot(annualTotals, aes(x = Year, y = totalCO2)) +
+  geom_line(colour = "steelblue", linewidth = 1) +
+  geom_point(colour = "steelblue", size = 2) +
+  scale_x_continuous(breaks = seq(2003, 2022, by = 3)) +
+  labs(
+    title = "Annual production-based CO2 emissions",
+    subtitle = "Combined emissions across the 151 countries",
+    x = "Year",
+    y = "CO2 emissions (million tonnes)",
+    caption = "Annual totals, 2003–2022."
+  ) +
+  theme_minimal()
+
+renewablesAnnualTotals <- masterData %>%
+  group_by(Year) %>%
+  summarise(totalRenewables = sum(Renewables)) %>%
+  arrange(Year)
+
+ggplot(renewablesAnnualTotals, aes(x = Year, y = totalRenewables)) +
+  geom_line(colour = "steelblue", linewidth = 1) +
+  geom_point(colour = "steelblue", size = 2) +
+  scale_x_continuous(breaks = seq(2003, 2022, by = 3)) +
+  labs(
+    title = "Annual renewables",
+    subtitle = "Combined renewables across the 151 countries",
+    x = "Year",
+    y = "Renewables (TWh)",
+    caption = "Annual totals, 2003–2022."
+  ) +
+  theme_minimal()
+```
+
+
+The dashboard introduces three headline figures: 34,306 Mt of annual CO2 emissions in 2022, the 4.35% fall in 2020, and 7,971 TWh of renewable generation in 2022. The line charts below the figures show how emissions and renewable generation changed over 2003–2022, using separate panels because their units differ.
+
+The ranking charts show how population changes country comparisons. China leads cumulative emissions at approximately 177,138 Mt, while Qatar leads cumulative emissions per person at 563.6 tonnes. The bottom chart adds the trade perspective, comparing China’s -24,192 Mt with the United States’ +6,978 Mt of net imported emissions.
 
 ## 4.3 Design elements
 
 *Layout, colour, typography, placement.*
 
-**YOUR ANSWER**
+The portrait layout guides readers from the title and coverage statement to headline figures, annual trends, country rankings and finally trade in order. Related charts sit beside each other, making total and per-capita rankings easy to compare.
+
+The design uses clear headings, panel boundaries, direct labels and shading to emphasise data points. Horizontal bars accommodate country names, while the trade chart’s central zero line clearly seperates the net exporter from net importer. Titles and units are included to provide context and explain each measure.
 
 ## 4.4 Audience consideration
 
 *How does the design serve a public audience — accessible, understandable, actionable?*
 
-**YOUR ANSWER**
+The straightforward headings such as "Are emissions falling?" help a public audience understand each chart and what its observing. Rounded figures and direct labels reduce complexity, while the reading order introduces overall trends before population and trade comparisons.
+
+I would define Mt as million tonnes and explain net imported emissions as consumption minus production emissions. A short footer would identify the selected-country coverage and estimated values, helping readers understand the dashboard's limitations.
 
 ## 4.5 Additional questions
 
 *One relevant metric or visualisation you deliberately omitted, and why omitting it serves
 clarity.*
 
-**YOUR ANSWER**
+I omitted Task 3's regression coefficient tables because they require substantial explanation and would distract from the dashboard's main story. The available space instead focuses on trends and comparisons that a public audience can interpret directly.
 
 *One way your dashboard could be misread, and how design mitigates it.*
 
-**YOUR ANSWER**
+Readers could mistake Qatar's 563.6 tonnes per person for annual emissions. The use of footers clearing explaining what each statistic represents helps to mitigate this.
 
 *Does your headline figure use total or per-capita emissions? Defend that choice against the
 obvious objection.*
 
-**YOUR ANSWER**
+The main headline uses total annual production emissions: 34,306 Mt in 2022, communicating the scale of emissions across all the  countries. Although totals are influenced by population size, the prominent per-capita ranking provides a complementary comparison without treating either measure as a complete picture of country responsibility.
 
 \newpage
 
