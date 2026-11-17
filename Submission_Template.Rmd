@@ -697,6 +697,10 @@ ggplot(topCountryHistory, aes(Year, CumCO2, colour = Country)) +
     title = "Cumulative emissions of the ten largest emitters",
     x = "Year",
     y = "Cumulative CO2 (million tonnes; log scale)",
+    caption = paste(
+      "Accumulation begins in the first dataset year.",
+      "Equal vertical distances represent equal ratios."
+    )
   ) +
   theme_minimal() +
   theme(legend.position = "bottom") +
@@ -869,11 +873,11 @@ This scatter plot showcases the contrasting population sizes and per-capita emis
 alternative you rejected and concretely why it would communicate worse; one limitation a reader
 could misinterpret, and how you would mitigate it.*
 
-A line chart communicates how cumulative emissions develop over time, while distinct colours allow readers to follow individual countries. Restricting the graph to the ten largest final-year emitters limits clutter and focuses attention on major contributors within this dataset.
+The line chart communicates how cumulative emissions develop over time, while distinct colours allow readers to follow individual countries. Restricting the graph to the ten largest final-year emitters limits clutter and focuses attention on major contributors within the dataset.
 
-The logarithmic vertical axis makes smaller trajectories visible. China reaches 177,138.120 Mt, compared with Indonesia’s 9,936.862 Mt. A linear-axis alternative would communicate absolute differences more directly, but compress lower-emitting countries and make their trajectories harder to distinguish.
+The logarithmic vertical axis make the smaller differences visible. China reaches 177,138 Mt, compared with Indonesia's 9,936 Mt. A linear-axis alternative would put more emphasis on absolute differences, but compress lower-emitting countries and make their values harder to differentiate.
 
-One limitation is that readers may interpret equal vertical gaps as equal absolute differences. On a logarithmic scale, equal gaps represent equal ratios. Explicit axis labelling and a caption explaining this relationship reduce that risk. The caption also identifies the accumulation period, preventing readers from interpreting these values as each country’s complete historical emissions.
+One limitation is that readers may interpret equal vertical gaps as equal absolute differences. On a logarithmic scale, equal gaps represent equal ratios. Explicit axis labelling and a caption explaining this relationship reduce that risk. The caption also identifies the accumulation period, preventing readers from interpreting these values as each countries complete historical emissions.
 
 \newpage
 
