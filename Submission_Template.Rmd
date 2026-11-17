@@ -1398,9 +1398,9 @@ more than five is viewed favourably.*
 |---|---|---|---|---|---|
 | 1 | 1.4 Cleaning year values | Using str_extract() | Using lubridate and parse_date_time() | Simpler for this task since it only needs the year. Using lubridate would have still required string cleaning due to the character values. | No impact, only better code. |
 | 2 | 1.5 Fixing value anomaly | To scale Cameroons population by a factor of 1000 | Leaving the value as is | I chose to rescale this value as Cameroons implied population from its GDP per capita was 1000 times larger then its recorded population, implying the recorded value is in thousands scale, whereas all other values are in the ones scale. | Changed Cameroons population from 27,633 to 27,633,000. |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 3 | 1.6 Missing consumption data | Replace missing ConsC02 series with production based CO2 | Replace missing values with zero. | Zero would incorrectly assume these countries had no consumption emissions, so I used production emissions which provided a simple estimate when consumption data was unavailable. | Retained all 53 uncovered countries, but forced their estimated 'NetImported' value to zero. |
+| 4 | 2.6 Comparing cumulative emissions | Use a log vertical axis for the ten largest emitters | Use a linear vertical axis | Chinas cumulative emissions (177,138 Mt) were much larger when compared to other countries (Indonesia, 9,937 Mt). A linear scale would make the smaller differences harder to distinguish. | Made smaller differences clearer, but verical distances represent ratios instead of absolute differences. |
+| 5 | 3.8 Alternative model | Use Lasso regression with cross-validation to select penalty | Ridge regression, which shrinks coefficients but doesn't move predictors | Lasso can shrink some coefficients to zero, allowing me to investigate if reducing unnecessary predictors improves prediction metrics | Lasso achieved a test RMSE of 3,534.23 Mt, compared with 2,742.03 Mt for the full linear model. It did not improve prediction on this test split. |
 
 ---
 
@@ -1410,4 +1410,4 @@ more than five is viewed favourably.*
 > that the values reported in Section 5.1 are the values produced by the code in this document,
 > and that all explanations and interpretations are my own work.
 >
-**Student ID:** ______________  **Date:** ____________
+**Student ID:** u3318186  **Date:** 17/11/26
