@@ -3,14 +3,14 @@ title: "Final Assessment — Introduction to Data Science"
 subtitle: "11372 & 11516"
 date: "`r format(Sys.Date(), '%d %B %Y')`"
 output:
-  html_document:
-    toc: true
-    toc_float: true
-    theme: readable
   pdf_document:
     toc: true
     toc_depth: 2
     number_sections: false
+  html_document:
+    toc: true
+    toc_float: true
+    theme: readable
 params:
   studentID: "u3318186"
 ---
